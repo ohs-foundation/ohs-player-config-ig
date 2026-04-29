@@ -2,7 +2,7 @@
 Instance: PatientHeaderView
 InstanceOf: ViewDefinition
 Usage: #definition
-* url = "http://example.org/ViewDefinition/PatientHeaderView"
+* url = "http://ohs.dev/ViewDefinition/PatientHeaderView"
 * name = "PatientHeaderState"
 * status = #active
 * resource = #Patient
@@ -16,7 +16,7 @@ Usage: #definition
 Instance: MedicationItemView
 InstanceOf: ViewDefinition
 Usage: #definition
-* url = "http://example.org/ViewDefinition/MedicationItemView"
+* url = "http://ohs.dev/ViewDefinition/MedicationItemView"
 * name = "MedicationItemState"
 * status = #active
 * resource = #MedicationStatement
@@ -30,7 +30,7 @@ Usage: #definition
 Instance: HouseholdSummaryView
 InstanceOf: ViewDefinition
 Usage: #definition
-* url = "http://example.org/ViewDefinition/HouseholdSummaryView"
+* url = "http://ohs.dev/ViewDefinition/HouseholdSummaryView"
 * name = "HouseholdSummaryState"
 * status = #active
 * resource = #Group
@@ -44,7 +44,7 @@ Usage: #definition
 Instance: MemberItemView
 InstanceOf: ViewDefinition
 Usage: #definition
-* url = "http://example.org/ViewDefinition/MemberItemView"
+* url = "http://ohs.dev/ViewDefinition/MemberItemView"
 * name = "MemberItemState"
 * status = #active
 * resource = #Patient
