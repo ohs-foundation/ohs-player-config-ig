@@ -1,32 +1,37 @@
-// --- The Allowed Search Scopes ---
-
-CodeSystem: SearchScopeCS
-Id: search-scope-cs
-Title: "Search Scope CodeSystem"
-Description: "Valid areas within a FHIR Search Result (Bundle) where resources are located."
-* #root "The primary resource of the search"
-* #included "Resources returned via forward links (_include)"
-* #revIncluded "Resources returned via backward links (_revinclude)"
-
-ValueSet: SearchScopeVS
-Id: search-scope-vs
-Title: "Search Scope ValueSet"
-* codes from system SearchScopeCS
-
-// --- The Join Map Logical Model ---
+// ============================================================================
+// ViewJoinMap Logical Model
+//
+// Describes how to stitch multiple ViewDefinitions — each applied to a
+// different FHIR resource from a SearchResult — into a single flat JSON row.
+// The ViewAssembler in the library reads this map at runtime to assemble
+// List<JsonObject> rows from a SearchResult.
+//
+// Column names across all participating ViewDefinitions MUST be unique
+// within a single ViewJoinMap to ensure clean flat-merge output.
+// ============================================================================
 
 Logical: ViewJoinMap
 Id: ViewJoinMap
 Title: "View Join Map"
-Description: "A metadata guide to stitch atomic ViewDefinitions from different SearchScopes into a flat JSON row."
-* name 1..1 string "The key in the final JSON output (e.g., 'members')"
-* from 1..1 code "The SearchScope to use for the pivot/base resource"
-* from from SearchScopeVS (required)
-* resource 1..1 string "The FHIR resource type to iterate (e.g., 'Immunization')"
-* view 1..1 string "The ID of the ViewDefinition for the pivot resource"
+Description: """
+A metadata guide that stitches atomic ViewDefinitions sourced from different
+SearchResult scopes into a single flat JSON row per pivot resource.
 
-* joins 0..* Element "Other views to join into this row"
-  * view 1..1 string "The ID of the ViewDefinition to join"
-  * from 1..1 code "The SearchScope containing the joined resource"
+The pivot resource drives the output row count (one row per pivot instance).
+Each join appends its ViewDefinition's columns to the same row. All column
+names across the pivot and all joins must be unique within this map.
+"""
+* name 1..1 string "Output key used in the assembled JSON (e.g. 'patientAllergy')"
+* from 1..1 code "SearchScope containing the pivot (row-driving) resource"
+* from from SearchScopeVS (required)
+* resource 1..1 string "FHIR resource type of the pivot (e.g. 'AllergyIntolerance')"
+* view 1..1 string "ID of the ViewDefinition applied to each pivot resource"
+* searchParam 0..1 string "Search param disambiguating same-type included/revIncluded pivot resources"
+
+* joins 0..* BackboneElement "Additional ViewDefinitions whose columns are merged into each row"
+  * view 1..1 string "ID of the ViewDefinition to apply to the joined resource"
+  * from 1..1 code "SearchScope containing the joined resource"
   * from from SearchScopeVS (required)
-  * matchKey 0..1 string "The column name in the PIVOT view used to find the joined resource"
+  * resource 1..1 string "FHIR resource type of the joined resource (e.g. 'Patient')"
+  * searchParam 0..1 string "Search param disambiguating same-type revIncluded resources"
+  * matchKey 0..1 string "Column name in pivot view used as FK to locate the joined resource by ID"
