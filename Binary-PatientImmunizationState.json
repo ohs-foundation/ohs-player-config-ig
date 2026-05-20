@@ -1,0 +1,6 @@
+{
+  "resourceType" : "Binary",
+  "id" : "PatientImmunizationState",
+  "contentType" : "application/fhir+json",
+  "data" : "ewogICJyZXNvdXJjZVR5cGUiOiAiaHR0cDovL29ocy5kZXYvU3RydWN0dXJlRGVmaW5pdGlvbi9WaWV3Sm9pbk1hcCIsCiAgImpvaW5zIjogWwogICAgewogICAgICAidmlldyI6ICJQYXRpZW50U3VtbWFyeSIsCiAgICAgICJmcm9tIjogImluY2x1ZGVkIiwKICAgICAgInJlc291cmNlIjogIlBhdGllbnQiLAogICAgICAic2VhcmNoUGFyYW0iOiAicGF0aWVudCIsCiAgICAgICJtYXRjaEtleSI6ICJpbW11bml6YXRpb25QYXRpZW50UmVmIgogICAgfQogIF0sCiAgIm5hbWUiOiAicGF0aWVudEltbXVuaXphdGlvbiIsCiAgImZyb20iOiAicmV2SW5jbHVkZWQiLAogICJyZXNvdXJjZSI6ICJJbW11bml6YXRpb24iLAogICJ2aWV3IjogIkltbXVuaXphdGlvbiIKfQo="
+}

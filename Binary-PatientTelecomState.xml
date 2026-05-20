@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Binary xmlns="http://hl7.org/fhir">
+  <id value="PatientTelecomState"/>
+  <contentType value="application/fhir+json"/>
+  <data value="ewogICJyZXNvdXJjZVR5cGUiOiAiaHR0cDovL29ocy5kZXYvU3RydWN0dXJlRGVmaW5pdGlvbi9WaWV3Sm9pbk1hcCIsCiAgIm5hbWUiOiAicGF0aWVudFRlbGVjb20iLAogICJmcm9tIjogInJvb3QiLAogICJyZXNvdXJjZSI6ICJQYXRpZW50IiwKICAidmlldyI6ICJQYXRpZW50VGVsZWNvbSIKfQo="/>
+</Binary>

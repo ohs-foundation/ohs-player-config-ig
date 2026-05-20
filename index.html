@@ -1,0 +1,750 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <title>Home - OHS Player Configuration IG v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link rel="stylesheet" href="fhir.css"/>
+
+      <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap-fhir.css"/>
+
+      <!-- Project extras -->
+    <link rel="stylesheet" href="assets/css/project.css"/>
+    <link rel="stylesheet" href="assets/css/pygments-manni.css"/>
+    <link rel="stylesheet" href="assets/css/jquery-ui.css"/>
+  	<link rel="stylesheet" href="assets/css/prism.css"/>
+  	<link rel="stylesheet" href="assets/css/cqf.css"/>
+      <!-- Placeholder for child template CSS declarations -->
+
+    <script src="fhir-table-scripts.js" type="text/javascript"> </script>
+
+      <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!-- [if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif] -->
+
+      <!-- Favicons -->
+    <link sizes="144x144" rel="apple-touch-icon-precomposed" href="assets/ico/icon-fhir-144.png"/>
+    <link sizes="114x114" rel="apple-touch-icon-precomposed" href="assets/ico/icon-fhir-114.png"/>
+    <link sizes="72x72" rel="apple-touch-icon-precomposed" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script src="assets/js/mermaid.js" type="text/javascript"></script>
+    <script src="assets/js/mermaid-init.js" type="text/javascript"></script>
+    <style type="text/css">h2{--heading-prefix:"1"}
+    h3,h4,h5,h6{--heading-prefix:"1"}</style>
+    <div id="segment-header" class="segment">    <!-- segment-header -->
+      <div class="container">    <!-- container -->
+
+          <!-- Placeholder for child template header declarations -->
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">OHS Player Configuration IG</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - ci-build
+
+
+            </span>
+          </p>
+        </div>
+      </div>   <!-- /container -->
+    </div>    <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">    <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">    <!-- container -->
+          <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+            <!-- status-bar -->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" data-toggle="collapse" type="button" class="navbar-toggle">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a href="http://hl7.org/fhir/R4/index.html" class="navbar-brand hidden">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+                <!-- menu.xml -->
+
+<ul class="nav navbar-nav">
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifacts</a>
+  </li>
+</ul>
+            </div>    <!-- /.nav-collapse -->
+          </div>    <!-- /.container -->
+        </nav>    <!-- /.navbar -->
+        <!-- /HEADER CONTENT -->
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-navbar -->
+      <!-- status-bar -->
+
+    <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
+      <div class="container">    <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><b>Home</b></li>
+
+        </ul>
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">    <!-- segment-content -->
+      <div class="container">    <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
+    <!-- ReleaseHeader --><p id="publish-box">OHS Player Configuration IG - Local Development build (v0.1.0) built by the FHIR (HL7&reg; FHIR&reg; Standard) Build Tools. See the <a href="http://ohs.dev/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+  <h2>Home</h2>
+  
+
+
+
+
+
+
+  <table class="colsd">
+
+    <tr>
+      <td colspan="4"><i>Official URL</i>: <span class="copy-text">http://ohs.dev/ImplementationGuide/dev.ohs.ohs-player-config-ig<button data-clipboard-text="http://ohs.dev/ImplementationGuide/dev.ohs.ohs-player-config-ig" title="Click to copy URL" class="btn-copy"></button></span>
+      </td>
+      <td><i>Version</i>:
+      <span class="copy-text">0.1.0<button data-clipboard-text="http://ohs.dev/ImplementationGuide/dev.ohs.ohs-player-config-ig|0.1.0" title="Click to copy versioned URL" class="btn-copy"></button></span>
+      </td>
+    </tr>
+
+    <tr>
+
+
+
+
+
+
+
+      <td colspan="4">
+        
+          Draft
+          
+            as of 2026-05-20
+          
+        
+      </td>
+
+
+
+      <td><i>Computable Name</i>: <span style="font-family: monospace;">OHSPlayerConfigIG</span></td>
+    </tr>
+
+
+
+
+  </table>
+
+
+
+
+
+
+
+
+
+    <p>  <!-- white space is critical inside of capture --></p>
+<div class="markdown-toc">
+<ul id="markdown-toc">
+  <li><a href="#ohs-player-configuration-ig" id="markdown-toc-ohs-player-configuration-ig">OHS Player Configuration IG</a>    <ul>
+      <li><a href="#the-pipeline" id="markdown-toc-the-pipeline">The Pipeline</a></li>
+      <li><a href="#artifact-types" id="markdown-toc-artifact-types">Artifact Types</a>        <ul>
+          <li><a href="#viewdefinition-borrowed-from-sql-on-fhir" id="markdown-toc-viewdefinition-borrowed-from-sql-on-fhir">ViewDefinition <em>(borrowed from SQL-on-FHIR)</em></a></li>
+          <li><a href="#viewjoinmap-defined-in-this-ig" id="markdown-toc-viewjoinmap-defined-in-this-ig">ViewJoinMap <em>(defined in this IG)</em></a></li>
+          <li><a href="#viewtypecs-defined-in-this-ig" id="markdown-toc-viewtypecs-defined-in-this-ig">ViewTypeCS <em>(defined in this IG)</em></a></li>
+          <li><a href="#config-structuredefinitions-defined-in-this-ig" id="markdown-toc-config-structuredefinitions-defined-in-this-ig">Config StructureDefinitions <em>(defined in this IG)</em></a></li>
+        </ul>
+      </li>
+      <li><a href="#viewdefinition-operations" id="markdown-toc-viewdefinition-operations">ViewDefinition Operations</a>        <ul>
+          <li><a href="#selectcolumn--flat-projection-always-supported" id="markdown-toc-selectcolumn--flat-projection-always-supported"><code class="language-plaintext highlighter-rouge">select[].column[]</code> — flat projection <em>(always supported)</em></a></li>
+          <li><a href="#selectcolumntype--field-type-mapping" id="markdown-toc-selectcolumntype--field-type-mapping"><code class="language-plaintext highlighter-rouge">select[].column[].type</code> — field type mapping</a></li>
+          <li><a href="#selectcolumncollection--repeated-values" id="markdown-toc-selectcolumncollection--repeated-values"><code class="language-plaintext highlighter-rouge">select[].column[].collection</code> — repeated values</a></li>
+          <li><a href="#constant--named-fhirpath-variables" id="markdown-toc-constant--named-fhirpath-variables"><code class="language-plaintext highlighter-rouge">constant[]</code> — named FHIRPath variables</a></li>
+          <li><a href="#where--pivot-filter" id="markdown-toc-where--pivot-filter"><code class="language-plaintext highlighter-rouge">where[]</code> — pivot filter</a></li>
+          <li><a href="#selectforeach--row-expansion" id="markdown-toc-selectforeach--row-expansion"><code class="language-plaintext highlighter-rouge">select[].forEach</code> — row expansion</a></li>
+          <li><a href="#selectforeachornull--row-expansion-with-null-fallback" id="markdown-toc-selectforeachornull--row-expansion-with-null-fallback"><code class="language-plaintext highlighter-rouge">select[].forEachOrNull</code> — row expansion with null fallback</a></li>
+          <li><a href="#selectunionall--multiple-row-shapes-merged" id="markdown-toc-selectunionall--multiple-row-shapes-merged"><code class="language-plaintext highlighter-rouge">select[].unionAll[]</code> — multiple row shapes merged</a></li>
+        </ul>
+      </li>
+      <li><a href="#end-to-end-example" id="markdown-toc-end-to-end-example">End-to-End Example</a>        <ul>
+          <li><a href="#step-1--declare-the-pivot-viewdefinition" id="markdown-toc-step-1--declare-the-pivot-viewdefinition">Step 1 — Declare the pivot ViewDefinition</a></li>
+          <li><a href="#step-2--declare-the-viewjoinmap" id="markdown-toc-step-2--declare-the-viewjoinmap">Step 2 — Declare the ViewJoinMap</a></li>
+          <li><a href="#step-3--generated-kotlin" id="markdown-toc-step-3--generated-kotlin">Step 3 — Generated Kotlin</a></li>
+          <li><a href="#step-4--sample-fhir-data--populated-state" id="markdown-toc-step-4--sample-fhir-data--populated-state">Step 4 — Sample FHIR data → populated state</a></li>
+        </ul>
+      </li>
+      <li><a href="#fsh-directory-structure" id="markdown-toc-fsh-directory-structure">FSH Directory Structure</a></li>
+      <li><a href="#codegen-setup" id="markdown-toc-codegen-setup">Codegen Setup</a></li>
+    </ul>
+  </li>
+</ul>
+
+</div>
+<h1 id="ohs-player-configuration-ig">OHS Player Configuration IG</h1>
+
+<p>This Implementation Guide defines the declarative configuration contract between a FHIR server and
+the <a href="https://github.com/OHSFoundation/ohs-player-reference-client-app">OHS Player</a> — a Kotlin
+Multiplatform UI framework for rendering FHIR clinical data on Android and other platforms.</p>
+
+<p>Instead of hardcoding data models and component types in application code, authors declare them
+here as FHIR artifacts. A Gradle code-generation plugin reads the compiled IG and emits typed
+Kotlin classes directly into the app — no hand-written boilerplate.</p>
+
+<hr/>
+
+<h2 id="the-pipeline">The Pipeline</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>┌─────────────────────────────────┐
+│  FHIR Implementation Guide      │
+│  (this IG — authored in FSH)    │
+│                                 │
+│  codesystems/ViewTypeCS.fsh     │
+│  views/Allergy.fsh              │
+│  states/PatientAllergyState.fsh │
+│  config/AllergyItemConfig.fsh   │
+└────────────────┬────────────────┘
+                 │  SUSHI compiler
+                 ▼
+┌─────────────────────────────────┐
+│  fsh-generated/resources/       │
+│  CodeSystem-view-type-...json   │
+│  Binary-Allergy.json            │
+│  Binary-PatientAllergyState.json│
+│  StructureDefinition-Allergy... │
+└────────────────┬────────────────┘
+                 │  :ig-codegen Gradle plugin
+                 ▼
+┌─────────────────────────────────┐
+│  build/generated/ig-codegen/    │
+│  viewtype/ViewTypeCS.kt         │
+│  state/PatientAllergyState.kt   │
+│  extractor/PatientAllergyExt.kt │
+│  config/AllergyItemConfig.kt    │
+└────────────────┬────────────────┘
+                 │  consumed by
+                 ▼
+┌─────────────────────────────────┐
+│  KMP Reference App              │
+│  PatientRepository              │
+│  PatientAllergyExtractor        │
+│      .extract(engine, result)   │
+└─────────────────────────────────┘
+</code></pre></div></div>
+
+<hr/>
+
+<h2 id="artifact-types">Artifact Types</h2>
+
+<h3 id="viewdefinition-borrowed-from-sql-on-fhir">ViewDefinition <em>(borrowed from SQL-on-FHIR)</em></h3>
+
+<p>Defines a flat projection of a FHIR resource using FHIRPath column expressions. This IG borrows
+<code class="language-plaintext highlighter-rouge">ViewDefinition</code> from the <a href="https://sql-on-fhir.org">SQL-on-FHIR v2 IG</a> (<code class="language-plaintext highlighter-rouge">org.sql-on-fhir.ig:2.0.0</code>)
+— we are consumers, not authors, of that spec.</p>
+
+<p>Each view names the resource type it targets and declares a list of columns, each with a <code class="language-plaintext highlighter-rouge">name</code>
+and a FHIRPath <code class="language-plaintext highlighter-rouge">path</code> expression. See <a href="#viewdefinition-operations">ViewDefinition Operations</a> below
+for the full set of supported fields.</p>
+
+<h3 id="viewjoinmap-defined-in-this-ig">ViewJoinMap <em>(defined in this IG)</em></h3>
+
+<p>Describes how to stitch one or more ViewDefinitions together into a single flat row per <em>pivot</em>
+resource. The pivot resource drives row count; joins append columns from related resources.
+The <code class="language-plaintext highlighter-rouge">:ig-codegen</code> plugin generates a <code class="language-plaintext highlighter-rouge">State</code> data class and a <code class="language-plaintext highlighter-rouge">StateExtractor</code> object from
+every ViewJoinMap artifact.</p>
+
+<p>See <a href="StructureDefinition-ViewJoinMap.html">ViewJoinMap</a> for the full element reference.</p>
+
+<h3 id="viewtypecs-defined-in-this-ig">ViewTypeCS <em>(defined in this IG)</em></h3>
+
+<p>A CodeSystem enumerating the UI component codes recognised by the KMP <code class="language-plaintext highlighter-rouge">ViewRegistry</code>. Each code
+maps to a registered <code class="language-plaintext highlighter-rouge">ComponentRenderer</code> in the application. The codegen plugin emits these codes
+as <code class="language-plaintext highlighter-rouge">val</code> properties on a generated <code class="language-plaintext highlighter-rouge">ViewTypeCS</code> Kotlin object.</p>
+
+<p>See <a href="CodeSystem-view-type-codesystem.html">ViewTypeCS</a> for all declared codes.</p>
+
+<h3 id="config-structuredefinitions-defined-in-this-ig">Config StructureDefinitions <em>(defined in this IG)</em></h3>
+
+<p>Logical models that declare the configuration fields for each UI component. The codegen plugin
+flattens the inheritance chain and emits a <code class="language-plaintext highlighter-rouge">@Serializable data class</code> per leaf config. Apps
+deserialise a config JSON document at startup to control component appearance.</p>
+
+<hr/>
+
+<h2 id="viewdefinition-operations">ViewDefinition Operations</h2>
+
+<p>The <code class="language-plaintext highlighter-rouge">:ig-codegen</code> plugin supports the following ViewDefinition fields. All features compose:
+a single view can use <code class="language-plaintext highlighter-rouge">where</code> + <code class="language-plaintext highlighter-rouge">forEach</code> together, or <code class="language-plaintext highlighter-rouge">constant</code> + <code class="language-plaintext highlighter-rouge">collection</code> together.</p>
+
+<h3 id="selectcolumn--flat-projection-always-supported"><code class="language-plaintext highlighter-rouge">select[].column[]</code> — flat projection <em>(always supported)</em></h3>
+
+<p>The baseline. Each column has a <code class="language-plaintext highlighter-rouge">name</code>, a FHIRPath <code class="language-plaintext highlighter-rouge">path</code>, and an optional <code class="language-plaintext highlighter-rouge">type</code>.</p>
+
+<pre><code class="language-fsh">* select[0].column[0].name = "patientId"
+* select[0].column[0].path = "id"
+* select[0].column[0].type = "http://hl7.org/fhir/StructureDefinition/string"
+</code></pre>
+
+<h3 id="selectcolumntype--field-type-mapping"><code class="language-plaintext highlighter-rouge">select[].column[].type</code> — field type mapping</h3>
+
+<p>Controls the Kotlin type of the generated state field. Supported FHIR URI suffixes:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>FHIR type suffix</th>
+      <th>Kotlin type</th>
+      <th><code class="language-plaintext highlighter-rouge">EvalResult</code> accessor</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">string</code>, <code class="language-plaintext highlighter-rouge">code</code>, <code class="language-plaintext highlighter-rouge">uri</code>, <code class="language-plaintext highlighter-rouge">id</code>, <code class="language-plaintext highlighter-rouge">markdown</code> (default)</td>
+      <td><code class="language-plaintext highlighter-rouge">String?</code></td>
+      <td><code class="language-plaintext highlighter-rouge">.str</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">boolean</code></td>
+      <td><code class="language-plaintext highlighter-rouge">Boolean?</code></td>
+      <td><code class="language-plaintext highlighter-rouge">.bool</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">integer</code>, <code class="language-plaintext highlighter-rouge">positiveInt</code>, <code class="language-plaintext highlighter-rouge">unsignedInt</code></td>
+      <td><code class="language-plaintext highlighter-rouge">Int?</code></td>
+      <td><code class="language-plaintext highlighter-rouge">.int</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">integer64</code></td>
+      <td><code class="language-plaintext highlighter-rouge">Long?</code></td>
+      <td><code class="language-plaintext highlighter-rouge">.long</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">decimal</code></td>
+      <td><code class="language-plaintext highlighter-rouge">BigDecimal?</code></td>
+      <td><code class="language-plaintext highlighter-rouge">.decimal</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">date</code></td>
+      <td><code class="language-plaintext highlighter-rouge">FhirDate?</code></td>
+      <td><code class="language-plaintext highlighter-rouge">.date</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">dateTime</code>, <code class="language-plaintext highlighter-rouge">instant</code></td>
+      <td><code class="language-plaintext highlighter-rouge">FhirDateTime?</code></td>
+      <td><code class="language-plaintext highlighter-rouge">.dateTime</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="selectcolumncollection--repeated-values"><code class="language-plaintext highlighter-rouge">select[].column[].collection</code> — repeated values</h3>
+
+<p>Set to <code class="language-plaintext highlighter-rouge">true</code> when the FHIRPath expression returns multiple values. The state field becomes
+<code class="language-plaintext highlighter-rouge">List&lt;T&gt;</code> instead of <code class="language-plaintext highlighter-rouge">T?</code>. The extractor uses <code class="language-plaintext highlighter-rouge">engine.evalList()</code> and maps to the element type.</p>
+
+<pre><code class="language-fsh">* select[0].column[0].name = "given"
+* select[0].column[0].path = "name.given"
+* select[0].column[0].type = "http://hl7.org/fhir/StructureDefinition/string"
+* select[0].column[0].collection = true
+</code></pre>
+
+<p>Generated field: <code class="language-plaintext highlighter-rouge">val given: List&lt;String&gt; = emptyList()</code></p>
+
+<h3 id="constant--named-fhirpath-variables"><code class="language-plaintext highlighter-rouge">constant[]</code> — named FHIRPath variables</h3>
+
+<p>Declares constants accessible in column expressions via <code class="language-plaintext highlighter-rouge">%name</code> syntax. All constant values are
+passed to the FHIRPath engine as a <code class="language-plaintext highlighter-rouge">variables</code> map on every <code class="language-plaintext highlighter-rouge">eval</code> call.</p>
+
+<pre><code class="language-fsh">* constant[0].name = "mrnSystem"
+* constant[0].valueString = "http://hospital.example/mrn"
+* select[0].column[0].name = "mrn"
+* select[0].column[0].path = "identifier.where(system = %mrnSystem).value.first()"
+</code></pre>
+
+<p>Supported value types: <code class="language-plaintext highlighter-rouge">valueString</code>, <code class="language-plaintext highlighter-rouge">valueInteger</code>, <code class="language-plaintext highlighter-rouge">valueBoolean</code>, <code class="language-plaintext highlighter-rouge">valueDecimal</code>.</p>
+
+<h3 id="where--pivot-filter"><code class="language-plaintext highlighter-rouge">where[]</code> — pivot filter</h3>
+
+<p>A top-level array of FHIRPath boolean expressions. Pivot resources where any clause evaluates to
+anything other than <code class="language-plaintext highlighter-rouge">true</code> are skipped entirely before column extraction. Multiple clauses are
+AND-ed. The filter runs once per pivot, before the column evaluation loop.</p>
+
+<pre><code class="language-fsh">* where[0].path = "clinicalStatus.coding.where(system = 'http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical').code = 'active'"
+</code></pre>
+
+<p>Generated guard (one per clause):</p>
+<div class="language-kotlin highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">if</span> <span class="p">(</span><span class="n">engine</span><span class="p">.</span><span class="nf">eval</span><span class="p">(</span><span class="n">allergyIntolerance</span><span class="p">,</span> <span class="s">"clinicalStatus...code = 'active'"</span><span class="p">).</span><span class="n">bool</span> <span class="p">!=</span> <span class="k">true</span><span class="p">)</span> <span class="k">continue</span>
+</code></pre></div></div>
+
+<p><strong>Example:</strong> <code class="language-plaintext highlighter-rouge">views/AllergyReaction.fsh</code> — restricts extraction to active allergies only.</p>
+
+<h3 id="selectforeach--row-expansion"><code class="language-plaintext highlighter-rouge">select[].forEach</code> — row expansion</h3>
+
+<p>When a <code class="language-plaintext highlighter-rouge">SelectBlock</code> declares <code class="language-plaintext highlighter-rouge">forEach</code>, its column expressions are evaluated against each element
+in the collection returned by the path rather than the pivot resource itself. One output row is
+produced per element. Anchor columns (from other select blocks without <code class="language-plaintext highlighter-rouge">forEach</code>) are evaluated
+once per pivot and repeated on every expanded row.</p>
+
+<pre><code class="language-fsh">* select[1].forEach = "reaction"
+* select[1].column[0].name = "severity"
+* select[1].column[0].path = "severity"
+* select[1].column[1].name = "manifestation"
+* select[1].column[1].path = "manifestation.coding.display.first()"
+</code></pre>
+
+<p>Generated inner loop:</p>
+<div class="language-kotlin highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">val</span> <span class="py">reactionList</span> <span class="p">=</span> <span class="n">engine</span><span class="p">.</span><span class="nf">evalList</span><span class="p">(</span><span class="n">allergyIntolerance</span><span class="p">,</span> <span class="s">"reaction"</span><span class="p">)</span>
+<span class="k">for</span> <span class="p">(</span><span class="n">reaction</span> <span class="k">in</span> <span class="n">reactionList</span><span class="p">)</span> <span class="p">{</span>
+    <span class="kd">val</span> <span class="py">severity</span> <span class="p">=</span> <span class="n">reaction</span><span class="p">.</span><span class="n">raw</span><span class="o">?.</span><span class="nf">let</span> <span class="p">{</span> <span class="n">engine</span><span class="p">.</span><span class="nf">eval</span><span class="p">(</span><span class="n">it</span><span class="p">,</span> <span class="s">"severity"</span><span class="p">).</span><span class="n">str</span> <span class="p">}</span>
+    <span class="kd">val</span> <span class="py">manifestation</span> <span class="p">=</span> <span class="n">reaction</span><span class="p">.</span><span class="n">raw</span><span class="o">?.</span><span class="nf">let</span> <span class="p">{</span> <span class="n">engine</span><span class="p">.</span><span class="nf">eval</span><span class="p">(</span><span class="n">it</span><span class="p">,</span> <span class="s">"manifestation.coding.display.first()"</span><span class="p">).</span><span class="n">str</span> <span class="p">}</span>
+    <span class="nf">add</span><span class="p">(</span><span class="nc">AllergyReactionState</span><span class="p">(</span><span class="n">allergyId</span> <span class="p">=</span> <span class="n">allergyId</span><span class="p">,</span> <span class="o">..</span><span class="p">.,</span> <span class="n">severity</span> <span class="p">=</span> <span class="n">severity</span><span class="p">,</span> <span class="n">manifestation</span> <span class="p">=</span> <span class="n">manifestation</span><span class="p">))</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>If the path returns zero elements, no rows are emitted for that pivot. Use <code class="language-plaintext highlighter-rouge">forEachOrNull</code> to
+guarantee at least one row.</p>
+
+<p><strong>Example:</strong> <code class="language-plaintext highlighter-rouge">views/AllergyReaction.fsh</code> — one row per reaction entry on each active allergy.</p>
+
+<h3 id="selectforeachornull--row-expansion-with-null-fallback"><code class="language-plaintext highlighter-rouge">select[].forEachOrNull</code> — row expansion with null fallback</h3>
+
+<p>Identical to <code class="language-plaintext highlighter-rouge">forEach</code> but guarantees that the pivot always contributes at least one output row:
+when the path returns an empty collection, one row is emitted with all expansion columns set to
+null (LEFT JOIN semantics). Anchor and join columns are populated normally on the null row.</p>
+
+<pre><code class="language-fsh">* select[1].forEachOrNull = "contact"
+* select[1].column[0].name = "contactGivenName"
+* select[1].column[0].path = "name.given.first()"
+</code></pre>
+
+<p>Generated loop with null fallback:</p>
+<div class="language-kotlin highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">val</span> <span class="py">contactList</span> <span class="p">=</span> <span class="n">engine</span><span class="p">.</span><span class="nf">evalList</span><span class="p">(</span><span class="n">patient</span><span class="p">,</span> <span class="s">"contact"</span><span class="p">).</span><span class="nf">ifEmpty</span> <span class="p">{</span> <span class="nf">listOf</span><span class="p">(</span><span class="k">null</span><span class="p">)</span> <span class="p">}</span>
+<span class="k">for</span> <span class="p">(</span><span class="n">contact</span> <span class="k">in</span> <span class="n">contactList</span><span class="p">)</span> <span class="p">{</span>
+    <span class="kd">val</span> <span class="py">contactGivenName</span> <span class="p">=</span> <span class="n">contact</span><span class="o">?.</span><span class="n">raw</span><span class="o">?.</span><span class="nf">let</span> <span class="p">{</span> <span class="n">engine</span><span class="p">.</span><span class="nf">eval</span><span class="p">(</span><span class="n">it</span><span class="p">,</span> <span class="s">"name.given.first()"</span><span class="p">).</span><span class="n">str</span> <span class="p">}</span>
+    <span class="nf">add</span><span class="p">(</span><span class="nc">PatientContactState</span><span class="p">(</span><span class="n">patientId</span> <span class="p">=</span> <span class="n">patientId</span><span class="p">,</span> <span class="n">contactGivenName</span> <span class="p">=</span> <span class="n">contactGivenName</span><span class="p">,</span> <span class="o">..</span><span class="p">.))</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>A patient with no recorded contacts produces one row with <code class="language-plaintext highlighter-rouge">patientId</code> populated and all
+<code class="language-plaintext highlighter-rouge">contact*</code> fields null. A patient with two contacts produces two rows.</p>
+
+<p><strong>Example:</strong> <code class="language-plaintext highlighter-rouge">views/PatientContact.fsh</code> — ensures every patient appears at least once.</p>
+
+<h3 id="selectunionall--multiple-row-shapes-merged"><code class="language-plaintext highlighter-rouge">select[].unionAll[]</code> — multiple row shapes merged</h3>
+
+<p>A <code class="language-plaintext highlighter-rouge">SelectBlock</code> may contain a <code class="language-plaintext highlighter-rouge">unionAll</code> array instead of <code class="language-plaintext highlighter-rouge">column</code>. Each inner block must declare
+the <strong>same column names</strong> (they form the same schema). The extractor emits one row per inner block,
+all using the same state class. Anchor columns from other select blocks are captured in the
+enclosing scope and reused on every <code class="language-plaintext highlighter-rouge">unionAll</code> row.</p>
+
+<p>Each inner block is wrapped in a Kotlin <code class="language-plaintext highlighter-rouge">run { }</code> scope so local variable names don't clash.</p>
+
+<pre><code class="language-fsh">* select[1].unionAll[0].column[0].name = "telecomSystem"
+* select[1].unionAll[0].column[0].path = "telecom.where(system = 'phone').system.first()"
+* select[1].unionAll[0].column[1].name = "telecomValue"
+* select[1].unionAll[0].column[1].path = "telecom.where(system = 'phone').value.first()"
+* select[1].unionAll[1].column[0].name = "telecomSystem"
+* select[1].unionAll[1].column[0].path = "telecom.where(system = 'email').system.first()"
+* select[1].unionAll[1].column[1].name = "telecomValue"
+* select[1].unionAll[1].column[1].path = "telecom.where(system = 'email').value.first()"
+</code></pre>
+
+<p>Generated output — two <code class="language-plaintext highlighter-rouge">add()</code> calls per pivot, one per block:</p>
+<div class="language-kotlin highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// unionAll block 0</span>
+<span class="nf">run</span> <span class="p">{</span>
+    <span class="kd">val</span> <span class="py">telecomSystem</span> <span class="p">=</span> <span class="n">engine</span><span class="p">.</span><span class="nf">eval</span><span class="p">(</span><span class="n">patient</span><span class="p">,</span> <span class="s">"telecom.where(system = 'phone').system.first()"</span><span class="p">).</span><span class="n">str</span>
+    <span class="kd">val</span> <span class="py">telecomValue</span>  <span class="p">=</span> <span class="n">engine</span><span class="p">.</span><span class="nf">eval</span><span class="p">(</span><span class="n">patient</span><span class="p">,</span> <span class="s">"telecom.where(system = 'phone').value.first()"</span><span class="p">).</span><span class="n">str</span>
+    <span class="nf">add</span><span class="p">(</span><span class="nc">PatientTelecomState</span><span class="p">(</span><span class="n">patientId</span> <span class="p">=</span> <span class="n">patientId</span><span class="p">,</span> <span class="n">telecomSystem</span> <span class="p">=</span> <span class="n">telecomSystem</span><span class="p">,</span> <span class="n">telecomValue</span> <span class="p">=</span> <span class="n">telecomValue</span><span class="p">))</span>
+<span class="p">}</span>
+<span class="c1">// unionAll block 1</span>
+<span class="nf">run</span> <span class="p">{</span>
+    <span class="kd">val</span> <span class="py">telecomSystem</span> <span class="p">=</span> <span class="n">engine</span><span class="p">.</span><span class="nf">eval</span><span class="p">(</span><span class="n">patient</span><span class="p">,</span> <span class="s">"telecom.where(system = 'email').system.first()"</span><span class="p">).</span><span class="n">str</span>
+    <span class="kd">val</span> <span class="py">telecomValue</span>  <span class="p">=</span> <span class="n">engine</span><span class="p">.</span><span class="nf">eval</span><span class="p">(</span><span class="n">patient</span><span class="p">,</span> <span class="s">"telecom.where(system = 'email').value.first()"</span><span class="p">).</span><span class="n">str</span>
+    <span class="nf">add</span><span class="p">(</span><span class="nc">PatientTelecomState</span><span class="p">(</span><span class="n">patientId</span> <span class="p">=</span> <span class="n">patientId</span><span class="p">,</span> <span class="n">telecomSystem</span> <span class="p">=</span> <span class="n">telecomSystem</span><span class="p">,</span> <span class="n">telecomValue</span> <span class="p">=</span> <span class="n">telecomValue</span><span class="p">))</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p><strong>Example:</strong> <code class="language-plaintext highlighter-rouge">views/PatientTelecom.fsh</code> — one row per telecom system (phone + email).</p>
+
+<hr/>
+
+<h2 id="end-to-end-example">End-to-End Example</h2>
+
+<p>The following walkthrough traces a single concept — <strong>patient allergies</strong> — from FSH declaration
+through to a populated Kotlin state object, using the sample data bundled with the reference app.</p>
+
+<h3 id="step-1--declare-the-pivot-viewdefinition">Step 1 — Declare the pivot ViewDefinition</h3>
+
+<p><code class="language-plaintext highlighter-rouge">views/Allergy.fsh</code> describes the columns to extract from each <code class="language-plaintext highlighter-rouge">AllergyIntolerance</code> resource:</p>
+
+<pre><code class="language-fsh">Instance: Allergy
+InstanceOf: ViewDefinition
+Usage: #definition
+* name = "Allergy"
+* resource = #AllergyIntolerance
+* fhirVersion = #4.0.1
+* select[0].column[0].name = "allergyId"
+* select[0].column[0].path = "id"
+* select[0].column[1].name = "substance"
+* select[0].column[1].path = "code.coding.display.first()"
+* select[0].column[2].name = "criticality"
+* select[0].column[2].path = "criticality"
+* select[0].column[3].name = "allergyStatus"
+* select[0].column[3].path = "clinicalStatus.coding.code.first()"
+* select[0].column[4].name = "allergyPatientRef"
+* select[0].column[4].path = "patient.reference.replace('Patient/', '')"
+</code></pre>
+
+<h3 id="step-2--declare-the-viewjoinmap">Step 2 — Declare the ViewJoinMap</h3>
+
+<p><code class="language-plaintext highlighter-rouge">states/PatientAllergyState.fsh</code> joins the allergy columns with patient demographics:</p>
+
+<pre><code class="language-fsh">Instance: PatientAllergyState
+InstanceOf: ViewJoinMap
+Usage: #definition
+* name = "patientAllergy"
+* from = #revIncluded
+* resource = "AllergyIntolerance"
+* view = "Allergy"
+* joins[0].view = "PatientSummary"
+* joins[0].from = #included
+* joins[0].resource = "Patient"
+* joins[0].searchParam = "patient"
+* joins[0].matchKey = "allergyPatientRef"
+</code></pre>
+
+<p>The pivot iterates over <code class="language-plaintext highlighter-rouge">AllergyIntolerance</code> resources from <code class="language-plaintext highlighter-rouge">revIncluded</code>. For each allergy, the
+extractor looks up the matching <code class="language-plaintext highlighter-rouge">Patient</code> in <code class="language-plaintext highlighter-rouge">included</code> using <code class="language-plaintext highlighter-rouge">allergyPatientRef</code> as the join key.</p>
+
+<h3 id="step-3--generated-kotlin">Step 3 — Generated Kotlin</h3>
+
+<p>SUSHI compiles the FSH to <code class="language-plaintext highlighter-rouge">Binary-PatientAllergyState.json</code>. The codegen plugin reads that file
+and emits two Kotlin artifacts:</p>
+
+<p><strong><code class="language-plaintext highlighter-rouge">state/PatientAllergyState.kt</code></strong> — a flat <code class="language-plaintext highlighter-rouge">@Serializable</code> data class merging allergy +
+patient columns:</p>
+
+<div class="language-kotlin highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nd">@Serializable</span>
+<span class="nd">@JoinMap</span><span class="p">(</span>
+  <span class="n">pivot</span> <span class="p">=</span> <span class="nc">Scope</span><span class="p">(</span><span class="n">resource</span> <span class="p">=</span> <span class="s">"AllergyIntolerance"</span><span class="p">,</span> <span class="n">from</span> <span class="p">=</span> <span class="s">"revIncluded"</span><span class="p">),</span>
+  <span class="n">joins</span> <span class="p">=</span> <span class="p">[</span><span class="nc">Scope</span><span class="p">(</span><span class="n">resource</span> <span class="p">=</span> <span class="s">"Patient"</span><span class="p">,</span> <span class="n">from</span> <span class="p">=</span> <span class="s">"included"</span><span class="p">,</span>
+                 <span class="n">searchParam</span> <span class="p">=</span> <span class="s">"patient"</span><span class="p">,</span> <span class="n">matchKey</span> <span class="p">=</span> <span class="s">"allergyPatientRef"</span><span class="p">)],</span>
+<span class="p">)</span>
+<span class="kd">data class</span> <span class="nc">PatientAllergyState</span><span class="p">(</span>
+  <span class="nd">@FhirPath</span><span class="p">(</span><span class="n">expression</span> <span class="p">=</span> <span class="s">"id"</span><span class="p">,</span>                          <span class="n">resource</span> <span class="p">=</span> <span class="s">"AllergyIntolerance"</span><span class="p">)</span>
+  <span class="kd">val</span> <span class="py">allergyId</span><span class="p">:</span> <span class="nc">String</span><span class="p">?</span> <span class="p">=</span> <span class="k">null</span><span class="p">,</span>
+  <span class="nd">@FhirPath</span><span class="p">(</span><span class="n">expression</span> <span class="p">=</span> <span class="s">"code.coding.display.first()"</span><span class="p">,</span> <span class="n">resource</span> <span class="p">=</span> <span class="s">"AllergyIntolerance"</span><span class="p">)</span>
+  <span class="kd">val</span> <span class="py">substance</span><span class="p">:</span> <span class="nc">String</span><span class="p">?</span> <span class="p">=</span> <span class="k">null</span><span class="p">,</span>
+  <span class="nd">@FhirPath</span><span class="p">(</span><span class="n">expression</span> <span class="p">=</span> <span class="s">"criticality"</span><span class="p">,</span>                 <span class="n">resource</span> <span class="p">=</span> <span class="s">"AllergyIntolerance"</span><span class="p">)</span>
+  <span class="kd">val</span> <span class="py">criticality</span><span class="p">:</span> <span class="nc">String</span><span class="p">?</span> <span class="p">=</span> <span class="k">null</span><span class="p">,</span>
+  <span class="nd">@FhirPath</span><span class="p">(</span><span class="n">expression</span> <span class="p">=</span> <span class="s">"clinicalStatus.coding.code.first()"</span><span class="p">,</span> <span class="n">resource</span> <span class="p">=</span> <span class="s">"AllergyIntolerance"</span><span class="p">)</span>
+  <span class="kd">val</span> <span class="py">allergyStatus</span><span class="p">:</span> <span class="nc">String</span><span class="p">?</span> <span class="p">=</span> <span class="k">null</span><span class="p">,</span>
+  <span class="nd">@FhirPath</span><span class="p">(</span><span class="n">expression</span> <span class="p">=</span> <span class="s">"patient.reference.replace('Patient/', '')"</span><span class="p">,</span> <span class="n">resource</span> <span class="p">=</span> <span class="s">"AllergyIntolerance"</span><span class="p">)</span>
+  <span class="kd">val</span> <span class="py">allergyPatientRef</span><span class="p">:</span> <span class="nc">String</span><span class="p">?</span> <span class="p">=</span> <span class="k">null</span><span class="p">,</span>
+  <span class="c1">// --- joined Patient columns ---</span>
+  <span class="nd">@FhirPath</span><span class="p">(</span><span class="n">expression</span> <span class="p">=</span> <span class="s">"id"</span><span class="p">,</span>               <span class="n">resource</span> <span class="p">=</span> <span class="s">"Patient"</span><span class="p">)</span> <span class="kd">val</span> <span class="py">patientId</span><span class="p">:</span> <span class="nc">String</span><span class="p">?</span> <span class="p">=</span> <span class="k">null</span><span class="p">,</span>
+  <span class="nd">@FhirPath</span><span class="p">(</span><span class="n">expression</span> <span class="p">=</span> <span class="s">"name.family.first()"</span><span class="p">,</span> <span class="n">resource</span> <span class="p">=</span> <span class="s">"Patient"</span><span class="p">)</span> <span class="kd">val</span> <span class="py">familyName</span><span class="p">:</span> <span class="nc">String</span><span class="p">?</span> <span class="p">=</span> <span class="k">null</span><span class="p">,</span>
+  <span class="nd">@FhirPath</span><span class="p">(</span><span class="n">expression</span> <span class="p">=</span> <span class="s">"name.given.first()"</span><span class="p">,</span>  <span class="n">resource</span> <span class="p">=</span> <span class="s">"Patient"</span><span class="p">)</span> <span class="kd">val</span> <span class="py">givenName</span><span class="p">:</span> <span class="nc">String</span><span class="p">?</span> <span class="p">=</span> <span class="k">null</span><span class="p">,</span>
+  <span class="c1">// ... remaining Patient columns</span>
+<span class="p">)</span>
+</code></pre></div></div>
+
+<p><strong><code class="language-plaintext highlighter-rouge">extractor/PatientAllergyExtractor.kt</code></strong> — evaluates FHIRPath expressions against a
+<code class="language-plaintext highlighter-rouge">SearchResult</code> and returns <code class="language-plaintext highlighter-rouge">List&lt;PatientAllergyState&gt;</code>. Join columns are pre-evaluated once
+per unique joined resource before the pivot loop, so the number of FhirPath engine calls is
+<code class="language-plaintext highlighter-rouge">O(patients) + O(allergies)</code> rather than <code class="language-plaintext highlighter-rouge">O(patients × allergies)</code>.</p>
+
+<h3 id="step-4--sample-fhir-data--populated-state">Step 4 — Sample FHIR data → populated state</h3>
+
+<p>Given this <code class="language-plaintext highlighter-rouge">AllergyIntolerance</code> from the reference app sample bundle:</p>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"resourceType"</span><span class="p">:</span><span class="w"> </span><span class="s2">"AllergyIntolerance"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"ai-p1-a"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"patient"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nl">"reference"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Patient/p1"</span><span class="w"> </span><span class="p">},</span><span class="w">
+  </span><span class="nl">"code"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nl">"coding"</span><span class="p">:</span><span class="w"> </span><span class="p">[{</span><span class="w"> </span><span class="nl">"display"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Penicillin"</span><span class="w"> </span><span class="p">}]</span><span class="w"> </span><span class="p">},</span><span class="w">
+  </span><span class="nl">"criticality"</span><span class="p">:</span><span class="w"> </span><span class="s2">"high"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"clinicalStatus"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"coding"</span><span class="p">:</span><span class="w"> </span><span class="p">[{</span><span class="w"> </span><span class="nl">"code"</span><span class="p">:</span><span class="w"> </span><span class="s2">"active"</span><span class="w"> </span><span class="p">}]</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<p>…and this <code class="language-plaintext highlighter-rouge">Patient</code> in <code class="language-plaintext highlighter-rouge">included</code>:</p>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"resourceType"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Patient"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"p1"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="p">[{</span><span class="w"> </span><span class="nl">"family"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Diallo"</span><span class="p">,</span><span class="w"> </span><span class="nl">"given"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"Amina"</span><span class="p">]</span><span class="w"> </span><span class="p">}],</span><span class="w">
+  </span><span class="nl">"gender"</span><span class="p">:</span><span class="w"> </span><span class="s2">"female"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"birthDate"</span><span class="p">:</span><span class="w"> </span><span class="s2">"1990-03-14"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"active"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"identifier"</span><span class="p">:</span><span class="w"> </span><span class="p">[{</span><span class="w"> </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nl">"coding"</span><span class="p">:</span><span class="w"> </span><span class="p">[{</span><span class="w"> </span><span class="nl">"code"</span><span class="p">:</span><span class="w"> </span><span class="s2">"MR"</span><span class="w"> </span><span class="p">}]</span><span class="w"> </span><span class="p">},</span><span class="w"> </span><span class="nl">"value"</span><span class="p">:</span><span class="w"> </span><span class="s2">"MRN-2015-0342"</span><span class="w"> </span><span class="p">}]</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<p><code class="language-plaintext highlighter-rouge">PatientAllergyExtractor.extract(engine, result)</code> produces:</p>
+
+<div class="language-kotlin highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">PatientAllergyState</span><span class="p">(</span>
+  <span class="n">allergyId</span>      <span class="p">=</span> <span class="s">"ai-p1-a"</span><span class="p">,</span>
+  <span class="n">substance</span>      <span class="p">=</span> <span class="s">"Penicillin"</span><span class="p">,</span>
+  <span class="n">criticality</span>    <span class="p">=</span> <span class="s">"high"</span><span class="p">,</span>
+  <span class="n">allergyStatus</span>  <span class="p">=</span> <span class="s">"active"</span><span class="p">,</span>
+  <span class="n">allergyPatientRef</span> <span class="p">=</span> <span class="s">"p1"</span><span class="p">,</span>
+  <span class="n">patientId</span>      <span class="p">=</span> <span class="s">"p1"</span><span class="p">,</span>
+  <span class="n">familyName</span>     <span class="p">=</span> <span class="s">"Diallo"</span><span class="p">,</span>
+  <span class="n">givenName</span>      <span class="p">=</span> <span class="s">"Amina"</span><span class="p">,</span>
+  <span class="n">gender</span>         <span class="p">=</span> <span class="s">"female"</span><span class="p">,</span>
+  <span class="n">birthDate</span>      <span class="p">=</span> <span class="nc">FhirDate</span><span class="p">(</span><span class="s">"1990-03-14"</span><span class="p">),</span>
+  <span class="n">active</span>         <span class="p">=</span> <span class="k">true</span><span class="p">,</span>
+  <span class="n">mrn</span>            <span class="p">=</span> <span class="s">"MRN-2015-0342"</span><span class="p">,</span>
+  <span class="n">phone</span>          <span class="p">=</span> <span class="k">null</span><span class="p">,</span>
+<span class="p">)</span>
+</code></pre></div></div>
+
+<hr/>
+
+<h2 id="fsh-directory-structure">FSH Directory Structure</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>input/fsh/
+├── codesystems/
+│   ├── SearchScopeCS.fsh          # SearchScopeCS CodeSystem + SearchScopeVS ValueSet
+│   └── ViewTypeCS.fsh             # UI component type vocabulary
+├── config/                        # @Serializable config StructureDefinitions (one per component)
+│   ├── ViewConfig.fsh             # Base: padding
+│   ├── CardConfig.fsh             # Extends ViewConfig: + elevation, cornerRadius
+│   ├── PatientCardConfig.fsh      # Extends CardConfig: + showStatusChip, showAge, showGender
+│   ├── PatientHeaderConfig.fsh
+│   ├── AllergyItemConfig.fsh
+│   ├── MedicationItemConfig.fsh
+│   ├── ConditionItemConfig.fsh
+│   ├── ImmunizationItemConfig.fsh
+│   ├── SectionCardConfig.fsh
+│   ├── GroupCardConfig.fsh
+│   ├── GroupHeaderConfig.fsh
+│   └── MemberItemConfig.fsh
+├── spec/
+│   └── ViewJoinSpec.fsh           # ViewJoinMap Logical model
+├── views/                         # ViewDefinition instances (one per resource projection)
+│   ├── PatientSummary.fsh         # Patient — flat demographics (anchor view)
+│   ├── Allergy.fsh                # AllergyIntolerance — flat columns
+│   ├── AllergyReaction.fsh        # AllergyIntolerance — where + forEach (reactions)
+│   ├── Medication.fsh             # MedicationRequest — flat columns
+│   ├── Condition.fsh              # Condition — flat columns
+│   ├── Immunization.fsh           # Immunization — flat columns
+│   ├── PatientContact.fsh         # Patient — forEachOrNull (emergency contacts)
+│   ├── PatientTelecom.fsh         # Patient — unionAll (phone + email rows)
+│   ├── Group.fsh                  # Group — flat columns
+│   ├── Member.fsh                 # Patient — flat columns (household member)
+│   └── RelatedPerson.fsh          # RelatedPerson — flat columns (head of household)
+└── states/                        # ViewJoinMap instances (one per generated State class)
+    ├── PatientSummaryState.fsh    # root Patient
+    ├── PatientAllergyState.fsh    # revIncluded AllergyIntolerance + Patient join
+    ├── AllergyReactionState.fsh   # revIncluded AllergyIntolerance (where+forEach) + Patient join
+    ├── PatientConditionState.fsh  # revIncluded Condition + Patient join
+    ├── PatientMedicationState.fsh # revIncluded MedicationRequest + Patient join
+    ├── PatientImmunizationState.fsh # revIncluded Immunization + Patient join
+    ├── PatientContactState.fsh    # root Patient (forEachOrNull contacts)
+    ├── PatientTelecomState.fsh    # root Patient (unionAll phone+email)
+    ├── GroupListState.fsh         # root Group
+    ├── GroupHeaderState.fsh       # root Group + static RelatedPerson join
+    └── GroupMemberState.fsh       # included Patient + RelatedPerson join
+</code></pre></div></div>
+
+<hr/>
+
+<h2 id="codegen-setup">Codegen Setup</h2>
+
+<p>The <code class="language-plaintext highlighter-rouge">:ig-codegen</code> Gradle plugin reads the compiled IG artifacts from <code class="language-plaintext highlighter-rouge">fsh-generated/resources/</code>.
+The IG path is resolved in this order:</p>
+
+<ol>
+  <li>Gradle property <code class="language-plaintext highlighter-rouge">ohs.ig.dir</code> — set via <code class="language-plaintext highlighter-rouge">-Pohs.ig.dir=&lt;path&gt;</code> or <code class="language-plaintext highlighter-rouge">gradle.properties</code></li>
+  <li><code class="language-plaintext highlighter-rouge">local.properties</code> key <code class="language-plaintext highlighter-rouge">ohs.ig.dir</code> — machine-local, gitignored</li>
+  <li>Fallback: sibling directory <code class="language-plaintext highlighter-rouge">../ohs-sample-ig/fsh-generated/resources</code></li>
+</ol>
+
+<p>Run SUSHI before invoking the codegen task:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cd</span> ~/path/to/ohs-sample-ig
+npx fsh-sushi <span class="nb">.</span>
+./gradlew :ohs-player-library:generateIgCode
+</code></pre></div></div>
+
+
+
+
+</div>
+        </div>    <!-- /inner-wrapper -->
+      </div>    <!-- /row -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-content -->
+
+  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script src="assets/js/jquery-ui.min.js" type="text/javascript"> </script>
+
+  <script src="assets/js/window-hash.js" type="text/javascript"> </script>
+  <a name="bottom"> </a>
+  <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
+    <div class="container">    <!-- container -->
+
+      <div class="inner-wrapper">
+        <p><a name="l2750">​</a>
+          IG &copy; 2026+ <a style="color:var(--footer-hyperlink-text-color)" href="http://ohs.dev/example-publisher">OHS Foundation</a>.  Package dev.ohs.ohs-player-config-ig#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, May 20, 2026 08:14+0000">2026-05-20</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+          </span>
+        </p>
+      </div>    <!-- /inner-wrapper -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">    <!-- segment-post-footer -->
+    <div class="container">    <!-- container -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-post-footer -->
+
+    <!-- JS and analytics only. -->
+    <!-- Bootstrap core JavaScript
+  ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+  <script src="assets/js/bootstrap.min.js" type="text/javascript"> </script>
+  <script src="assets/js/respond.min.js" type="text/javascript"> </script>
+  <script src="assets/js/anchor.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard-btn.js" type="text/javascript"> </script>
+  <script src="assets/js/anchor-hover.js" type="text/javascript"> </script>
+    <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>

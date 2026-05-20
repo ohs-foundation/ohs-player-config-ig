@@ -1,0 +1,404 @@
+OHSPlayerConfigIG : Validation Results
+=========================================
+
+err = 1, warn = 32, info = 2
+IG Publisher Version: 2.2.7
+Generated Wed May 20 08:18:33 UTC 2026. FHIR version 4.0.1 for dev.ohs.ohs-player-config-ig#0.1.0 (canonical = http://ohs.dev)
+ Build Errors : 277 / 26 / 0
+ /workspaces/fsh-generated/resources/Binary-Allergy : 0 / 0 / 1
+ /workspaces/fsh-generated/resources/Binary-AllergyReaction : 0 / 0 / 1
+ /workspaces/fsh-generated/resources/Binary-AllergyReactionState : 0 / 0 / 1
+ /workspaces/fsh-generated/resources/Binary-Condition : 0 / 0 / 1
+ /workspaces/fsh-generated/resources/Binary-Group : 0 / 0 / 1
+ /workspaces/fsh-generated/resources/Binary-GroupHeaderState : 0 / 0 / 1
+ /workspaces/fsh-generated/resources/Binary-GroupListState : 0 / 0 / 1
+ /workspaces/fsh-generated/resources/Binary-GroupMemberState : 0 / 0 / 1
+ /workspaces/fsh-generated/resources/Binary-Immunization : 0 / 0 / 1
+ /workspaces/fsh-generated/resources/Binary-Medication : 0 / 0 / 1
+ /workspaces/fsh-generated/resources/Binary-Member : 0 / 0 / 1
+ /workspaces/fsh-generated/resources/Binary-PatientAllergyState : 0 / 0 / 1
+ /workspaces/fsh-generated/resources/Binary-PatientConditionState : 0 / 0 / 1
+ /workspaces/fsh-generated/resources/Binary-PatientContact : 0 / 0 / 1
+ /workspaces/fsh-generated/resources/Binary-PatientContactState : 0 / 0 / 1
+ /workspaces/fsh-generated/resources/Binary-PatientImmunizationState : 0 / 0 / 1
+ /workspaces/fsh-generated/resources/Binary-PatientMedicationState : 0 / 0 / 1
+ /workspaces/fsh-generated/resources/Binary-PatientSummary : 0 / 0 / 1
+ /workspaces/fsh-generated/resources/Binary-PatientSummaryState : 0 / 0 / 1
+ /workspaces/fsh-generated/resources/Binary-PatientTelecom : 0 / 0 / 1
+ /workspaces/fsh-generated/resources/Binary-PatientTelecomState : 0 / 0 / 1
+ /workspaces/fsh-generated/resources/Binary-RelatedPerson : 0 / 0 / 1
+ /workspaces/fsh-generated/resources/CodeSystem-search-scope-cs : 0 / 2 / 2
+ /workspaces/fsh-generated/resources/CodeSystem-view-type-codesystem : 0 / 2 / 2
+ /workspaces/fsh-generated/resources/ImplementationGuide-dev.ohs.ohs-player-config-ig : 0 / 1 / 1
+ /workspaces/fsh-generated/resources/StructureDefinition-AllergyItemConfig : 0 / 0 / 1
+ /workspaces/fsh-generated/resources/StructureDefinition-AllergyReactionItemConfig : 0 / 0 / 1
+ /workspaces/fsh-generated/resources/StructureDefinition-CardConfig : 0 / 0 / 1
+ /workspaces/fsh-generated/resources/StructureDefinition-ConditionItemConfig : 0 / 0 / 1
+ /workspaces/fsh-generated/resources/StructureDefinition-ContactItemConfig : 0 / 0 / 1
+ /workspaces/fsh-generated/resources/StructureDefinition-GroupCardConfig : 0 / 0 / 1
+ /workspaces/fsh-generated/resources/StructureDefinition-GroupHeaderConfig : 0 / 0 / 1
+ /workspaces/fsh-generated/resources/StructureDefinition-ImmunizationItemConfig : 0 / 0 / 1
+ /workspaces/fsh-generated/resources/StructureDefinition-MedicationItemConfig : 0 / 0 / 1
+ /workspaces/fsh-generated/resources/StructureDefinition-MemberItemConfig : 0 / 0 / 1
+ /workspaces/fsh-generated/resources/StructureDefinition-PatientCardConfig : 0 / 0 / 1
+ /workspaces/fsh-generated/resources/StructureDefinition-PatientHeaderConfig : 0 / 0 / 1
+ /workspaces/fsh-generated/resources/StructureDefinition-SectionCardConfig : 0 / 0 / 1
+ /workspaces/fsh-generated/resources/StructureDefinition-TelecomItemConfig : 0 / 0 / 1
+ /workspaces/fsh-generated/resources/StructureDefinition-ViewConfig : 0 / 0 / 1
+ /workspaces/fsh-generated/resources/StructureDefinition-ViewJoinMap : 0 / 0 / 1
+ /workspaces/fsh-generated/resources/ValueSet-search-scope-vs : 0 / 1 / 1
+</table>
+== n/a ==
+ERROR: ImplementationGuide/dev.ohs.ohs-player-config-ig: This IG is version 4.0.1, while the IG 'org.sql-on-fhir.ig' is from version 5.0.0
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Binary/Allergy.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Binary/AllergyReaction.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Binary/AllergyReactionState.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Binary/Condition.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Binary/Group.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Binary/GroupHeaderState.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Binary/GroupListState.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Binary/GroupMemberState.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Binary/Immunization.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Binary/Medication.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Binary/Member.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Binary/PatientAllergyState.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Binary/PatientConditionState.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Binary/PatientContact.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Binary/PatientContactState.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Binary/PatientImmunizationState.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Binary/PatientMedicationState.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Binary/PatientSummary.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Binary/PatientSummaryState.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Binary/PatientTelecom.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Binary/PatientTelecomState.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Binary/RelatedPerson.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: Binary-Allergy.change.history.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-Allergy.html#/html/body/div/div/div/p/a at Line 244, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-Allergy.json.html#/html/body/div/div/div/p/a at Line 200, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-Allergy.ttl.html#/html/body/div/div/div/p/a at Line 211, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-Allergy.xml.html#/html/body/div/div/div/p/a at Line 201, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-AllergyReaction.change.history.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-AllergyReaction.html#/html/body/div/div/div/p/a at Line 259, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-AllergyReaction.json.html#/html/body/div/div/div/p/a at Line 200, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-AllergyReaction.ttl.html#/html/body/div/div/div/p/a at Line 211, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-AllergyReaction.xml.html#/html/body/div/div/div/p/a at Line 201, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-AllergyReactionState.change.history.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-AllergyReactionState.html#/html/body/div/div/div/p/a at Line 219, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-AllergyReactionState.json.html#/html/body/div/div/div/p/a at Line 200, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-AllergyReactionState.ttl.html#/html/body/div/div/div/p/a at Line 211, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-AllergyReactionState.xml.html#/html/body/div/div/div/p/a at Line 201, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-Condition.change.history.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-Condition.html#/html/body/div/div/div/p/a at Line 244, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-Condition.json.html#/html/body/div/div/div/p/a at Line 200, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-Condition.ttl.html#/html/body/div/div/div/p/a at Line 211, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-Condition.xml.html#/html/body/div/div/div/p/a at Line 201, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-Group.change.history.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-Group.html#/html/body/div/div/div/p/a at Line 234, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-Group.json.html#/html/body/div/div/div/p/a at Line 200, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-Group.ttl.html#/html/body/div/div/div/p/a at Line 211, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-Group.xml.html#/html/body/div/div/div/p/a at Line 201, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-GroupHeaderState.change.history.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-GroupHeaderState.html#/html/body/div/div/div/p/a at Line 218, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-GroupHeaderState.json.html#/html/body/div/div/div/p/a at Line 200, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-GroupHeaderState.ttl.html#/html/body/div/div/div/p/a at Line 211, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-GroupHeaderState.xml.html#/html/body/div/div/div/p/a at Line 201, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-GroupListState.change.history.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-GroupListState.html#/html/body/div/div/div/p/a at Line 210, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-GroupListState.json.html#/html/body/div/div/div/p/a at Line 200, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-GroupListState.ttl.html#/html/body/div/div/div/p/a at Line 211, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-GroupListState.xml.html#/html/body/div/div/div/p/a at Line 201, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-GroupMemberState.change.history.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-GroupMemberState.html#/html/body/div/div/div/p/a at Line 220, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-GroupMemberState.json.html#/html/body/div/div/div/p/a at Line 200, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-GroupMemberState.ttl.html#/html/body/div/div/div/p/a at Line 211, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-GroupMemberState.xml.html#/html/body/div/div/div/p/a at Line 201, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-Immunization.change.history.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-Immunization.html#/html/body/div/div/div/p/a at Line 244, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-Immunization.json.html#/html/body/div/div/div/p/a at Line 200, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-Immunization.ttl.html#/html/body/div/div/div/p/a at Line 211, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-Immunization.xml.html#/html/body/div/div/div/p/a at Line 201, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-Medication.change.history.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-Medication.html#/html/body/div/div/div/p/a at Line 244, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-Medication.json.html#/html/body/div/div/div/p/a at Line 200, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-Medication.ttl.html#/html/body/div/div/div/p/a at Line 211, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-Medication.xml.html#/html/body/div/div/div/p/a at Line 201, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-Member.change.history.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-Member.html#/html/body/div/div/div/p/a at Line 249, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-Member.json.html#/html/body/div/div/div/p/a at Line 200, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-Member.ttl.html#/html/body/div/div/div/p/a at Line 211, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-Member.xml.html#/html/body/div/div/div/p/a at Line 201, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-PatientAllergyState.change.history.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-PatientAllergyState.html#/html/body/div/div/div/p/a at Line 219, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-PatientAllergyState.json.html#/html/body/div/div/div/p/a at Line 200, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-PatientAllergyState.ttl.html#/html/body/div/div/div/p/a at Line 211, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-PatientAllergyState.xml.html#/html/body/div/div/div/p/a at Line 201, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-PatientConditionState.change.history.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-PatientConditionState.html#/html/body/div/div/div/p/a at Line 219, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-PatientConditionState.json.html#/html/body/div/div/div/p/a at Line 200, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-PatientConditionState.ttl.html#/html/body/div/div/div/p/a at Line 211, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-PatientConditionState.xml.html#/html/body/div/div/div/p/a at Line 201, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-PatientContact.change.history.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-PatientContact.html#/html/body/div/div/div/p/a at Line 249, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-PatientContact.json.html#/html/body/div/div/div/p/a at Line 200, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-PatientContact.ttl.html#/html/body/div/div/div/p/a at Line 211, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-PatientContact.xml.html#/html/body/div/div/div/p/a at Line 201, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-PatientContactState.change.history.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-PatientContactState.html#/html/body/div/div/div/p/a at Line 210, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-PatientContactState.json.html#/html/body/div/div/div/p/a at Line 200, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-PatientContactState.ttl.html#/html/body/div/div/div/p/a at Line 211, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-PatientContactState.xml.html#/html/body/div/div/div/p/a at Line 201, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-PatientImmunizationState.change.history.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-PatientImmunizationState.html#/html/body/div/div/div/p/a at Line 219, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-PatientImmunizationState.json.html#/html/body/div/div/div/p/a at Line 200, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-PatientImmunizationState.ttl.html#/html/body/div/div/div/p/a at Line 211, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-PatientImmunizationState.xml.html#/html/body/div/div/div/p/a at Line 201, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-PatientMedicationState.change.history.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-PatientMedicationState.html#/html/body/div/div/div/p/a at Line 219, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-PatientMedicationState.json.html#/html/body/div/div/div/p/a at Line 200, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-PatientMedicationState.ttl.html#/html/body/div/div/div/p/a at Line 211, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-PatientMedicationState.xml.html#/html/body/div/div/div/p/a at Line 201, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-PatientSummary.change.history.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-PatientSummary.html#/html/body/div/div/div/p/a at Line 259, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-PatientSummary.json.html#/html/body/div/div/div/p/a at Line 200, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-PatientSummary.ttl.html#/html/body/div/div/div/p/a at Line 211, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-PatientSummary.xml.html#/html/body/div/div/div/p/a at Line 201, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-PatientSummaryState.change.history.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-PatientSummaryState.html#/html/body/div/div/div/p/a at Line 210, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-PatientSummaryState.json.html#/html/body/div/div/div/p/a at Line 200, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-PatientSummaryState.ttl.html#/html/body/div/div/div/p/a at Line 211, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-PatientSummaryState.xml.html#/html/body/div/div/div/p/a at Line 201, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-PatientTelecom.change.history.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-PatientTelecom.html#/html/body/div/div/div/p/a at Line 256, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-PatientTelecom.json.html#/html/body/div/div/div/p/a at Line 200, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-PatientTelecom.ttl.html#/html/body/div/div/div/p/a at Line 211, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-PatientTelecom.xml.html#/html/body/div/div/div/p/a at Line 201, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-PatientTelecomState.change.history.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-PatientTelecomState.html#/html/body/div/div/div/p/a at Line 210, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-PatientTelecomState.json.html#/html/body/div/div/div/p/a at Line 200, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-PatientTelecomState.ttl.html#/html/body/div/div/div/p/a at Line 211, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-PatientTelecomState.xml.html#/html/body/div/div/div/p/a at Line 201, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-RelatedPerson.change.history.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-RelatedPerson.html#/html/body/div/div/div/p/a at Line 244, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-RelatedPerson.json.html#/html/body/div/div/div/p/a at Line 200, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-RelatedPerson.ttl.html#/html/body/div/div/div/p/a at Line 211, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: Binary-RelatedPerson.xml.html#/html/body/div/div/div/p/a at Line 201, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: CodeSystem-search-scope-cs-testing.html#/html/body/div/div/div/p/a at Line 217, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: CodeSystem-search-scope-cs.change.history.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: CodeSystem-search-scope-cs.html#/html/body/div/div/div/p/a at Line 252, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: CodeSystem-search-scope-cs.json.html#/html/body/div/div/div/p/a at Line 252, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: CodeSystem-search-scope-cs.ttl.html#/html/body/div/div/div/p/a at Line 257, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: CodeSystem-search-scope-cs.xml.html#/html/body/div/div/div/p/a at Line 248, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: CodeSystem-view-type-codesystem-testing.html#/html/body/div/div/div/p/a at Line 217, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: CodeSystem-view-type-codesystem.change.history.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: CodeSystem-view-type-codesystem.html#/html/body/div/div/div/p/a at Line 319, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: CodeSystem-view-type-codesystem.json.html#/html/body/div/div/div/p/a at Line 292, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: CodeSystem-view-type-codesystem.ttl.html#/html/body/div/div/div/p/a at Line 287, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: CodeSystem-view-type-codesystem.xml.html#/html/body/div/div/div/p/a at Line 289, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-AllergyItemConfig-definitions.html#/html/body/div/div/div/p/a at Line 301, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-AllergyItemConfig-examples.html#/html/body/div/div/div/p/a at Line 233, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-AllergyItemConfig-mappings.html#/html/body/div/div/div/p/a at Line 256, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-AllergyItemConfig-testing.html#/html/body/div/div/div/p/a at Line 240, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-AllergyItemConfig.html#/html/body/div/div/div/p/a at Line 714, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-AllergyItemConfig.profile.history.html#/html/body/div/div/div/p/a at Line 222, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-AllergyItemConfig.profile.json.html#/html/body/div/div/div/p/a at Line 428, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-AllergyItemConfig.profile.ttl.html#/html/body/div/div/div/p/a at Line 411, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-AllergyItemConfig.profile.xml.html#/html/body/div/div/div/p/a at Line 403, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-AllergyReactionItemConfig-definitions.html#/html/body/div/div/div/p/a at Line 289, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-AllergyReactionItemConfig-examples.html#/html/body/div/div/div/p/a at Line 233, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-AllergyReactionItemConfig-mappings.html#/html/body/div/div/div/p/a at Line 250, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-AllergyReactionItemConfig-testing.html#/html/body/div/div/div/p/a at Line 240, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-AllergyReactionItemConfig.html#/html/body/div/div/div/p/a at Line 670, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-AllergyReactionItemConfig.profile.history.html#/html/body/div/div/div/p/a at Line 222, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-AllergyReactionItemConfig.profile.json.html#/html/body/div/div/div/p/a at Line 392, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-AllergyReactionItemConfig.profile.ttl.html#/html/body/div/div/div/p/a at Line 383, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-AllergyReactionItemConfig.profile.xml.html#/html/body/div/div/div/p/a at Line 369, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-CardConfig-definitions.html#/html/body/div/div/div/p/a at Line 292, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-CardConfig-examples.html#/html/body/div/div/div/p/a at Line 233, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-CardConfig-mappings.html#/html/body/div/div/div/p/a at Line 251, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-CardConfig-testing.html#/html/body/div/div/div/p/a at Line 240, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-CardConfig.html#/html/body/div/div/div/p/a at Line 677, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-CardConfig.profile.history.html#/html/body/div/div/div/p/a at Line 222, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-CardConfig.profile.json.html#/html/body/div/div/div/p/a at Line 392, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-CardConfig.profile.ttl.html#/html/body/div/div/div/p/a at Line 383, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-CardConfig.profile.xml.html#/html/body/div/div/div/p/a at Line 373, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-ConditionItemConfig-definitions.html#/html/body/div/div/div/p/a at Line 301, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-ConditionItemConfig-examples.html#/html/body/div/div/div/p/a at Line 233, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-ConditionItemConfig-mappings.html#/html/body/div/div/div/p/a at Line 256, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-ConditionItemConfig-testing.html#/html/body/div/div/div/p/a at Line 240, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-ConditionItemConfig.html#/html/body/div/div/div/p/a at Line 714, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-ConditionItemConfig.profile.history.html#/html/body/div/div/div/p/a at Line 222, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-ConditionItemConfig.profile.json.html#/html/body/div/div/div/p/a at Line 428, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-ConditionItemConfig.profile.ttl.html#/html/body/div/div/div/p/a at Line 411, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-ConditionItemConfig.profile.xml.html#/html/body/div/div/div/p/a at Line 399, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-ContactItemConfig-definitions.html#/html/body/div/div/div/p/a at Line 289, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-ContactItemConfig-examples.html#/html/body/div/div/div/p/a at Line 233, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-ContactItemConfig-mappings.html#/html/body/div/div/div/p/a at Line 250, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-ContactItemConfig-testing.html#/html/body/div/div/div/p/a at Line 240, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-ContactItemConfig.html#/html/body/div/div/div/p/a at Line 670, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-ContactItemConfig.profile.history.html#/html/body/div/div/div/p/a at Line 222, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-ContactItemConfig.profile.json.html#/html/body/div/div/div/p/a at Line 392, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-ContactItemConfig.profile.ttl.html#/html/body/div/div/div/p/a at Line 383, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-ContactItemConfig.profile.xml.html#/html/body/div/div/div/p/a at Line 369, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-GroupCardConfig-definitions.html#/html/body/div/div/div/p/a at Line 304, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-GroupCardConfig-examples.html#/html/body/div/div/div/p/a at Line 233, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-GroupCardConfig-mappings.html#/html/body/div/div/div/p/a at Line 257, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-GroupCardConfig-testing.html#/html/body/div/div/div/p/a at Line 240, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-GroupCardConfig.html#/html/body/div/div/div/p/a at Line 721, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-GroupCardConfig.profile.history.html#/html/body/div/div/div/p/a at Line 222, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-GroupCardConfig.profile.json.html#/html/body/div/div/div/p/a at Line 428, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-GroupCardConfig.profile.ttl.html#/html/body/div/div/div/p/a at Line 411, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-GroupCardConfig.profile.xml.html#/html/body/div/div/div/p/a at Line 403, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-GroupHeaderConfig-definitions.html#/html/body/div/div/div/p/a at Line 304, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-GroupHeaderConfig-examples.html#/html/body/div/div/div/p/a at Line 233, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-GroupHeaderConfig-mappings.html#/html/body/div/div/div/p/a at Line 257, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-GroupHeaderConfig-testing.html#/html/body/div/div/div/p/a at Line 240, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-GroupHeaderConfig.html#/html/body/div/div/div/p/a at Line 721, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-GroupHeaderConfig.profile.history.html#/html/body/div/div/div/p/a at Line 222, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-GroupHeaderConfig.profile.json.html#/html/body/div/div/div/p/a at Line 428, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-GroupHeaderConfig.profile.ttl.html#/html/body/div/div/div/p/a at Line 411, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-GroupHeaderConfig.profile.xml.html#/html/body/div/div/div/p/a at Line 403, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-ImmunizationItemConfig-definitions.html#/html/body/div/div/div/p/a at Line 301, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-ImmunizationItemConfig-examples.html#/html/body/div/div/div/p/a at Line 233, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-ImmunizationItemConfig-mappings.html#/html/body/div/div/div/p/a at Line 256, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-ImmunizationItemConfig-testing.html#/html/body/div/div/div/p/a at Line 240, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-ImmunizationItemConfig.html#/html/body/div/div/div/p/a at Line 714, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-ImmunizationItemConfig.profile.history.html#/html/body/div/div/div/p/a at Line 222, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-ImmunizationItemConfig.profile.json.html#/html/body/div/div/div/p/a at Line 428, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-ImmunizationItemConfig.profile.ttl.html#/html/body/div/div/div/p/a at Line 411, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-ImmunizationItemConfig.profile.xml.html#/html/body/div/div/div/p/a at Line 399, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-MedicationItemConfig-definitions.html#/html/body/div/div/div/p/a at Line 310, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-MedicationItemConfig-examples.html#/html/body/div/div/div/p/a at Line 233, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-MedicationItemConfig-mappings.html#/html/body/div/div/div/p/a at Line 259, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-MedicationItemConfig-testing.html#/html/body/div/div/div/p/a at Line 240, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-MedicationItemConfig.html#/html/body/div/div/div/p/a at Line 746, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-MedicationItemConfig.profile.history.html#/html/body/div/div/div/p/a at Line 222, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-MedicationItemConfig.profile.json.html#/html/body/div/div/div/p/a at Line 459, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-MedicationItemConfig.profile.ttl.html#/html/body/div/div/div/p/a at Line 435, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-MedicationItemConfig.profile.xml.html#/html/body/div/div/div/p/a at Line 425, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-MemberItemConfig-definitions.html#/html/body/div/div/div/p/a at Line 313, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-MemberItemConfig-examples.html#/html/body/div/div/div/p/a at Line 233, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-MemberItemConfig-mappings.html#/html/body/div/div/div/p/a at Line 260, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-MemberItemConfig-testing.html#/html/body/div/div/div/p/a at Line 240, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-MemberItemConfig.html#/html/body/div/div/div/p/a at Line 753, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-MemberItemConfig.profile.history.html#/html/body/div/div/div/p/a at Line 222, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-MemberItemConfig.profile.json.html#/html/body/div/div/div/p/a at Line 459, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-MemberItemConfig.profile.ttl.html#/html/body/div/div/div/p/a at Line 435, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-MemberItemConfig.profile.xml.html#/html/body/div/div/div/p/a at Line 429, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-PatientCardConfig-definitions.html#/html/body/div/div/div/p/a at Line 313, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-PatientCardConfig-examples.html#/html/body/div/div/div/p/a at Line 233, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-PatientCardConfig-mappings.html#/html/body/div/div/div/p/a at Line 260, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-PatientCardConfig-testing.html#/html/body/div/div/div/p/a at Line 240, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-PatientCardConfig.html#/html/body/div/div/div/p/a at Line 753, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-PatientCardConfig.profile.history.html#/html/body/div/div/div/p/a at Line 222, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-PatientCardConfig.profile.json.html#/html/body/div/div/div/p/a at Line 459, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-PatientCardConfig.profile.ttl.html#/html/body/div/div/div/p/a at Line 435, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-PatientCardConfig.profile.xml.html#/html/body/div/div/div/p/a at Line 429, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-PatientHeaderConfig-definitions.html#/html/body/div/div/div/p/a at Line 322, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-PatientHeaderConfig-examples.html#/html/body/div/div/div/p/a at Line 233, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-PatientHeaderConfig-mappings.html#/html/body/div/div/div/p/a at Line 263, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-PatientHeaderConfig-testing.html#/html/body/div/div/div/p/a at Line 240, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-PatientHeaderConfig.html#/html/body/div/div/div/p/a at Line 785, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-PatientHeaderConfig.profile.history.html#/html/body/div/div/div/p/a at Line 222, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-PatientHeaderConfig.profile.json.html#/html/body/div/div/div/p/a at Line 490, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-PatientHeaderConfig.profile.ttl.html#/html/body/div/div/div/p/a at Line 459, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-PatientHeaderConfig.profile.xml.html#/html/body/div/div/div/p/a at Line 455, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-SectionCardConfig-definitions.html#/html/body/div/div/div/p/a at Line 304, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-SectionCardConfig-examples.html#/html/body/div/div/div/p/a at Line 233, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-SectionCardConfig-mappings.html#/html/body/div/div/div/p/a at Line 257, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-SectionCardConfig-testing.html#/html/body/div/div/div/p/a at Line 240, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-SectionCardConfig.html#/html/body/div/div/div/p/a at Line 721, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-SectionCardConfig.profile.history.html#/html/body/div/div/div/p/a at Line 222, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-SectionCardConfig.profile.json.html#/html/body/div/div/div/p/a at Line 428, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-SectionCardConfig.profile.ttl.html#/html/body/div/div/div/p/a at Line 411, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-SectionCardConfig.profile.xml.html#/html/body/div/div/div/p/a at Line 409, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-TelecomItemConfig-definitions.html#/html/body/div/div/div/p/a at Line 280, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-TelecomItemConfig-examples.html#/html/body/div/div/div/p/a at Line 233, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-TelecomItemConfig-mappings.html#/html/body/div/div/div/p/a at Line 247, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-TelecomItemConfig-testing.html#/html/body/div/div/div/p/a at Line 240, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-TelecomItemConfig.html#/html/body/div/div/div/p/a at Line 638, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-TelecomItemConfig.profile.history.html#/html/body/div/div/div/p/a at Line 222, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-TelecomItemConfig.profile.json.html#/html/body/div/div/div/p/a at Line 361, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-TelecomItemConfig.profile.ttl.html#/html/body/div/div/div/p/a at Line 359, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-TelecomItemConfig.profile.xml.html#/html/body/div/div/div/p/a at Line 345, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-ViewConfig-definitions.html#/html/body/div/div/div/p/a at Line 277, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-ViewConfig-examples.html#/html/body/div/div/div/p/a at Line 233, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-ViewConfig-mappings.html#/html/body/div/div/div/p/a at Line 245, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-ViewConfig-testing.html#/html/body/div/div/div/p/a at Line 240, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-ViewConfig.html#/html/body/div/div/div/p/a at Line 623, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-ViewConfig.profile.history.html#/html/body/div/div/div/p/a at Line 222, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-ViewConfig.profile.json.html#/html/body/div/div/div/p/a at Line 343, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-ViewConfig.profile.ttl.html#/html/body/div/div/div/p/a at Line 345, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-ViewConfig.profile.xml.html#/html/body/div/div/div/p/a at Line 332, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-ViewJoinMap-definitions.html#/html/body/div/div/div/p/a at Line 404, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-ViewJoinMap-examples.html#/html/body/div/div/div/p/a at Line 233, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-ViewJoinMap-mappings.html#/html/body/div/div/div/p/a at Line 290, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-ViewJoinMap-testing.html#/html/body/div/div/div/p/a at Line 240, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-ViewJoinMap.html#/html/body/div/div/div/div/div/div/p/a at Line 248, column 2: The link 'https://sql-on-fhir.org/ig/StructureDefinition/ViewDefinition.html' for "ViewDefinition" cannot be resolved
+ERROR: StructureDefinition-ViewJoinMap.html#/html/body/div/div/div/p/a at Line 1606, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-ViewJoinMap.profile.history.html#/html/body/div/div/div/p/a at Line 222, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-ViewJoinMap.profile.json.html#/html/body/div/div/div/p/a at Line 825, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-ViewJoinMap.profile.ttl.html#/html/body/div/div/div/p/a at Line 726, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: StructureDefinition-ViewJoinMap.profile.xml.html#/html/body/div/div/div/p/a at Line 799, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: ValueSet-search-scope-vs-testing.html#/html/body/div/div/div/p/a at Line 217, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: ValueSet-search-scope-vs.change.history.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: ValueSet-search-scope-vs.html#/html/body/div/div/div/p/a at Line 286, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: ValueSet-search-scope-vs.json.html#/html/body/div/div/div/p/a at Line 243, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: ValueSet-search-scope-vs.ttl.html#/html/body/div/div/div/p/a at Line 251, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: ValueSet-search-scope-vs.xml.html#/html/body/div/div/div/p/a at Line 237, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: artifacts.html#/html/body/div/div/div/p/a at Line 503, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: index.html#/html/body/div/div/div/p/a at Line 719, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+ERROR: toc.html#/html/body/div/div/div/p/a at Line 142, column 28: The link 'http://ohs.dev/example-publisher' for "OHS Foundation" cannot be resolved
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/Binary-Allergy.json ==
+== fsh-generated/resources/Binary-AllergyReaction.json ==
+== fsh-generated/resources/Binary-AllergyReactionState.json ==
+== fsh-generated/resources/Binary-Condition.json ==
+== fsh-generated/resources/Binary-Group.json ==
+== fsh-generated/resources/Binary-GroupHeaderState.json ==
+== fsh-generated/resources/Binary-GroupListState.json ==
+== fsh-generated/resources/Binary-GroupMemberState.json ==
+== fsh-generated/resources/Binary-Immunization.json ==
+== fsh-generated/resources/Binary-Medication.json ==
+== fsh-generated/resources/Binary-Member.json ==
+== fsh-generated/resources/Binary-PatientAllergyState.json ==
+== fsh-generated/resources/Binary-PatientConditionState.json ==
+== fsh-generated/resources/Binary-PatientContact.json ==
+== fsh-generated/resources/Binary-PatientContactState.json ==
+== fsh-generated/resources/Binary-PatientImmunizationState.json ==
+== fsh-generated/resources/Binary-PatientMedicationState.json ==
+== fsh-generated/resources/Binary-PatientSummary.json ==
+== fsh-generated/resources/Binary-PatientSummaryState.json ==
+== fsh-generated/resources/Binary-PatientTelecom.json ==
+== fsh-generated/resources/Binary-PatientTelecomState.json ==
+== fsh-generated/resources/Binary-RelatedPerson.json ==
+== fsh-generated/resources/CodeSystem-search-scope-cs.json ==
+INFORMATION: CodeSystem/search-scope-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/search-scope-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/search-scope-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-view-type-codesystem.json ==
+INFORMATION: CodeSystem/view-type-codesystem: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/view-type-codesystem: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/view-type-codesystem: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/ImplementationGuide-dev.ohs.ohs-player-config-ig.json ==
+WARNING: ImplementationGuide/dev.ohs.ohs-player-config-ig: ImplementationGuide.dependsOn[2]: The ImplementationGuide is based on FHIR version 4.0.1 but package org.sql-on-fhir.ig#2.0.0 is based on FHIR version 5.0.0. In general, this version mismatch should be avoided - some tools will try to make this work with variable degrees of success, but others will not even try
+== fsh-generated/resources/StructureDefinition-AllergyItemConfig.json ==
+== fsh-generated/resources/StructureDefinition-AllergyReactionItemConfig.json ==
+== fsh-generated/resources/StructureDefinition-CardConfig.json ==
+== fsh-generated/resources/StructureDefinition-ConditionItemConfig.json ==
+== fsh-generated/resources/StructureDefinition-ContactItemConfig.json ==
+== fsh-generated/resources/StructureDefinition-GroupCardConfig.json ==
+== fsh-generated/resources/StructureDefinition-GroupHeaderConfig.json ==
+== fsh-generated/resources/StructureDefinition-ImmunizationItemConfig.json ==
+== fsh-generated/resources/StructureDefinition-MedicationItemConfig.json ==
+== fsh-generated/resources/StructureDefinition-MemberItemConfig.json ==
+== fsh-generated/resources/StructureDefinition-PatientCardConfig.json ==
+== fsh-generated/resources/StructureDefinition-PatientHeaderConfig.json ==
+== fsh-generated/resources/StructureDefinition-SectionCardConfig.json ==
+== fsh-generated/resources/StructureDefinition-TelecomItemConfig.json ==
+== fsh-generated/resources/StructureDefinition-ViewConfig.json ==
+== fsh-generated/resources/StructureDefinition-ViewJoinMap.json ==
+== fsh-generated/resources/ValueSet-search-scope-vs.json ==
+WARNING: ValueSet/search-scope-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present

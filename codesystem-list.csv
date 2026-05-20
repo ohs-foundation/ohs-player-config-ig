@@ -1,0 +1,3 @@
+URL,Version,Status,OIDs,Name,Title,Description,Used
+http://ohs.dev/CodeSystem/search-scope-cs,0.1.0,draft,,SearchScopeCS,Search Scope CodeSystem,"Valid locations within a FHIR Search Result where resources are found. Used by ViewJoinMap to specify where to look for pivot and joined resources.",
+http://ohs.dev/CodeSystem/view-type-codesystem,0.1.0,draft,,ViewTypeCS,UI Component Types,"Formal codes for identifying UI component factories in the KMP ViewRegistry. Each code maps to a registered ComponentRenderer that knows how to render a specific FHIR-derived view state on screen.",

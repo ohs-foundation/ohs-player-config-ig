@@ -1,0 +1,16 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://ohs.dev/Binary/Allergy> a fhir:Binary ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "Allergy"] ; # 
+  fhir:contentType [ fhir:v "application/fhir+json"] ; # 
+  fhir:data [ fhir:v "ewogICJyZXNvdXJjZVR5cGUiOiAiaHR0cHM6Ly9zcWwtb24tZmhpci5vcmcvaWcvU3RydWN0dXJlRGVmaW5pdGlvbi9WaWV3RGVmaW5pdGlvbiIsCiAgInVybCI6ICJodHRwOi8vb2hzLmRldi9WaWV3RGVmaW5pdGlvbi9BbGxlcmd5IiwKICAiZmhpclZlcnNpb24iOiBbCiAgICAiNC4wLjEiCiAgXSwKICAic2VsZWN0IjogWwogICAgewogICAgICAiY29sdW1uIjogWwogICAgICAgIHsKICAgICAgICAgICJuYW1lIjogImFsbGVyZ3lJZCIsCiAgICAgICAgICAicGF0aCI6ICJpZCIsCiAgICAgICAgICAidHlwZSI6ICJodHRwOi8vaGw3Lm9yZy9maGlyL1N0cnVjdHVyZURlZmluaXRpb24vc3RyaW5nIgogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAgIm5hbWUiOiAic3Vic3RhbmNlIiwKICAgICAgICAgICJwYXRoIjogImNvZGUuY29kaW5nLmRpc3BsYXkuZmlyc3QoKSIsCiAgICAgICAgICAidHlwZSI6ICJodHRwOi8vaGw3Lm9yZy9maGlyL1N0cnVjdHVyZURlZmluaXRpb24vc3RyaW5nIgogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAgIm5hbWUiOiAiY3JpdGljYWxpdHkiLAogICAgICAgICAgInBhdGgiOiAiY3JpdGljYWxpdHkiLAogICAgICAgICAgInR5cGUiOiAiaHR0cDovL2hsNy5vcmcvZmhpci9TdHJ1Y3R1cmVEZWZpbml0aW9uL2NvZGUiCiAgICAgICAgfSwKICAgICAgICB7CiAgICAgICAgICAibmFtZSI6ICJhbGxlcmd5U3RhdHVzIiwKICAgICAgICAgICJwYXRoIjogImNsaW5pY2FsU3RhdHVzLmNvZGluZy5jb2RlLmZpcnN0KCkiLAogICAgICAgICAgInR5cGUiOiAiaHR0cDovL2hsNy5vcmcvZmhpci9TdHJ1Y3R1cmVEZWZpbml0aW9uL3N0cmluZyIKICAgICAgICB9LAogICAgICAgIHsKICAgICAgICAgICJuYW1lIjogImFsbGVyZ3lQYXRpZW50UmVmIiwKICAgICAgICAgICJwYXRoIjogInBhdGllbnQucmVmZXJlbmNlLnJlcGxhY2UoJ1BhdGllbnQvJywgJycpIiwKICAgICAgICAgICJ0eXBlIjogImh0dHA6Ly9obDcub3JnL2ZoaXIvU3RydWN0dXJlRGVmaW5pdGlvbi9zdHJpbmciCiAgICAgICAgfQogICAgICBdCiAgICB9CiAgXSwKICAibmFtZSI6ICJBbGxlcmd5IiwKICAic3RhdHVzIjogImFjdGl2ZSIsCiAgInJlc291cmNlIjogIkFsbGVyZ3lJbnRvbGVyYW5jZSIKfQo="^^xsd:base64Binary] . # 
+
+# -------------------------------------------------------------------------------------
+

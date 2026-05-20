@@ -1,0 +1,16 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://ohs.dev/Binary/PatientImmunizationState> a fhir:Binary ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "PatientImmunizationState"] ; # 
+  fhir:contentType [ fhir:v "application/fhir+json"] ; # 
+  fhir:data [ fhir:v "ewogICJyZXNvdXJjZVR5cGUiOiAiaHR0cDovL29ocy5kZXYvU3RydWN0dXJlRGVmaW5pdGlvbi9WaWV3Sm9pbk1hcCIsCiAgImpvaW5zIjogWwogICAgewogICAgICAidmlldyI6ICJQYXRpZW50U3VtbWFyeSIsCiAgICAgICJmcm9tIjogImluY2x1ZGVkIiwKICAgICAgInJlc291cmNlIjogIlBhdGllbnQiLAogICAgICAic2VhcmNoUGFyYW0iOiAicGF0aWVudCIsCiAgICAgICJtYXRjaEtleSI6ICJpbW11bml6YXRpb25QYXRpZW50UmVmIgogICAgfQogIF0sCiAgIm5hbWUiOiAicGF0aWVudEltbXVuaXphdGlvbiIsCiAgImZyb20iOiAicmV2SW5jbHVkZWQiLAogICJyZXNvdXJjZSI6ICJJbW11bml6YXRpb24iLAogICJ2aWV3IjogIkltbXVuaXphdGlvbiIKfQo="^^xsd:base64Binary] . # 
+
+# -------------------------------------------------------------------------------------
+

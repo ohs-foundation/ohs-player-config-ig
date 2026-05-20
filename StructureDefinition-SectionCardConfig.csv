@@ -1,0 +1,14 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)","Mapping: RIM Mapping"
+"SectionCardConfig","SectionCardConfig","","","",0,*,"","","","null {[]} {[]}
+","Section Card Configuration","Configuration for the SectionCard wrapper component that groups related items
+under a titled card with an optional item count badge.","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"SectionCardConfig.padding","SectionCardConfig.padding","","","",0,1,"","","","decimal {[]} {[]}
+","Content padding in density-independent pixels (DP)","Content padding in density-independent pixels (DP)","","","","","","","","","",,,,,"",,,,"ViewConfig.padding",0,1,"",""
+"SectionCardConfig.elevation","SectionCardConfig.elevation","","","",0,1,"","","","decimal {[]} {[]}
+","Shadow elevation depth in DP","Shadow elevation depth in DP","","","","","","","","","",,,,,"",,,,"CardConfig.elevation",0,1,"",""
+"SectionCardConfig.cornerRadius","SectionCardConfig.cornerRadius","","","",0,1,"","","","decimal {[]} {[]}
+","Corner rounding radius in DP","Corner rounding radius in DP","","","","","","","","","",,,,,"",,,,"CardConfig.cornerRadius",0,1,"",""
+"SectionCardConfig.showItemCount","SectionCardConfig.showItemCount","","","",0,1,"","","","boolean {[]} {[]}
+","Show the item count badge next to the section title","Show the item count badge next to the section title","","","","","","","","","",,,,,"",,,,"SectionCardConfig.showItemCount",0,1,"",""
+"SectionCardConfig.collapsible","SectionCardConfig.collapsible","","","",0,1,"","","","boolean {[]} {[]}
+","Allow the section to be collapsed / expanded by the user","Allow the section to be collapsed / expanded by the user","","","","","","","","","",,,,,"",,,,"SectionCardConfig.collapsible",0,1,"",""

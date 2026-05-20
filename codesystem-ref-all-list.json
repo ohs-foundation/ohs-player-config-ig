@@ -1,0 +1,13 @@
+{
+  "codeSystems" : [{
+    "url" : "http://ohs.dev/CodeSystem/search-scope-cs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "SearchScopeCS",
+    "title" : "Search Scope CodeSystem",
+    "description" : "Valid locations within a FHIR Search Result where resources are found.\nUsed by ViewJoinMap to specify where to look for pivot and joined resources.",
+    "uses" : {
+    },
+    "ValueSet-search-scope-vs.html" : "Search Scope ValueSet"
+  }]
+}

@@ -1,0 +1,16 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://ohs.dev/Binary/GroupHeaderState> a fhir:Binary ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "GroupHeaderState"] ; # 
+  fhir:contentType [ fhir:v "application/fhir+json"] ; # 
+  fhir:data [ fhir:v "ewogICJyZXNvdXJjZVR5cGUiOiAiaHR0cDovL29ocy5kZXYvU3RydWN0dXJlRGVmaW5pdGlvbi9WaWV3Sm9pbk1hcCIsCiAgImpvaW5zIjogWwogICAgewogICAgICAidmlldyI6ICJSZWxhdGVkUGVyc29uIiwKICAgICAgImZyb20iOiAicmV2SW5jbHVkZWQiLAogICAgICAicmVzb3VyY2UiOiAiUmVsYXRlZFBlcnNvbiIsCiAgICAgICJzZWFyY2hQYXJhbSI6ICJwYXRpZW50IgogICAgfQogIF0sCiAgIm5hbWUiOiAiZ3JvdXBIZWFkZXIiLAogICJmcm9tIjogInJvb3QiLAogICJyZXNvdXJjZSI6ICJHcm91cCIsCiAgInZpZXciOiAiR3JvdXAiCn0K"^^xsd:base64Binary] . # 
+
+# -------------------------------------------------------------------------------------
+

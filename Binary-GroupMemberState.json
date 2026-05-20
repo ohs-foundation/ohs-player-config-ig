@@ -1,0 +1,6 @@
+{
+  "resourceType" : "Binary",
+  "id" : "GroupMemberState",
+  "contentType" : "application/fhir+json",
+  "data" : "ewogICJyZXNvdXJjZVR5cGUiOiAiaHR0cDovL29ocy5kZXYvU3RydWN0dXJlRGVmaW5pdGlvbi9WaWV3Sm9pbk1hcCIsCiAgImpvaW5zIjogWwogICAgewogICAgICAidmlldyI6ICJSZWxhdGVkUGVyc29uIiwKICAgICAgImZyb20iOiAicmV2SW5jbHVkZWQiLAogICAgICAicmVzb3VyY2UiOiAiUmVsYXRlZFBlcnNvbiIsCiAgICAgICJzZWFyY2hQYXJhbSI6ICJwYXRpZW50IiwKICAgICAgIm1hdGNoS2V5IjogInJlbGF0ZWRQZXJzb25MaW5rIgogICAgfQogIF0sCiAgIm5hbWUiOiAiZ3JvdXBNZW1iZXIiLAogICJmcm9tIjogImluY2x1ZGVkIiwKICAicmVzb3VyY2UiOiAiUGF0aWVudCIsCiAgInZpZXciOiAiTWVtYmVyIiwKICAic2VhcmNoUGFyYW0iOiAibWVtYmVyIgp9Cg=="
+}

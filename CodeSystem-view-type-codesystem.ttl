@@ -1,0 +1,78 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://ohs.dev/CodeSystem/view-type-codesystem> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "view-type-codesystem"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem view-type-codesystem</b></p><a name=\"view-type-codesystem\"> </a><a name=\"hcview-type-codesystem\"> </a><p>This  code system <code>http://ohs.dev/CodeSystem/view-type-codesystem</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">PatientCard<a name=\"view-type-codesystem-PatientCard\"> </a></td><td>Patient Summary List Card</td></tr><tr><td style=\"white-space:nowrap\">PatientHeader<a name=\"view-type-codesystem-PatientHeader\"> </a></td><td>Patient Detail Header Section</td></tr><tr><td style=\"white-space:nowrap\">AllergyItem<a name=\"view-type-codesystem-AllergyItem\"> </a></td><td>Allergy / Intolerance Row Item</td></tr><tr><td style=\"white-space:nowrap\">MedicationItem<a name=\"view-type-codesystem-MedicationItem\"> </a></td><td>Medication Row Item</td></tr><tr><td style=\"white-space:nowrap\">ConditionItem<a name=\"view-type-codesystem-ConditionItem\"> </a></td><td>Condition / Problem Row Item</td></tr><tr><td style=\"white-space:nowrap\">ImmunizationItem<a name=\"view-type-codesystem-ImmunizationItem\"> </a></td><td>Immunization Row Item</td></tr><tr><td style=\"white-space:nowrap\">SectionCard<a name=\"view-type-codesystem-SectionCard\"> </a></td><td>Section Wrapper with Title and Count Badge</td></tr><tr><td style=\"white-space:nowrap\">GroupCard<a name=\"view-type-codesystem-GroupCard\"> </a></td><td>Household List Card</td></tr><tr><td style=\"white-space:nowrap\">GroupHeader<a name=\"view-type-codesystem-GroupHeader\"> </a></td><td>Household Profile Header</td></tr><tr><td style=\"white-space:nowrap\">MemberItem<a name=\"view-type-codesystem-MemberItem\"> </a></td><td>Household Member Row</td></tr><tr><td style=\"white-space:nowrap\">ContactItem<a name=\"view-type-codesystem-ContactItem\"> </a></td><td>Emergency Contact Row</td></tr><tr><td style=\"white-space:nowrap\">TelecomItem<a name=\"view-type-codesystem-TelecomItem\"> </a></td><td>Telecom Entry Row</td></tr><tr><td style=\"white-space:nowrap\">AllergyReactionItem<a name=\"view-type-codesystem-AllergyReactionItem\"> </a></td><td>Allergy Reaction Row</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [
+     fhir:v "http://ohs.dev/CodeSystem/view-type-codesystem"^^xsd:anyURI ;
+     fhir:l <http://ohs.dev/CodeSystem/view-type-codesystem>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "ViewTypeCS"] ; # 
+  fhir:title [ fhir:v "UI Component Types"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:date [ fhir:v "2026-05-20T08:14:58+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "OHS Foundation"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "OHS Foundation" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://ohs.dev/example-publisher" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Formal codes for identifying UI component factories in the KMP ViewRegistry.\nEach code maps to a registered ComponentRenderer that knows how to render\na specific FHIR-derived view state on screen."] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "13"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "PatientCard" ] ;
+     fhir:display [ fhir:v "Patient Summary List Card" ]
+  ] [
+     fhir:code [ fhir:v "PatientHeader" ] ;
+     fhir:display [ fhir:v "Patient Detail Header Section" ]
+  ] [
+     fhir:code [ fhir:v "AllergyItem" ] ;
+     fhir:display [ fhir:v "Allergy / Intolerance Row Item" ]
+  ] [
+     fhir:code [ fhir:v "MedicationItem" ] ;
+     fhir:display [ fhir:v "Medication Row Item" ]
+  ] [
+     fhir:code [ fhir:v "ConditionItem" ] ;
+     fhir:display [ fhir:v "Condition / Problem Row Item" ]
+  ] [
+     fhir:code [ fhir:v "ImmunizationItem" ] ;
+     fhir:display [ fhir:v "Immunization Row Item" ]
+  ] [
+     fhir:code [ fhir:v "SectionCard" ] ;
+     fhir:display [ fhir:v "Section Wrapper with Title and Count Badge" ]
+  ] [
+     fhir:code [ fhir:v "GroupCard" ] ;
+     fhir:display [ fhir:v "Household List Card" ]
+  ] [
+     fhir:code [ fhir:v "GroupHeader" ] ;
+     fhir:display [ fhir:v "Household Profile Header" ]
+  ] [
+     fhir:code [ fhir:v "MemberItem" ] ;
+     fhir:display [ fhir:v "Household Member Row" ]
+  ] [
+     fhir:code [ fhir:v "ContactItem" ] ;
+     fhir:display [ fhir:v "Emergency Contact Row" ]
+  ] [
+     fhir:code [ fhir:v "TelecomItem" ] ;
+     fhir:display [ fhir:v "Telecom Entry Row" ]
+  ] [
+     fhir:code [ fhir:v "AllergyReactionItem" ] ;
+     fhir:display [ fhir:v "Allergy Reaction Row" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

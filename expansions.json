@@ -1,0 +1,65 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "50d87ff2-ddc5-41e1-ab17-9dc324136d25",
+  "meta" : {
+    "lastUpdated" : "2026-05-20T08:14:58.025+00:00"
+  },
+  "type" : "collection",
+  "entry" : [{
+    "fullUrl" : "http://ohs.dev/ValueSet/search-scope-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-search-scope-cs.html\">codesystem Search Scope CodeSystem v0.1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://ohs.dev/CodeSystem/search-scope-cs|0.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></p><p>This value set contains 3 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://ohs.dev/CodeSystem/search-scope-cs-root\"> </a><code>http://ohs.dev/CodeSystem/search-scope-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-search-scope-cs.html#search-scope-cs-root\">root</a></td><td>The primary resource returned by the search query</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://ohs.dev/CodeSystem/search-scope-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;root&quot;, &quot;display&quot;: &quot;The primary resource returned by the search query&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://ohs.dev/CodeSystem/search-scope-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;root&quot;&gt;&lt;display value=&quot;The primary resource returned by the search query&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://ohs.dev/CodeSystem/search-scope-cs-included\"> </a><code>http://ohs.dev/CodeSystem/search-scope-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-search-scope-cs.html#search-scope-cs-included\">included</a></td><td>Resources returned via forward include (_include)</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://ohs.dev/CodeSystem/search-scope-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;included&quot;, &quot;display&quot;: &quot;Resources returned via forward include (_include)&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://ohs.dev/CodeSystem/search-scope-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;included&quot;&gt;&lt;display value=&quot;Resources returned via forward include (_include)&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://ohs.dev/CodeSystem/search-scope-cs-revIncluded\"> </a><code>http://ohs.dev/CodeSystem/search-scope-cs</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-search-scope-cs.html#search-scope-cs-revIncluded\">revIncluded</a></td><td>Resources returned via reverse include (_revinclude)</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://ohs.dev/CodeSystem/search-scope-cs&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;revIncluded&quot;, &quot;display&quot;: &quot;Resources returned via reverse include (_revinclude)&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://ohs.dev/CodeSystem/search-scope-cs&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;revIncluded&quot;&gt;&lt;display value=&quot;Resources returned via reverse include (_revinclude)&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
+      },
+      "url" : "http://ohs.dev/ValueSet/search-scope-vs",
+      "version" : "0.1.0",
+      "name" : "SearchScopeVS",
+      "title" : "Search Scope ValueSet",
+      "status" : "draft",
+      "date" : "2026-05-20T08:14:58+00:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:008f247e-bb87-4053-9519-fd627b9144c7",
+        "timestamp" : "2026-05-20T08:18:05+00:00",
+        "total" : 3,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://ohs.dev/CodeSystem/search-scope-cs|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://ohs.dev/CodeSystem/search-scope-cs",
+          "code" : "root",
+          "display" : "The primary resource returned by the search query"
+        },
+        {
+          "system" : "http://ohs.dev/CodeSystem/search-scope-cs",
+          "code" : "included",
+          "display" : "Resources returned via forward include (_include)"
+        },
+        {
+          "system" : "http://ohs.dev/CodeSystem/search-scope-cs",
+          "code" : "revIncluded",
+          "display" : "Resources returned via reverse include (_revinclude)"
+        }]
+      }
+    }
+  }]
+}

@@ -1,0 +1,65 @@
+# dev.ohs.ohs-player-config-ig#0.1.0: OHS Player Configuration IG
+
+## Pages
+
+* [Home](index.md)
+* [Artifacts Summary](artifacts.md)
+
+## Resources
+
+### CodeSystems
+
+* [Search Scope CodeSystem](CodeSystem-search-scope-cs.md)
+* [UI Component Types](CodeSystem-view-type-codesystem.md)
+
+### ValueSets
+
+* [Search Scope ValueSet](ValueSet-search-scope-vs.md)
+
+### Logicals
+
+* [Allergy Item Configuration](StructureDefinition-AllergyItemConfig.md)
+* [Allergy Reaction Item Configuration](StructureDefinition-AllergyReactionItemConfig.md)
+* [Card Configuration](StructureDefinition-CardConfig.md)
+* [Condition Item Configuration](StructureDefinition-ConditionItemConfig.md)
+* [Contact Item Configuration](StructureDefinition-ContactItemConfig.md)
+* [Group Card Configuration](StructureDefinition-GroupCardConfig.md)
+* [Group Header Configuration](StructureDefinition-GroupHeaderConfig.md)
+* [Immunization Item Configuration](StructureDefinition-ImmunizationItemConfig.md)
+* [Medication Item Configuration](StructureDefinition-MedicationItemConfig.md)
+* [Member Item Configuration](StructureDefinition-MemberItemConfig.md)
+* [Patient Card Configuration](StructureDefinition-PatientCardConfig.md)
+* [Patient Header Configuration](StructureDefinition-PatientHeaderConfig.md)
+* [Section Card Configuration](StructureDefinition-SectionCardConfig.md)
+* [Telecom Item Configuration](StructureDefinition-TelecomItemConfig.md)
+* [Base UI Configuration](StructureDefinition-ViewConfig.md)
+* [View Join Map](StructureDefinition-ViewJoinMap.md)
+
+### Binaries
+
+* [Allergy](Binary-Allergy.md)
+* [AllergyReaction](Binary-AllergyReaction.md)
+* [AllergyReactionState](Binary-AllergyReactionState.md)
+* [Condition](Binary-Condition.md)
+* [Group](Binary-Group.md)
+* [GroupHeaderState](Binary-GroupHeaderState.md)
+* [GroupListState](Binary-GroupListState.md)
+* [GroupMemberState](Binary-GroupMemberState.md)
+* [Immunization](Binary-Immunization.md)
+* [Medication](Binary-Medication.md)
+* [Member](Binary-Member.md)
+* [PatientAllergyState](Binary-PatientAllergyState.md)
+* [PatientConditionState](Binary-PatientConditionState.md)
+* [PatientContact](Binary-PatientContact.md)
+* [PatientContactState](Binary-PatientContactState.md)
+* [PatientImmunizationState](Binary-PatientImmunizationState.md)
+* [PatientMedicationState](Binary-PatientMedicationState.md)
+* [PatientSummary](Binary-PatientSummary.md)
+* [PatientSummaryState](Binary-PatientSummaryState.md)
+* [PatientTelecom](Binary-PatientTelecom.md)
+* [PatientTelecomState](Binary-PatientTelecomState.md)
+* [RelatedPerson](Binary-RelatedPerson.md)
+
+### ImplementationGuides
+
+* [OHS Player Configuration IG](index.md)

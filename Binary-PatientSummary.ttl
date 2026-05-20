@@ -1,0 +1,16 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://ohs.dev/Binary/PatientSummary> a fhir:Binary ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "PatientSummary"] ; # 
+  fhir:contentType [ fhir:v "application/fhir+json"] ; # 
+  fhir:data [ fhir:v "ewogICJyZXNvdXJjZVR5cGUiOiAiaHR0cHM6Ly9zcWwtb24tZmhpci5vcmcvaWcvU3RydWN0dXJlRGVmaW5pdGlvbi9WaWV3RGVmaW5pdGlvbiIsCiAgInVybCI6ICJodHRwOi8vb2hzLmRldi9WaWV3RGVmaW5pdGlvbi9QYXRpZW50U3VtbWFyeSIsCiAgImZoaXJWZXJzaW9uIjogWwogICAgIjQuMC4xIgogIF0sCiAgInNlbGVjdCI6IFsKICAgIHsKICAgICAgImNvbHVtbiI6IFsKICAgICAgICB7CiAgICAgICAgICAibmFtZSI6ICJwYXRpZW50SWQiLAogICAgICAgICAgInBhdGgiOiAiaWQiLAogICAgICAgICAgInR5cGUiOiAiaHR0cDovL2hsNy5vcmcvZmhpci9TdHJ1Y3R1cmVEZWZpbml0aW9uL3N0cmluZyIKICAgICAgICB9LAogICAgICAgIHsKICAgICAgICAgICJuYW1lIjogImZhbWlseU5hbWUiLAogICAgICAgICAgInBhdGgiOiAibmFtZS5mYW1pbHkuZmlyc3QoKSIsCiAgICAgICAgICAidHlwZSI6ICJodHRwOi8vaGw3Lm9yZy9maGlyL1N0cnVjdHVyZURlZmluaXRpb24vc3RyaW5nIgogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAgIm5hbWUiOiAiZ2l2ZW5OYW1lIiwKICAgICAgICAgICJwYXRoIjogIm5hbWUuZ2l2ZW4uZmlyc3QoKSIsCiAgICAgICAgICAidHlwZSI6ICJodHRwOi8vaGw3Lm9yZy9maGlyL1N0cnVjdHVyZURlZmluaXRpb24vc3RyaW5nIgogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAgIm5hbWUiOiAiZ2VuZGVyIiwKICAgICAgICAgICJwYXRoIjogImdlbmRlciIsCiAgICAgICAgICAidHlwZSI6ICJodHRwOi8vaGw3Lm9yZy9maGlyL1N0cnVjdHVyZURlZmluaXRpb24vY29kZSIKICAgICAgICB9LAogICAgICAgIHsKICAgICAgICAgICJuYW1lIjogImJpcnRoRGF0ZSIsCiAgICAgICAgICAicGF0aCI6ICJiaXJ0aERhdGUiLAogICAgICAgICAgInR5cGUiOiAiaHR0cDovL2hsNy5vcmcvZmhpci9TdHJ1Y3R1cmVEZWZpbml0aW9uL2RhdGUiCiAgICAgICAgfSwKICAgICAgICB7CiAgICAgICAgICAibmFtZSI6ICJhY3RpdmUiLAogICAgICAgICAgInBhdGgiOiAiYWN0aXZlIiwKICAgICAgICAgICJ0eXBlIjogImh0dHA6Ly9obDcub3JnL2ZoaXIvU3RydWN0dXJlRGVmaW5pdGlvbi9ib29sZWFuIgogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAgIm5hbWUiOiAibXJuIiwKICAgICAgICAgICJwYXRoIjogImlkZW50aWZpZXIud2hlcmUodHlwZS5jb2RpbmcuY29kZSA9ICdNUicpLnZhbHVlLmZpcnN0KCkiLAogICAgICAgICAgInR5cGUiOiAiaHR0cDovL2hsNy5vcmcvZmhpci9TdHJ1Y3R1cmVEZWZpbml0aW9uL3N0cmluZyIKICAgICAgICB9LAogICAgICAgIHsKICAgICAgICAgICJuYW1lIjogInBob25lIiwKICAgICAgICAgICJwYXRoIjogInRlbGVjb20ud2hlcmUoc3lzdGVtID0gJ3Bob25lJykudmFsdWUuZmlyc3QoKSIsCiAgICAgICAgICAidHlwZSI6ICJodHRwOi8vaGw3Lm9yZy9maGlyL1N0cnVjdHVyZURlZmluaXRpb24vc3RyaW5nIgogICAgICAgIH0KICAgICAgXQogICAgfQogIF0sCiAgIm5hbWUiOiAiUGF0aWVudFN1bW1hcnkiLAogICJzdGF0dXMiOiAiYWN0aXZlIiwKICAicmVzb3VyY2UiOiAiUGF0aWVudCIKfQo="^^xsd:base64Binary] . # 
+
+# -------------------------------------------------------------------------------------
+

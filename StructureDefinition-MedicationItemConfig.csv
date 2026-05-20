@@ -1,0 +1,15 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)","Mapping: RIM Mapping"
+"MedicationItemConfig","MedicationItemConfig","","","",0,*,"","","","null {[]} {[]}
+","Medication Item Configuration","Configuration for the MedicationItem component rendered inside the Medications section.","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"MedicationItemConfig.padding","MedicationItemConfig.padding","","","",0,1,"","","","decimal {[]} {[]}
+","Content padding in density-independent pixels (DP)","Content padding in density-independent pixels (DP)","","","","","","","","","",,,,,"",,,,"ViewConfig.padding",0,1,"",""
+"MedicationItemConfig.elevation","MedicationItemConfig.elevation","","","",0,1,"","","","decimal {[]} {[]}
+","Shadow elevation depth in DP","Shadow elevation depth in DP","","","","","","","","","",,,,,"",,,,"CardConfig.elevation",0,1,"",""
+"MedicationItemConfig.cornerRadius","MedicationItemConfig.cornerRadius","","","",0,1,"","","","decimal {[]} {[]}
+","Corner rounding radius in DP","Corner rounding radius in DP","","","","","","","","","",,,,,"",,,,"CardConfig.cornerRadius",0,1,"",""
+"MedicationItemConfig.showStatus","MedicationItemConfig.showStatus","","","",0,1,"","","","boolean {[]} {[]}
+","Show the medication status chip","Show the medication status chip","","","","","","","","","",,,,,"",,,,"MedicationItemConfig.showStatus",0,1,"",""
+"MedicationItemConfig.showDosage","MedicationItemConfig.showDosage","","","",0,1,"","","","boolean {[]} {[]}
+","Show the dosage instruction text","Show the dosage instruction text","","","","","","","","","",,,,,"",,,,"MedicationItemConfig.showDosage",0,1,"",""
+"MedicationItemConfig.compact","MedicationItemConfig.compact","","","",0,1,"","","","boolean {[]} {[]}
+","Use a single-line compact display mode","Use a single-line compact display mode","","","","","","","","","",,,,,"",,,,"MedicationItemConfig.compact",0,1,"",""

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Binary xmlns="http://hl7.org/fhir">
+  <id value="AllergyReactionState"/>
+  <contentType value="application/fhir+json"/>
+  <data value="ewogICJyZXNvdXJjZVR5cGUiOiAiaHR0cDovL29ocy5kZXYvU3RydWN0dXJlRGVmaW5pdGlvbi9WaWV3Sm9pbk1hcCIsCiAgImpvaW5zIjogWwogICAgewogICAgICAidmlldyI6ICJQYXRpZW50U3VtbWFyeSIsCiAgICAgICJmcm9tIjogImluY2x1ZGVkIiwKICAgICAgInJlc291cmNlIjogIlBhdGllbnQiLAogICAgICAic2VhcmNoUGFyYW0iOiAicGF0aWVudCIsCiAgICAgICJtYXRjaEtleSI6ICJhbGxlcmd5UGF0aWVudFJlZiIKICAgIH0KICBdLAogICJuYW1lIjogImFsbGVyZ3lSZWFjdGlvbiIsCiAgImZyb20iOiAicmV2SW5jbHVkZWQiLAogICJyZXNvdXJjZSI6ICJBbGxlcmd5SW50b2xlcmFuY2UiLAogICJ2aWV3IjogIkFsbGVyZ3lSZWFjdGlvbiIKfQo="/>
+</Binary>

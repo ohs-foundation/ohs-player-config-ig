@@ -1,0 +1,140 @@
+[{
+  "id" : "search-scope-cs",
+  "type" : "CodeSystem",
+  "url" : "http://ohs.dev/CodeSystem/search-scope-cs",
+  "version" : "0.1.0",
+  "name" : "SearchScopeCS"
+},
+{
+  "id" : "view-type-codesystem",
+  "type" : "CodeSystem",
+  "url" : "http://ohs.dev/CodeSystem/view-type-codesystem",
+  "version" : "0.1.0",
+  "name" : "ViewTypeCS"
+},
+{
+  "id" : "dev.ohs.ohs-player-config-ig",
+  "type" : "ImplementationGuide",
+  "url" : "http://ohs.dev/ImplementationGuide/dev.ohs.ohs-player-config-ig",
+  "version" : "0.1.0",
+  "name" : "OHSPlayerConfigIG"
+},
+{
+  "id" : "AllergyItemConfig",
+  "type" : "StructureDefinition",
+  "url" : "http://ohs.dev/StructureDefinition/AllergyItemConfig",
+  "version" : "0.1.0",
+  "name" : "AllergyItemConfig"
+},
+{
+  "id" : "AllergyReactionItemConfig",
+  "type" : "StructureDefinition",
+  "url" : "http://ohs.dev/StructureDefinition/AllergyReactionItemConfig",
+  "version" : "0.1.0",
+  "name" : "AllergyReactionItemConfig"
+},
+{
+  "id" : "CardConfig",
+  "type" : "StructureDefinition",
+  "url" : "http://ohs.dev/StructureDefinition/CardConfig",
+  "version" : "0.1.0",
+  "name" : "CardConfig"
+},
+{
+  "id" : "ConditionItemConfig",
+  "type" : "StructureDefinition",
+  "url" : "http://ohs.dev/StructureDefinition/ConditionItemConfig",
+  "version" : "0.1.0",
+  "name" : "ConditionItemConfig"
+},
+{
+  "id" : "ContactItemConfig",
+  "type" : "StructureDefinition",
+  "url" : "http://ohs.dev/StructureDefinition/ContactItemConfig",
+  "version" : "0.1.0",
+  "name" : "ContactItemConfig"
+},
+{
+  "id" : "GroupCardConfig",
+  "type" : "StructureDefinition",
+  "url" : "http://ohs.dev/StructureDefinition/GroupCardConfig",
+  "version" : "0.1.0",
+  "name" : "GroupCardConfig"
+},
+{
+  "id" : "GroupHeaderConfig",
+  "type" : "StructureDefinition",
+  "url" : "http://ohs.dev/StructureDefinition/GroupHeaderConfig",
+  "version" : "0.1.0",
+  "name" : "GroupHeaderConfig"
+},
+{
+  "id" : "ImmunizationItemConfig",
+  "type" : "StructureDefinition",
+  "url" : "http://ohs.dev/StructureDefinition/ImmunizationItemConfig",
+  "version" : "0.1.0",
+  "name" : "ImmunizationItemConfig"
+},
+{
+  "id" : "MedicationItemConfig",
+  "type" : "StructureDefinition",
+  "url" : "http://ohs.dev/StructureDefinition/MedicationItemConfig",
+  "version" : "0.1.0",
+  "name" : "MedicationItemConfig"
+},
+{
+  "id" : "MemberItemConfig",
+  "type" : "StructureDefinition",
+  "url" : "http://ohs.dev/StructureDefinition/MemberItemConfig",
+  "version" : "0.1.0",
+  "name" : "MemberItemConfig"
+},
+{
+  "id" : "PatientCardConfig",
+  "type" : "StructureDefinition",
+  "url" : "http://ohs.dev/StructureDefinition/PatientCardConfig",
+  "version" : "0.1.0",
+  "name" : "PatientCardConfig"
+},
+{
+  "id" : "PatientHeaderConfig",
+  "type" : "StructureDefinition",
+  "url" : "http://ohs.dev/StructureDefinition/PatientHeaderConfig",
+  "version" : "0.1.0",
+  "name" : "PatientHeaderConfig"
+},
+{
+  "id" : "SectionCardConfig",
+  "type" : "StructureDefinition",
+  "url" : "http://ohs.dev/StructureDefinition/SectionCardConfig",
+  "version" : "0.1.0",
+  "name" : "SectionCardConfig"
+},
+{
+  "id" : "TelecomItemConfig",
+  "type" : "StructureDefinition",
+  "url" : "http://ohs.dev/StructureDefinition/TelecomItemConfig",
+  "version" : "0.1.0",
+  "name" : "TelecomItemConfig"
+},
+{
+  "id" : "ViewConfig",
+  "type" : "StructureDefinition",
+  "url" : "http://ohs.dev/StructureDefinition/ViewConfig",
+  "version" : "0.1.0",
+  "name" : "ViewConfig"
+},
+{
+  "id" : "ViewJoinMap",
+  "type" : "StructureDefinition",
+  "url" : "http://ohs.dev/StructureDefinition/ViewJoinMap",
+  "version" : "0.1.0",
+  "name" : "ViewJoinMap"
+},
+{
+  "id" : "search-scope-vs",
+  "type" : "ValueSet",
+  "url" : "http://ohs.dev/ValueSet/search-scope-vs",
+  "version" : "0.1.0",
+  "name" : "SearchScopeVS"
+}]

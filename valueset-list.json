@@ -1,0 +1,11 @@
+{
+  "codeSystems" : [{
+    "url" : "http://ohs.dev/ValueSet/search-scope-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "SearchScopeVS",
+    "title" : "Search Scope ValueSet",
+    "description" : "All valid search scope codes.",
+    "systems" : ["http://ohs.dev/CodeSystem/search-scope-cs"]
+  }]
+}

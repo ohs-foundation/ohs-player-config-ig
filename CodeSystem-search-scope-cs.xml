@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="search-scope-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem search-scope-cs</b></p><a name="search-scope-cs"> </a><a name="hcsearch-scope-cs"> </a><p>This  code system <code>http://ohs.dev/CodeSystem/search-scope-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">root<a name="search-scope-cs-root"> </a></td><td>The primary resource returned by the search query</td></tr><tr><td style="white-space:nowrap">included<a name="search-scope-cs-included"> </a></td><td>Resources returned via forward include (_include)</td></tr><tr><td style="white-space:nowrap">revIncluded<a name="search-scope-cs-revIncluded"> </a></td><td>Resources returned via reverse include (_revinclude)</td></tr></table></div>
+  </text>
+  <url value="http://ohs.dev/CodeSystem/search-scope-cs"/>
+  <version value="0.1.0"/>
+  <name value="SearchScopeCS"/>
+  <title value="Search Scope CodeSystem"/>
+  <status value="draft"/>
+  <date value="2026-05-20T08:14:58+00:00"/>
+  <publisher value="OHS Foundation"/>
+  <contact>
+    <name value="OHS Foundation"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://ohs.dev/example-publisher"/>
+    </telecom>
+  </contact>
+  <description value="Valid locations within a FHIR Search Result where resources are found.&#xA;Used by ViewJoinMap to specify where to look for pivot and joined resources."/>
+  <content value="complete"/>
+  <count value="3"/>
+  <concept>
+    <code value="root"/>
+    <display value="The primary resource returned by the search query"/>
+  </concept>
+  <concept>
+    <code value="included"/>
+    <display value="Resources returned via forward include (_include)"/>
+  </concept>
+  <concept>
+    <code value="revIncluded"/>
+    <display value="Resources returned via reverse include (_revinclude)"/>
+  </concept>
+</CodeSystem>

@@ -1,0 +1,44 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)","Mapping: RIM Mapping"
+"ViewJoinMap","ViewJoinMap","","","",0,*,"","","","null {[]} {[]}
+","View Join Map","A metadata guide that stitches atomic ViewDefinitions sourced from different
+SearchResult scopes into a single flat JSON row per pivot resource.
+
+The pivot resource drives the output row count (one row per pivot instance).
+Each join appends its ViewDefinition's columns to the same row. All column
+names across the pivot and all joins must be unique within this map.","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"ViewJoinMap.name","ViewJoinMap.name","","","",1,1,"","","","string {[]} {[]}
+","Output key used in the assembled JSON (e.g. 'patientAllergy')","Output key used in the assembled JSON (e.g. 'patientAllergy')","","","","","","","","","",,,,,"",,,,"ViewJoinMap.name",1,1,"",""
+"ViewJoinMap.from","ViewJoinMap.from","","","",1,1,"","","","code {[]} {[]}
+","SearchScope containing the pivot (row-driving) resource","SearchScope containing the pivot (row-driving) resource","","","","","","","","","",,"required","","http://ohs.dev/ValueSet/search-scope-vs","",,,,"ViewJoinMap.from",1,1,"",""
+"ViewJoinMap.resource","ViewJoinMap.resource","","","",1,1,"","","","string {[]} {[]}
+","FHIR resource type of the pivot (e.g. 'AllergyIntolerance')","FHIR resource type of the pivot (e.g. 'AllergyIntolerance')","","","","","","","","","",,,,,"",,,,"ViewJoinMap.resource",1,1,"",""
+"ViewJoinMap.view","ViewJoinMap.view","","","",1,1,"","","","string {[]} {[]}
+","ID of the ViewDefinition applied to each pivot resource","ID of the ViewDefinition applied to each pivot resource","","","","","","","","","",,,,,"",,,,"ViewJoinMap.view",1,1,"",""
+"ViewJoinMap.searchParam","ViewJoinMap.searchParam","","","",0,1,"","","","string {[]} {[]}
+","Search param disambiguating same-type included/revIncluded pivot resources","Search param disambiguating same-type included/revIncluded pivot resources","","","","","","","","","",,,,,"",,,,"ViewJoinMap.searchParam",0,1,"",""
+"ViewJoinMap.joins","ViewJoinMap.joins","","","",0,*,"","","","BackboneElement {[]} {[]}
+","Additional ViewDefinitions whose columns are merged into each row","Additional ViewDefinitions whose columns are merged into each row","","","","","","","","","",,,,,"",,,,"ViewJoinMap.joins",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+"
+"ViewJoinMap.joins.id","ViewJoinMap.joins.id","","","",0,1,"","","","string {[]} {[]}
+","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
+"ViewJoinMap.joins.extension","ViewJoinMap.joins.extension","","extensions
+user content","",0,*,"","","","Extension {[]} {[]}
+","Additional content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
+","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a"
+"ViewJoinMap.joins.modifierExtension","ViewJoinMap.joins.modifierExtension","","extensions
+user contentmodifiers","",0,*,"","Y","Y","Extension {[]} {[]}
+","Extensions that cannot be ignored even if unrecognized","May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.
+
+Modifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself).","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4/extensibility.html#modifierExtension).","","","","","","","",,,,,"",,,,"BackboneElement.modifierExtension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","N/A"
+"ViewJoinMap.joins.view","ViewJoinMap.joins.view","","","",1,1,"","","","string {[]} {[]}
+","ID of the ViewDefinition to apply to the joined resource","ID of the ViewDefinition to apply to the joined resource","","","","","","","","","",,,,,"",,,,"ViewJoinMap.joins.view",1,1,"",""
+"ViewJoinMap.joins.from","ViewJoinMap.joins.from","","","",1,1,"","","","code {[]} {[]}
+","SearchScope containing the joined resource","SearchScope containing the joined resource","","","","","","","","","",,"required","","http://ohs.dev/ValueSet/search-scope-vs","",,,,"ViewJoinMap.joins.from",1,1,"",""
+"ViewJoinMap.joins.resource","ViewJoinMap.joins.resource","","","",1,1,"","","","string {[]} {[]}
+","FHIR resource type of the joined resource (e.g. 'Patient')","FHIR resource type of the joined resource (e.g. 'Patient')","","","","","","","","","",,,,,"",,,,"ViewJoinMap.joins.resource",1,1,"",""
+"ViewJoinMap.joins.searchParam","ViewJoinMap.joins.searchParam","","","",0,1,"","","","string {[]} {[]}
+","Search param disambiguating same-type revIncluded resources","Search param disambiguating same-type revIncluded resources","","","","","","","","","",,,,,"",,,,"ViewJoinMap.joins.searchParam",0,1,"",""
+"ViewJoinMap.joins.matchKey","ViewJoinMap.joins.matchKey","","","",0,1,"","","","string {[]} {[]}
+","Column name in pivot view used as FK to locate the joined resource by ID","Column name in pivot view used as FK to locate the joined resource by ID","","","","","","","","","",,,,,"",,,,"ViewJoinMap.joins.matchKey",0,1,"",""

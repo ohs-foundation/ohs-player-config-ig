@@ -1,0 +1,2 @@
+URL,Version,Status,OIDs,Name,Title,Description,Used
+http://ohs.dev/CodeSystem/search-scope-cs,0.1.0,draft,,SearchScopeCS,Search Scope CodeSystem,"Valid locations within a FHIR Search Result where resources are found. Used by ViewJoinMap to specify where to look for pivot and joined resources.","ValueSet/search-scope-vs"

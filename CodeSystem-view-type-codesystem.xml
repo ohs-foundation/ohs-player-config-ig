@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="view-type-codesystem"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem view-type-codesystem</b></p><a name="view-type-codesystem"> </a><a name="hcview-type-codesystem"> </a><p>This  code system <code>http://ohs.dev/CodeSystem/view-type-codesystem</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">PatientCard<a name="view-type-codesystem-PatientCard"> </a></td><td>Patient Summary List Card</td></tr><tr><td style="white-space:nowrap">PatientHeader<a name="view-type-codesystem-PatientHeader"> </a></td><td>Patient Detail Header Section</td></tr><tr><td style="white-space:nowrap">AllergyItem<a name="view-type-codesystem-AllergyItem"> </a></td><td>Allergy / Intolerance Row Item</td></tr><tr><td style="white-space:nowrap">MedicationItem<a name="view-type-codesystem-MedicationItem"> </a></td><td>Medication Row Item</td></tr><tr><td style="white-space:nowrap">ConditionItem<a name="view-type-codesystem-ConditionItem"> </a></td><td>Condition / Problem Row Item</td></tr><tr><td style="white-space:nowrap">ImmunizationItem<a name="view-type-codesystem-ImmunizationItem"> </a></td><td>Immunization Row Item</td></tr><tr><td style="white-space:nowrap">SectionCard<a name="view-type-codesystem-SectionCard"> </a></td><td>Section Wrapper with Title and Count Badge</td></tr><tr><td style="white-space:nowrap">GroupCard<a name="view-type-codesystem-GroupCard"> </a></td><td>Household List Card</td></tr><tr><td style="white-space:nowrap">GroupHeader<a name="view-type-codesystem-GroupHeader"> </a></td><td>Household Profile Header</td></tr><tr><td style="white-space:nowrap">MemberItem<a name="view-type-codesystem-MemberItem"> </a></td><td>Household Member Row</td></tr><tr><td style="white-space:nowrap">ContactItem<a name="view-type-codesystem-ContactItem"> </a></td><td>Emergency Contact Row</td></tr><tr><td style="white-space:nowrap">TelecomItem<a name="view-type-codesystem-TelecomItem"> </a></td><td>Telecom Entry Row</td></tr><tr><td style="white-space:nowrap">AllergyReactionItem<a name="view-type-codesystem-AllergyReactionItem"> </a></td><td>Allergy Reaction Row</td></tr></table></div>
+  </text>
+  <url value="http://ohs.dev/CodeSystem/view-type-codesystem"/>
+  <version value="0.1.0"/>
+  <name value="ViewTypeCS"/>
+  <title value="UI Component Types"/>
+  <status value="draft"/>
+  <date value="2026-05-20T08:14:58+00:00"/>
+  <publisher value="OHS Foundation"/>
+  <contact>
+    <name value="OHS Foundation"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://ohs.dev/example-publisher"/>
+    </telecom>
+  </contact>
+  <description value="Formal codes for identifying UI component factories in the KMP ViewRegistry.&#xA;Each code maps to a registered ComponentRenderer that knows how to render&#xA;a specific FHIR-derived view state on screen."/>
+  <content value="complete"/>
+  <count value="13"/>
+  <concept>
+    <code value="PatientCard"/>
+    <display value="Patient Summary List Card"/>
+  </concept>
+  <concept>
+    <code value="PatientHeader"/>
+    <display value="Patient Detail Header Section"/>
+  </concept>
+  <concept>
+    <code value="AllergyItem"/>
+    <display value="Allergy / Intolerance Row Item"/>
+  </concept>
+  <concept>
+    <code value="MedicationItem"/>
+    <display value="Medication Row Item"/>
+  </concept>
+  <concept>
+    <code value="ConditionItem"/>
+    <display value="Condition / Problem Row Item"/>
+  </concept>
+  <concept>
+    <code value="ImmunizationItem"/>
+    <display value="Immunization Row Item"/>
+  </concept>
+  <concept>
+    <code value="SectionCard"/>
+    <display value="Section Wrapper with Title and Count Badge"/>
+  </concept>
+  <concept>
+    <code value="GroupCard"/>
+    <display value="Household List Card"/>
+  </concept>
+  <concept>
+    <code value="GroupHeader"/>
+    <display value="Household Profile Header"/>
+  </concept>
+  <concept>
+    <code value="MemberItem"/>
+    <display value="Household Member Row"/>
+  </concept>
+  <concept>
+    <code value="ContactItem"/>
+    <display value="Emergency Contact Row"/>
+  </concept>
+  <concept>
+    <code value="TelecomItem"/>
+    <display value="Telecom Entry Row"/>
+  </concept>
+  <concept>
+    <code value="AllergyReactionItem"/>
+    <display value="Allergy Reaction Row"/>
+  </concept>
+</CodeSystem>

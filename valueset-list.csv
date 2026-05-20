@@ -1,0 +1,2 @@
+URL,Version,Status,OIDs,Name,Title,Description,Uses,Used,Sources
+http://ohs.dev/ValueSet/search-scope-vs,0.1.0,draft,,SearchScopeVS,Search Scope ValueSet,"All valid search scope codes.",,"Internal"

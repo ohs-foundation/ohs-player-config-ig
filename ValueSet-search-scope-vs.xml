@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="search-scope-vs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet search-scope-vs</b></p><a name="search-scope-vs"> </a><a name="hcsearch-scope-vs"> </a><ul><li>Include all codes defined in <a href="CodeSystem-search-scope-cs.html"><code>http://ohs.dev/CodeSystem/search-scope-cs</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> version &#x1F4E6;0.1.0</span></li></ul></div>
+  </text>
+  <url value="http://ohs.dev/ValueSet/search-scope-vs"/>
+  <version value="0.1.0"/>
+  <name value="SearchScopeVS"/>
+  <title value="Search Scope ValueSet"/>
+  <status value="draft"/>
+  <date value="2026-05-20T08:14:58+00:00"/>
+  <publisher value="OHS Foundation"/>
+  <contact>
+    <name value="OHS Foundation"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://ohs.dev/example-publisher"/>
+    </telecom>
+  </contact>
+  <description value="All valid search scope codes."/>
+  <compose>
+    <include>
+      <system value="http://ohs.dev/CodeSystem/search-scope-cs"/>
+    </include>
+  </compose>
+</ValueSet>

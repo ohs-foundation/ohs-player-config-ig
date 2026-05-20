@@ -1,0 +1,16 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://ohs.dev/Binary/AllergyReaction> a fhir:Binary ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "AllergyReaction"] ; # 
+  fhir:contentType [ fhir:v "application/fhir+json"] ; # 
+  fhir:data [ fhir:v "ewogICJyZXNvdXJjZVR5cGUiOiAiaHR0cHM6Ly9zcWwtb24tZmhpci5vcmcvaWcvU3RydWN0dXJlRGVmaW5pdGlvbi9WaWV3RGVmaW5pdGlvbiIsCiAgInVybCI6ICJodHRwOi8vb2hzLmRldi9WaWV3RGVmaW5pdGlvbi9BbGxlcmd5UmVhY3Rpb24iLAogICJmaGlyVmVyc2lvbiI6IFsKICAgICI0LjAuMSIKICBdLAogICJ3aGVyZSI6IFsKICAgIHsKICAgICAgInBhdGgiOiAiY2xpbmljYWxTdGF0dXMuY29kaW5nLndoZXJlKHN5c3RlbSA9ICdodHRwOi8vdGVybWlub2xvZ3kuaGw3Lm9yZy9Db2RlU3lzdGVtL2FsbGVyZ3lpbnRvbGVyYW5jZS1jbGluaWNhbCcpLmNvZGUgPSAnYWN0aXZlJyIKICAgIH0KICBdLAogICJzZWxlY3QiOiBbCiAgICB7CiAgICAgICJjb2x1bW4iOiBbCiAgICAgICAgewogICAgICAgICAgIm5hbWUiOiAiYWxsZXJneUlkIiwKICAgICAgICAgICJwYXRoIjogImlkIiwKICAgICAgICAgICJ0eXBlIjogImh0dHA6Ly9obDcub3JnL2ZoaXIvU3RydWN0dXJlRGVmaW5pdGlvbi9zdHJpbmciCiAgICAgICAgfSwKICAgICAgICB7CiAgICAgICAgICAibmFtZSI6ICJzdWJzdGFuY2UiLAogICAgICAgICAgInBhdGgiOiAiY29kZS5jb2RpbmcuZGlzcGxheS5maXJzdCgpIiwKICAgICAgICAgICJ0eXBlIjogImh0dHA6Ly9obDcub3JnL2ZoaXIvU3RydWN0dXJlRGVmaW5pdGlvbi9zdHJpbmciCiAgICAgICAgfSwKICAgICAgICB7CiAgICAgICAgICAibmFtZSI6ICJjcml0aWNhbGl0eSIsCiAgICAgICAgICAicGF0aCI6ICJjcml0aWNhbGl0eSIsCiAgICAgICAgICAidHlwZSI6ICJodHRwOi8vaGw3Lm9yZy9maGlyL1N0cnVjdHVyZURlZmluaXRpb24vY29kZSIKICAgICAgICB9LAogICAgICAgIHsKICAgICAgICAgICJuYW1lIjogImFsbGVyZ3lQYXRpZW50UmVmIiwKICAgICAgICAgICJwYXRoIjogInBhdGllbnQucmVmZXJlbmNlLnJlcGxhY2UoJ1BhdGllbnQvJywgJycpIiwKICAgICAgICAgICJ0eXBlIjogImh0dHA6Ly9obDcub3JnL2ZoaXIvU3RydWN0dXJlRGVmaW5pdGlvbi9zdHJpbmciCiAgICAgICAgfQogICAgICBdCiAgICB9LAogICAgewogICAgICAiY29sdW1uIjogWwogICAgICAgIHsKICAgICAgICAgICJuYW1lIjogInNldmVyaXR5IiwKICAgICAgICAgICJwYXRoIjogInNldmVyaXR5IiwKICAgICAgICAgICJ0eXBlIjogImh0dHA6Ly9obDcub3JnL2ZoaXIvU3RydWN0dXJlRGVmaW5pdGlvbi9jb2RlIgogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAgIm5hbWUiOiAibWFuaWZlc3RhdGlvbiIsCiAgICAgICAgICAicGF0aCI6ICJtYW5pZmVzdGF0aW9uLmNvZGluZy5kaXNwbGF5LmZpcnN0KCkiLAogICAgICAgICAgInR5cGUiOiAiaHR0cDovL2hsNy5vcmcvZmhpci9TdHJ1Y3R1cmVEZWZpbml0aW9uL3N0cmluZyIKICAgICAgICB9CiAgICAgIF0sCiAgICAgICJmb3JFYWNoIjogInJlYWN0aW9uIgogICAgfQogIF0sCiAgIm5hbWUiOiAiQWxsZXJneVJlYWN0aW9uIiwKICAic3RhdHVzIjogImFjdGl2ZSIsCiAgInJlc291cmNlIjogIkFsbGVyZ3lJbnRvbGVyYW5jZSIKfQo="^^xsd:base64Binary] . # 
+
+# -------------------------------------------------------------------------------------
+

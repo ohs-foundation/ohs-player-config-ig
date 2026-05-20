@@ -1,0 +1,6 @@
+{
+  "resourceType" : "Binary",
+  "id" : "PatientTelecomState",
+  "contentType" : "application/fhir+json",
+  "data" : "ewogICJyZXNvdXJjZVR5cGUiOiAiaHR0cDovL29ocy5kZXYvU3RydWN0dXJlRGVmaW5pdGlvbi9WaWV3Sm9pbk1hcCIsCiAgIm5hbWUiOiAicGF0aWVudFRlbGVjb20iLAogICJmcm9tIjogInJvb3QiLAogICJyZXNvdXJjZSI6ICJQYXRpZW50IiwKICAidmlldyI6ICJQYXRpZW50VGVsZWNvbSIKfQo="
+}

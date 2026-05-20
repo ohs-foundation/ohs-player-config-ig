@@ -1,0 +1,13 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)","Mapping: RIM Mapping"
+"ConditionItemConfig","ConditionItemConfig","","","",0,*,"","","","null {[]} {[]}
+","Condition Item Configuration","Configuration for the ConditionItem component rendered inside the Conditions section.","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"ConditionItemConfig.padding","ConditionItemConfig.padding","","","",0,1,"","","","decimal {[]} {[]}
+","Content padding in density-independent pixels (DP)","Content padding in density-independent pixels (DP)","","","","","","","","","",,,,,"",,,,"ViewConfig.padding",0,1,"",""
+"ConditionItemConfig.elevation","ConditionItemConfig.elevation","","","",0,1,"","","","decimal {[]} {[]}
+","Shadow elevation depth in DP","Shadow elevation depth in DP","","","","","","","","","",,,,,"",,,,"CardConfig.elevation",0,1,"",""
+"ConditionItemConfig.cornerRadius","ConditionItemConfig.cornerRadius","","","",0,1,"","","","decimal {[]} {[]}
+","Corner rounding radius in DP","Corner rounding radius in DP","","","","","","","","","",,,,,"",,,,"CardConfig.cornerRadius",0,1,"",""
+"ConditionItemConfig.showOnsetDate","ConditionItemConfig.showOnsetDate","","","",0,1,"","","","boolean {[]} {[]}
+","Show the condition onset date","Show the condition onset date","","","","","","","","","",,,,,"",,,,"ConditionItemConfig.showOnsetDate",0,1,"",""
+"ConditionItemConfig.showStatus","ConditionItemConfig.showStatus","","","",0,1,"","","","boolean {[]} {[]}
+","Show the clinical status chip","Show the clinical status chip","","","","","","","","","",,,,,"",,,,"ConditionItemConfig.showStatus",0,1,"",""

@@ -1,0 +1,7 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)","Mapping: RIM Mapping"
+"TelecomItemConfig","TelecomItemConfig","","","",0,*,"","","","null {[]} {[]}
+","Telecom Item Configuration","Configuration for the TelecomItem component rendered inside the Contact Information section.","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"TelecomItemConfig.padding","TelecomItemConfig.padding","","","",0,1,"","","","decimal {[]} {[]}
+","Content padding in density-independent pixels (DP)","Content padding in density-independent pixels (DP)","","","","","","","","","",,,,,"",,,,"ViewConfig.padding",0,1,"",""
+"TelecomItemConfig.showSystemLabel","TelecomItemConfig.showSystemLabel","","","",0,1,"","","","boolean {[]} {[]}
+","Show the system label (Phone, Email) before the value","Show the system label (Phone, Email) before the value","","","","","","","","","",,,,,"",,,,"TelecomItemConfig.showSystemLabel",0,1,"",""

@@ -1,0 +1,216 @@
+"Profile","Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"AllergyItemConfig","AllergyItemConfig","AllergyItemConfig","","","",0,*,"","","","null {[]} {[]}
+","Allergy Item Configuration","Configuration for the AllergyItem component rendered inside the Allergies section.","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"AllergyItemConfig","AllergyItemConfig.padding","AllergyItemConfig.padding","","","",0,1,"","","","decimal {[]} {[]}
+","Content padding in density-independent pixels (DP)","Content padding in density-independent pixels (DP)","","","","","","","","","",,,,,"",,,,"ViewConfig.padding",0,1,"",""
+"AllergyItemConfig","AllergyItemConfig.elevation","AllergyItemConfig.elevation","","","",0,1,"","","","decimal {[]} {[]}
+","Shadow elevation depth in DP","Shadow elevation depth in DP","","","","","","","","","",,,,,"",,,,"CardConfig.elevation",0,1,"",""
+"AllergyItemConfig","AllergyItemConfig.cornerRadius","AllergyItemConfig.cornerRadius","","","",0,1,"","","","decimal {[]} {[]}
+","Corner rounding radius in DP","Corner rounding radius in DP","","","","","","","","","",,,,,"",,,,"CardConfig.cornerRadius",0,1,"",""
+"AllergyItemConfig","AllergyItemConfig.showCriticality","AllergyItemConfig.showCriticality","","","",0,1,"","","","boolean {[]} {[]}
+","Show the criticality badge (color-coded: high / moderate / low)","Show the criticality badge (color-coded: high / moderate / low)","","","","","","","","","",,,,,"",,,,"AllergyItemConfig.showCriticality",0,1,"",""
+"AllergyItemConfig","AllergyItemConfig.showStatus","AllergyItemConfig.showStatus","","","",0,1,"","","","boolean {[]} {[]}
+","Show the clinical status of the allergy","Show the clinical status of the allergy","","","","","","","","","",,,,,"",,,,"AllergyItemConfig.showStatus",0,1,"",""
+"AllergyReactionItemConfig","AllergyReactionItemConfig","AllergyReactionItemConfig","","","",0,*,"","","","null {[]} {[]}
+","Allergy Reaction Item Configuration","Configuration for the AllergyReactionItem component rendered inside the Allergy Reactions section.","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"AllergyReactionItemConfig","AllergyReactionItemConfig.padding","AllergyReactionItemConfig.padding","","","",0,1,"","","","decimal {[]} {[]}
+","Content padding in density-independent pixels (DP)","Content padding in density-independent pixels (DP)","","","","","","","","","",,,,,"",,,,"ViewConfig.padding",0,1,"",""
+"AllergyReactionItemConfig","AllergyReactionItemConfig.showSeverity","AllergyReactionItemConfig.showSeverity","","","",0,1,"","","","boolean {[]} {[]}
+","Show the reaction severity label","Show the reaction severity label","","","","","","","","","",,,,,"",,,,"AllergyReactionItemConfig.showSeverity",0,1,"",""
+"AllergyReactionItemConfig","AllergyReactionItemConfig.showManifestation","AllergyReactionItemConfig.showManifestation","","","",0,1,"","","","boolean {[]} {[]}
+","Show the reaction manifestation text","Show the reaction manifestation text","","","","","","","","","",,,,,"",,,,"AllergyReactionItemConfig.showManifestation",0,1,"",""
+"CardConfig","CardConfig","CardConfig","","","",0,*,"","","","null {[]} {[]}
+","Card Configuration","Base configuration for Card-based UI components.
+Inherits padding from ViewConfig.","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"CardConfig","CardConfig.padding","CardConfig.padding","","","",0,1,"","","","decimal {[]} {[]}
+","Content padding in density-independent pixels (DP)","Content padding in density-independent pixels (DP)","","","","","","","","","",,,,,"",,,,"ViewConfig.padding",0,1,"",""
+"CardConfig","CardConfig.elevation","CardConfig.elevation","","","",0,1,"","","","decimal {[]} {[]}
+","Shadow elevation depth in DP","Shadow elevation depth in DP","","","","","","","","","",,,,,"",,,,"CardConfig.elevation",0,1,"",""
+"CardConfig","CardConfig.cornerRadius","CardConfig.cornerRadius","","","",0,1,"","","","decimal {[]} {[]}
+","Corner rounding radius in DP","Corner rounding radius in DP","","","","","","","","","",,,,,"",,,,"CardConfig.cornerRadius",0,1,"",""
+"ConditionItemConfig","ConditionItemConfig","ConditionItemConfig","","","",0,*,"","","","null {[]} {[]}
+","Condition Item Configuration","Configuration for the ConditionItem component rendered inside the Conditions section.","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"ConditionItemConfig","ConditionItemConfig.padding","ConditionItemConfig.padding","","","",0,1,"","","","decimal {[]} {[]}
+","Content padding in density-independent pixels (DP)","Content padding in density-independent pixels (DP)","","","","","","","","","",,,,,"",,,,"ViewConfig.padding",0,1,"",""
+"ConditionItemConfig","ConditionItemConfig.elevation","ConditionItemConfig.elevation","","","",0,1,"","","","decimal {[]} {[]}
+","Shadow elevation depth in DP","Shadow elevation depth in DP","","","","","","","","","",,,,,"",,,,"CardConfig.elevation",0,1,"",""
+"ConditionItemConfig","ConditionItemConfig.cornerRadius","ConditionItemConfig.cornerRadius","","","",0,1,"","","","decimal {[]} {[]}
+","Corner rounding radius in DP","Corner rounding radius in DP","","","","","","","","","",,,,,"",,,,"CardConfig.cornerRadius",0,1,"",""
+"ConditionItemConfig","ConditionItemConfig.showOnsetDate","ConditionItemConfig.showOnsetDate","","","",0,1,"","","","boolean {[]} {[]}
+","Show the condition onset date","Show the condition onset date","","","","","","","","","",,,,,"",,,,"ConditionItemConfig.showOnsetDate",0,1,"",""
+"ConditionItemConfig","ConditionItemConfig.showStatus","ConditionItemConfig.showStatus","","","",0,1,"","","","boolean {[]} {[]}
+","Show the clinical status chip","Show the clinical status chip","","","","","","","","","",,,,,"",,,,"ConditionItemConfig.showStatus",0,1,"",""
+"ContactItemConfig","ContactItemConfig","ContactItemConfig","","","",0,*,"","","","null {[]} {[]}
+","Contact Item Configuration","Configuration for the ContactItem component rendered inside the Contacts section.","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"ContactItemConfig","ContactItemConfig.padding","ContactItemConfig.padding","","","",0,1,"","","","decimal {[]} {[]}
+","Content padding in density-independent pixels (DP)","Content padding in density-independent pixels (DP)","","","","","","","","","",,,,,"",,,,"ViewConfig.padding",0,1,"",""
+"ContactItemConfig","ContactItemConfig.showRelationship","ContactItemConfig.showRelationship","","","",0,1,"","","","boolean {[]} {[]}
+","Show the relationship label chip","Show the relationship label chip","","","","","","","","","",,,,,"",,,,"ContactItemConfig.showRelationship",0,1,"",""
+"ContactItemConfig","ContactItemConfig.showPhone","ContactItemConfig.showPhone","","","",0,1,"","","","boolean {[]} {[]}
+","Show the contact phone number","Show the contact phone number","","","","","","","","","",,,,,"",,,,"ContactItemConfig.showPhone",0,1,"",""
+"GroupCardConfig","GroupCardConfig","GroupCardConfig","","","",0,*,"","","","null {[]} {[]}
+","Group Card Configuration","Configuration for the GroupCard component rendered in the household list screen.
+Controls which household fields are visible on the card.","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"GroupCardConfig","GroupCardConfig.padding","GroupCardConfig.padding","","","",0,1,"","","","decimal {[]} {[]}
+","Content padding in density-independent pixels (DP)","Content padding in density-independent pixels (DP)","","","","","","","","","",,,,,"",,,,"ViewConfig.padding",0,1,"",""
+"GroupCardConfig","GroupCardConfig.elevation","GroupCardConfig.elevation","","","",0,1,"","","","decimal {[]} {[]}
+","Shadow elevation depth in DP","Shadow elevation depth in DP","","","","","","","","","",,,,,"",,,,"CardConfig.elevation",0,1,"",""
+"GroupCardConfig","GroupCardConfig.cornerRadius","GroupCardConfig.cornerRadius","","","",0,1,"","","","decimal {[]} {[]}
+","Corner rounding radius in DP","Corner rounding radius in DP","","","","","","","","","",,,,,"",,,,"CardConfig.cornerRadius",0,1,"",""
+"GroupCardConfig","GroupCardConfig.showMemberCount","GroupCardConfig.showMemberCount","","","",0,1,"","","","boolean {[]} {[]}
+","Show the number of household members","Show the number of household members","","","","","","","","","",,,,,"",,,,"GroupCardConfig.showMemberCount",0,1,"",""
+"GroupCardConfig","GroupCardConfig.showLocation","GroupCardConfig.showLocation","","","",0,1,"","","","boolean {[]} {[]}
+","Show the household location","Show the household location","","","","","","","","","",,,,,"",,,,"GroupCardConfig.showLocation",0,1,"",""
+"GroupHeaderConfig","GroupHeaderConfig","GroupHeaderConfig","","","",0,*,"","","","null {[]} {[]}
+","Group Header Configuration","Configuration for the GroupHeader component shown at the top of the household
+profile screen. Controls which household and head-of-household fields are visible.","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"GroupHeaderConfig","GroupHeaderConfig.padding","GroupHeaderConfig.padding","","","",0,1,"","","","decimal {[]} {[]}
+","Content padding in density-independent pixels (DP)","Content padding in density-independent pixels (DP)","","","","","","","","","",,,,,"",,,,"ViewConfig.padding",0,1,"",""
+"GroupHeaderConfig","GroupHeaderConfig.elevation","GroupHeaderConfig.elevation","","","",0,1,"","","","decimal {[]} {[]}
+","Shadow elevation depth in DP","Shadow elevation depth in DP","","","","","","","","","",,,,,"",,,,"CardConfig.elevation",0,1,"",""
+"GroupHeaderConfig","GroupHeaderConfig.cornerRadius","GroupHeaderConfig.cornerRadius","","","",0,1,"","","","decimal {[]} {[]}
+","Corner rounding radius in DP","Corner rounding radius in DP","","","","","","","","","",,,,,"",,,,"CardConfig.cornerRadius",0,1,"",""
+"GroupHeaderConfig","GroupHeaderConfig.showMemberCount","GroupHeaderConfig.showMemberCount","","","",0,1,"","","","boolean {[]} {[]}
+","Show the total number of household members","Show the total number of household members","","","","","","","","","",,,,,"",,,,"GroupHeaderConfig.showMemberCount",0,1,"",""
+"GroupHeaderConfig","GroupHeaderConfig.showHeadName","GroupHeaderConfig.showHeadName","","","",0,1,"","","","boolean {[]} {[]}
+","Show the head-of-household name","Show the head-of-household name","","","","","","","","","",,,,,"",,,,"GroupHeaderConfig.showHeadName",0,1,"",""
+"ImmunizationItemConfig","ImmunizationItemConfig","ImmunizationItemConfig","","","",0,*,"","","","null {[]} {[]}
+","Immunization Item Configuration","Configuration for the ImmunizationItem component rendered inside the Immunizations section.","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"ImmunizationItemConfig","ImmunizationItemConfig.padding","ImmunizationItemConfig.padding","","","",0,1,"","","","decimal {[]} {[]}
+","Content padding in density-independent pixels (DP)","Content padding in density-independent pixels (DP)","","","","","","","","","",,,,,"",,,,"ViewConfig.padding",0,1,"",""
+"ImmunizationItemConfig","ImmunizationItemConfig.elevation","ImmunizationItemConfig.elevation","","","",0,1,"","","","decimal {[]} {[]}
+","Shadow elevation depth in DP","Shadow elevation depth in DP","","","","","","","","","",,,,,"",,,,"CardConfig.elevation",0,1,"",""
+"ImmunizationItemConfig","ImmunizationItemConfig.cornerRadius","ImmunizationItemConfig.cornerRadius","","","",0,1,"","","","decimal {[]} {[]}
+","Corner rounding radius in DP","Corner rounding radius in DP","","","","","","","","","",,,,,"",,,,"CardConfig.cornerRadius",0,1,"",""
+"ImmunizationItemConfig","ImmunizationItemConfig.showDate","ImmunizationItemConfig.showDate","","","",0,1,"","","","boolean {[]} {[]}
+","Show the administration date","Show the administration date","","","","","","","","","",,,,,"",,,,"ImmunizationItemConfig.showDate",0,1,"",""
+"ImmunizationItemConfig","ImmunizationItemConfig.showStatus","ImmunizationItemConfig.showStatus","","","",0,1,"","","","boolean {[]} {[]}
+","Show the immunization status chip","Show the immunization status chip","","","","","","","","","",,,,,"",,,,"ImmunizationItemConfig.showStatus",0,1,"",""
+"MedicationItemConfig","MedicationItemConfig","MedicationItemConfig","","","",0,*,"","","","null {[]} {[]}
+","Medication Item Configuration","Configuration for the MedicationItem component rendered inside the Medications section.","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"MedicationItemConfig","MedicationItemConfig.padding","MedicationItemConfig.padding","","","",0,1,"","","","decimal {[]} {[]}
+","Content padding in density-independent pixels (DP)","Content padding in density-independent pixels (DP)","","","","","","","","","",,,,,"",,,,"ViewConfig.padding",0,1,"",""
+"MedicationItemConfig","MedicationItemConfig.elevation","MedicationItemConfig.elevation","","","",0,1,"","","","decimal {[]} {[]}
+","Shadow elevation depth in DP","Shadow elevation depth in DP","","","","","","","","","",,,,,"",,,,"CardConfig.elevation",0,1,"",""
+"MedicationItemConfig","MedicationItemConfig.cornerRadius","MedicationItemConfig.cornerRadius","","","",0,1,"","","","decimal {[]} {[]}
+","Corner rounding radius in DP","Corner rounding radius in DP","","","","","","","","","",,,,,"",,,,"CardConfig.cornerRadius",0,1,"",""
+"MedicationItemConfig","MedicationItemConfig.showStatus","MedicationItemConfig.showStatus","","","",0,1,"","","","boolean {[]} {[]}
+","Show the medication status chip","Show the medication status chip","","","","","","","","","",,,,,"",,,,"MedicationItemConfig.showStatus",0,1,"",""
+"MedicationItemConfig","MedicationItemConfig.showDosage","MedicationItemConfig.showDosage","","","",0,1,"","","","boolean {[]} {[]}
+","Show the dosage instruction text","Show the dosage instruction text","","","","","","","","","",,,,,"",,,,"MedicationItemConfig.showDosage",0,1,"",""
+"MedicationItemConfig","MedicationItemConfig.compact","MedicationItemConfig.compact","","","",0,1,"","","","boolean {[]} {[]}
+","Use a single-line compact display mode","Use a single-line compact display mode","","","","","","","","","",,,,,"",,,,"MedicationItemConfig.compact",0,1,"",""
+"MemberItemConfig","MemberItemConfig","MemberItemConfig","","","",0,*,"","","","null {[]} {[]}
+","Member Item Configuration","Configuration for the MemberItem component rendered in the household member list.
+Controls which demographic fields are visible for each member row.","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"MemberItemConfig","MemberItemConfig.padding","MemberItemConfig.padding","","","",0,1,"","","","decimal {[]} {[]}
+","Content padding in density-independent pixels (DP)","Content padding in density-independent pixels (DP)","","","","","","","","","",,,,,"",,,,"ViewConfig.padding",0,1,"",""
+"MemberItemConfig","MemberItemConfig.elevation","MemberItemConfig.elevation","","","",0,1,"","","","decimal {[]} {[]}
+","Shadow elevation depth in DP","Shadow elevation depth in DP","","","","","","","","","",,,,,"",,,,"CardConfig.elevation",0,1,"",""
+"MemberItemConfig","MemberItemConfig.cornerRadius","MemberItemConfig.cornerRadius","","","",0,1,"","","","decimal {[]} {[]}
+","Corner rounding radius in DP","Corner rounding radius in DP","","","","","","","","","",,,,,"",,,,"CardConfig.cornerRadius",0,1,"",""
+"MemberItemConfig","MemberItemConfig.showAge","MemberItemConfig.showAge","","","",0,1,"","","","boolean {[]} {[]}
+","Show the member's calculated age","Show the member's calculated age","","","","","","","","","",,,,,"",,,,"MemberItemConfig.showAge",0,1,"",""
+"MemberItemConfig","MemberItemConfig.showGender","MemberItemConfig.showGender","","","",0,1,"","","","boolean {[]} {[]}
+","Show the member's gender","Show the member's gender","","","","","","","","","",,,,,"",,,,"MemberItemConfig.showGender",0,1,"",""
+"MemberItemConfig","MemberItemConfig.showRelationship","MemberItemConfig.showRelationship","","","",0,1,"","","","boolean {[]} {[]}
+","Show the member's relationship to the head","Show the member's relationship to the head","","","","","","","","","",,,,,"",,,,"MemberItemConfig.showRelationship",0,1,"",""
+"PatientCardConfig","PatientCardConfig","PatientCardConfig","","","",0,*,"","","","null {[]} {[]}
+","Patient Card Configuration","Configuration for the PatientCard component rendered in the patient list screen.
+Controls which demographic fields are visible on the card.","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"PatientCardConfig","PatientCardConfig.padding","PatientCardConfig.padding","","","",0,1,"","","","decimal {[]} {[]}
+","Content padding in density-independent pixels (DP)","Content padding in density-independent pixels (DP)","","","","","","","","","",,,,,"",,,,"ViewConfig.padding",0,1,"",""
+"PatientCardConfig","PatientCardConfig.elevation","PatientCardConfig.elevation","","","",0,1,"","","","decimal {[]} {[]}
+","Shadow elevation depth in DP","Shadow elevation depth in DP","","","","","","","","","",,,,,"",,,,"CardConfig.elevation",0,1,"",""
+"PatientCardConfig","PatientCardConfig.cornerRadius","PatientCardConfig.cornerRadius","","","",0,1,"","","","decimal {[]} {[]}
+","Corner rounding radius in DP","Corner rounding radius in DP","","","","","","","","","",,,,,"",,,,"CardConfig.cornerRadius",0,1,"",""
+"PatientCardConfig","PatientCardConfig.showStatusChip","PatientCardConfig.showStatusChip","","","",0,1,"","","","boolean {[]} {[]}
+","Show the active / inactive status chip","Show the active / inactive status chip","","","","","","","","","",,,,,"",,,,"PatientCardConfig.showStatusChip",0,1,"",""
+"PatientCardConfig","PatientCardConfig.showAge","PatientCardConfig.showAge","","","",0,1,"","","","boolean {[]} {[]}
+","Show the patient's calculated age","Show the patient's calculated age","","","","","","","","","",,,,,"",,,,"PatientCardConfig.showAge",0,1,"",""
+"PatientCardConfig","PatientCardConfig.showGender","PatientCardConfig.showGender","","","",0,1,"","","","boolean {[]} {[]}
+","Show the patient's gender","Show the patient's gender","","","","","","","","","",,,,,"",,,,"PatientCardConfig.showGender",0,1,"",""
+"PatientHeaderConfig","PatientHeaderConfig","PatientHeaderConfig","","","",0,*,"","","","null {[]} {[]}
+","Patient Header Configuration","Configuration for the PatientHeader component shown at the top of the patient
+IPS summary screen. Controls which demographic fields appear in the header.","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"PatientHeaderConfig","PatientHeaderConfig.padding","PatientHeaderConfig.padding","","","",0,1,"","","","decimal {[]} {[]}
+","Content padding in density-independent pixels (DP)","Content padding in density-independent pixels (DP)","","","","","","","","","",,,,,"",,,,"ViewConfig.padding",0,1,"",""
+"PatientHeaderConfig","PatientHeaderConfig.elevation","PatientHeaderConfig.elevation","","","",0,1,"","","","decimal {[]} {[]}
+","Shadow elevation depth in DP","Shadow elevation depth in DP","","","","","","","","","",,,,,"",,,,"CardConfig.elevation",0,1,"",""
+"PatientHeaderConfig","PatientHeaderConfig.cornerRadius","PatientHeaderConfig.cornerRadius","","","",0,1,"","","","decimal {[]} {[]}
+","Corner rounding radius in DP","Corner rounding radius in DP","","","","","","","","","",,,,,"",,,,"CardConfig.cornerRadius",0,1,"",""
+"PatientHeaderConfig","PatientHeaderConfig.showMrn","PatientHeaderConfig.showMrn","","","",0,1,"","","","boolean {[]} {[]}
+","Show the patient's MRN identifier","Show the patient's MRN identifier","","","","","","","","","",,,,,"",,,,"PatientHeaderConfig.showMrn",0,1,"",""
+"PatientHeaderConfig","PatientHeaderConfig.showBirthDate","PatientHeaderConfig.showBirthDate","","","",0,1,"","","","boolean {[]} {[]}
+","Show the patient's date of birth","Show the patient's date of birth","","","","","","","","","",,,,,"",,,,"PatientHeaderConfig.showBirthDate",0,1,"",""
+"PatientHeaderConfig","PatientHeaderConfig.showGender","PatientHeaderConfig.showGender","","","",0,1,"","","","boolean {[]} {[]}
+","Show the patient's gender","Show the patient's gender","","","","","","","","","",,,,,"",,,,"PatientHeaderConfig.showGender",0,1,"",""
+"PatientHeaderConfig","PatientHeaderConfig.showStatus","PatientHeaderConfig.showStatus","","","",0,1,"","","","boolean {[]} {[]}
+","Show the active / inactive status chip","Show the active / inactive status chip","","","","","","","","","",,,,,"",,,,"PatientHeaderConfig.showStatus",0,1,"",""
+"SectionCardConfig","SectionCardConfig","SectionCardConfig","","","",0,*,"","","","null {[]} {[]}
+","Section Card Configuration","Configuration for the SectionCard wrapper component that groups related items
+under a titled card with an optional item count badge.","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"SectionCardConfig","SectionCardConfig.padding","SectionCardConfig.padding","","","",0,1,"","","","decimal {[]} {[]}
+","Content padding in density-independent pixels (DP)","Content padding in density-independent pixels (DP)","","","","","","","","","",,,,,"",,,,"ViewConfig.padding",0,1,"",""
+"SectionCardConfig","SectionCardConfig.elevation","SectionCardConfig.elevation","","","",0,1,"","","","decimal {[]} {[]}
+","Shadow elevation depth in DP","Shadow elevation depth in DP","","","","","","","","","",,,,,"",,,,"CardConfig.elevation",0,1,"",""
+"SectionCardConfig","SectionCardConfig.cornerRadius","SectionCardConfig.cornerRadius","","","",0,1,"","","","decimal {[]} {[]}
+","Corner rounding radius in DP","Corner rounding radius in DP","","","","","","","","","",,,,,"",,,,"CardConfig.cornerRadius",0,1,"",""
+"SectionCardConfig","SectionCardConfig.showItemCount","SectionCardConfig.showItemCount","","","",0,1,"","","","boolean {[]} {[]}
+","Show the item count badge next to the section title","Show the item count badge next to the section title","","","","","","","","","",,,,,"",,,,"SectionCardConfig.showItemCount",0,1,"",""
+"SectionCardConfig","SectionCardConfig.collapsible","SectionCardConfig.collapsible","","","",0,1,"","","","boolean {[]} {[]}
+","Allow the section to be collapsed / expanded by the user","Allow the section to be collapsed / expanded by the user","","","","","","","","","",,,,,"",,,,"SectionCardConfig.collapsible",0,1,"",""
+"TelecomItemConfig","TelecomItemConfig","TelecomItemConfig","","","",0,*,"","","","null {[]} {[]}
+","Telecom Item Configuration","Configuration for the TelecomItem component rendered inside the Contact Information section.","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"TelecomItemConfig","TelecomItemConfig.padding","TelecomItemConfig.padding","","","",0,1,"","","","decimal {[]} {[]}
+","Content padding in density-independent pixels (DP)","Content padding in density-independent pixels (DP)","","","","","","","","","",,,,,"",,,,"ViewConfig.padding",0,1,"",""
+"TelecomItemConfig","TelecomItemConfig.showSystemLabel","TelecomItemConfig.showSystemLabel","","","",0,1,"","","","boolean {[]} {[]}
+","Show the system label (Phone, Email) before the value","Show the system label (Phone, Email) before the value","","","","","","","","","",,,,,"",,,,"TelecomItemConfig.showSystemLabel",0,1,"",""
+"ViewConfig","ViewConfig","ViewConfig","","","",0,*,"","","","null {[]} {[]}
+","Base UI Configuration","Abstract base for all UI component styling configurations.
+Subclasses inherit its padding field via the ig-codegen parent-chain flattening.","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"ViewConfig","ViewConfig.padding","ViewConfig.padding","","","",0,1,"","","","decimal {[]} {[]}
+","Content padding in density-independent pixels (DP)","Content padding in density-independent pixels (DP)","","","","","","","","","",,,,,"",,,,"ViewConfig.padding",0,1,"",""
+"ViewJoinMap","ViewJoinMap","ViewJoinMap","","","",0,*,"","","","null {[]} {[]}
+","View Join Map","A metadata guide that stitches atomic ViewDefinitions sourced from different
+SearchResult scopes into a single flat JSON row per pivot resource.
+
+The pivot resource drives the output row count (one row per pivot instance).
+Each join appends its ViewDefinition's columns to the same row. All column
+names across the pivot and all joins must be unique within this map.","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"ViewJoinMap","ViewJoinMap.name","ViewJoinMap.name","","","",1,1,"","","","string {[]} {[]}
+","Output key used in the assembled JSON (e.g. 'patientAllergy')","Output key used in the assembled JSON (e.g. 'patientAllergy')","","","","","","","","","",,,,,"",,,,"ViewJoinMap.name",1,1,"",""
+"ViewJoinMap","ViewJoinMap.from","ViewJoinMap.from","","","",1,1,"","","","code {[]} {[]}
+","SearchScope containing the pivot (row-driving) resource","SearchScope containing the pivot (row-driving) resource","","","","","","","","","",,"required","","http://ohs.dev/ValueSet/search-scope-vs","",,,,"ViewJoinMap.from",1,1,"",""
+"ViewJoinMap","ViewJoinMap.resource","ViewJoinMap.resource","","","",1,1,"","","","string {[]} {[]}
+","FHIR resource type of the pivot (e.g. 'AllergyIntolerance')","FHIR resource type of the pivot (e.g. 'AllergyIntolerance')","","","","","","","","","",,,,,"",,,,"ViewJoinMap.resource",1,1,"",""
+"ViewJoinMap","ViewJoinMap.view","ViewJoinMap.view","","","",1,1,"","","","string {[]} {[]}
+","ID of the ViewDefinition applied to each pivot resource","ID of the ViewDefinition applied to each pivot resource","","","","","","","","","",,,,,"",,,,"ViewJoinMap.view",1,1,"",""
+"ViewJoinMap","ViewJoinMap.searchParam","ViewJoinMap.searchParam","","","",0,1,"","","","string {[]} {[]}
+","Search param disambiguating same-type included/revIncluded pivot resources","Search param disambiguating same-type included/revIncluded pivot resources","","","","","","","","","",,,,,"",,,,"ViewJoinMap.searchParam",0,1,"",""
+"ViewJoinMap","ViewJoinMap.joins","ViewJoinMap.joins","","","",0,*,"","","","BackboneElement {[]} {[]}
+","Additional ViewDefinitions whose columns are merged into each row","Additional ViewDefinitions whose columns are merged into each row","","","","","","","","","",,,,,"",,,,"ViewJoinMap.joins",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+"
+"ViewJoinMap","ViewJoinMap.joins.id","ViewJoinMap.joins.id","","","",0,1,"","","","string {[]} {[]}
+","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"",""
+"ViewJoinMap","ViewJoinMap.joins.extension","ViewJoinMap.joins.extension","","extensions
+user content","",0,*,"","","","Extension {[]} {[]}
+","Additional content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
+","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"ViewJoinMap","ViewJoinMap.joins.modifierExtension","ViewJoinMap.joins.modifierExtension","","extensions
+user contentmodifiers","",0,*,"","Y","Y","Extension {[]} {[]}
+","Extensions that cannot be ignored even if unrecognized","May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.
+
+Modifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself).","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4/extensibility.html#modifierExtension).","","","","","","","",,,,,"",,,,"BackboneElement.modifierExtension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"ViewJoinMap","ViewJoinMap.joins.view","ViewJoinMap.joins.view","","","",1,1,"","","","string {[]} {[]}
+","ID of the ViewDefinition to apply to the joined resource","ID of the ViewDefinition to apply to the joined resource","","","","","","","","","",,,,,"",,,,"ViewJoinMap.joins.view",1,1,"",""
+"ViewJoinMap","ViewJoinMap.joins.from","ViewJoinMap.joins.from","","","",1,1,"","","","code {[]} {[]}
+","SearchScope containing the joined resource","SearchScope containing the joined resource","","","","","","","","","",,"required","","http://ohs.dev/ValueSet/search-scope-vs","",,,,"ViewJoinMap.joins.from",1,1,"",""
+"ViewJoinMap","ViewJoinMap.joins.resource","ViewJoinMap.joins.resource","","","",1,1,"","","","string {[]} {[]}
+","FHIR resource type of the joined resource (e.g. 'Patient')","FHIR resource type of the joined resource (e.g. 'Patient')","","","","","","","","","",,,,,"",,,,"ViewJoinMap.joins.resource",1,1,"",""
+"ViewJoinMap","ViewJoinMap.joins.searchParam","ViewJoinMap.joins.searchParam","","","",0,1,"","","","string {[]} {[]}
+","Search param disambiguating same-type revIncluded resources","Search param disambiguating same-type revIncluded resources","","","","","","","","","",,,,,"",,,,"ViewJoinMap.joins.searchParam",0,1,"",""
+"ViewJoinMap","ViewJoinMap.joins.matchKey","ViewJoinMap.joins.matchKey","","","",0,1,"","","","string {[]} {[]}
+","Column name in pivot view used as FK to locate the joined resource by ID","Column name in pivot view used as FK to locate the joined resource by ID","","","","","","","","","",,,,,"",,,,"ViewJoinMap.joins.matchKey",0,1,"",""

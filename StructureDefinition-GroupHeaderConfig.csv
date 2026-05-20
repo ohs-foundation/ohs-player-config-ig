@@ -1,0 +1,14 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)","Mapping: RIM Mapping"
+"GroupHeaderConfig","GroupHeaderConfig","","","",0,*,"","","","null {[]} {[]}
+","Group Header Configuration","Configuration for the GroupHeader component shown at the top of the household
+profile screen. Controls which household and head-of-household fields are visible.","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"GroupHeaderConfig.padding","GroupHeaderConfig.padding","","","",0,1,"","","","decimal {[]} {[]}
+","Content padding in density-independent pixels (DP)","Content padding in density-independent pixels (DP)","","","","","","","","","",,,,,"",,,,"ViewConfig.padding",0,1,"",""
+"GroupHeaderConfig.elevation","GroupHeaderConfig.elevation","","","",0,1,"","","","decimal {[]} {[]}
+","Shadow elevation depth in DP","Shadow elevation depth in DP","","","","","","","","","",,,,,"",,,,"CardConfig.elevation",0,1,"",""
+"GroupHeaderConfig.cornerRadius","GroupHeaderConfig.cornerRadius","","","",0,1,"","","","decimal {[]} {[]}
+","Corner rounding radius in DP","Corner rounding radius in DP","","","","","","","","","",,,,,"",,,,"CardConfig.cornerRadius",0,1,"",""
+"GroupHeaderConfig.showMemberCount","GroupHeaderConfig.showMemberCount","","","",0,1,"","","","boolean {[]} {[]}
+","Show the total number of household members","Show the total number of household members","","","","","","","","","",,,,,"",,,,"GroupHeaderConfig.showMemberCount",0,1,"",""
+"GroupHeaderConfig.showHeadName","GroupHeaderConfig.showHeadName","","","",0,1,"","","","boolean {[]} {[]}
+","Show the head-of-household name","Show the head-of-household name","","","","","","","","","",,,,,"",,,,"GroupHeaderConfig.showHeadName",0,1,"",""

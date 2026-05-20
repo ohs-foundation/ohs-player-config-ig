@@ -1,0 +1,28 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "search-scope-vs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet search-scope-vs</b></p><a name=\"search-scope-vs\"> </a><a name=\"hcsearch-scope-vs\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-search-scope-cs.html\"><code>http://ohs.dev/CodeSystem/search-scope-cs</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span></li></ul></div>"
+  },
+  "url" : "http://ohs.dev/ValueSet/search-scope-vs",
+  "version" : "0.1.0",
+  "name" : "SearchScopeVS",
+  "title" : "Search Scope ValueSet",
+  "status" : "draft",
+  "date" : "2026-05-20T08:14:58+00:00",
+  "publisher" : "OHS Foundation",
+  "contact" : [{
+    "name" : "OHS Foundation",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://ohs.dev/example-publisher"
+    }]
+  }],
+  "description" : "All valid search scope codes.",
+  "compose" : {
+    "include" : [{
+      "system" : "http://ohs.dev/CodeSystem/search-scope-cs"
+    }]
+  }
+}

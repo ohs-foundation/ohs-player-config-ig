@@ -1,0 +1,16 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://ohs.dev/Binary/PatientContact> a fhir:Binary ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "PatientContact"] ; # 
+  fhir:contentType [ fhir:v "application/fhir+json"] ; # 
+  fhir:data [ fhir:v "ewogICJyZXNvdXJjZVR5cGUiOiAiaHR0cHM6Ly9zcWwtb24tZmhpci5vcmcvaWcvU3RydWN0dXJlRGVmaW5pdGlvbi9WaWV3RGVmaW5pdGlvbiIsCiAgInVybCI6ICJodHRwOi8vb2hzLmRldi9WaWV3RGVmaW5pdGlvbi9QYXRpZW50Q29udGFjdCIsCiAgImZoaXJWZXJzaW9uIjogWwogICAgIjQuMC4xIgogIF0sCiAgInNlbGVjdCI6IFsKICAgIHsKICAgICAgImNvbHVtbiI6IFsKICAgICAgICB7CiAgICAgICAgICAibmFtZSI6ICJwYXRpZW50SWQiLAogICAgICAgICAgInBhdGgiOiAiaWQiLAogICAgICAgICAgInR5cGUiOiAiaHR0cDovL2hsNy5vcmcvZmhpci9TdHJ1Y3R1cmVEZWZpbml0aW9uL3N0cmluZyIKICAgICAgICB9CiAgICAgIF0KICAgIH0sCiAgICB7CiAgICAgICJjb2x1bW4iOiBbCiAgICAgICAgewogICAgICAgICAgIm5hbWUiOiAiY29udGFjdEdpdmVuTmFtZSIsCiAgICAgICAgICAicGF0aCI6ICJuYW1lLmdpdmVuLmZpcnN0KCkiLAogICAgICAgICAgInR5cGUiOiAiaHR0cDovL2hsNy5vcmcvZmhpci9TdHJ1Y3R1cmVEZWZpbml0aW9uL3N0cmluZyIKICAgICAgICB9LAogICAgICAgIHsKICAgICAgICAgICJuYW1lIjogImNvbnRhY3RGYW1pbHlOYW1lIiwKICAgICAgICAgICJwYXRoIjogIm5hbWUuZmFtaWx5IiwKICAgICAgICAgICJ0eXBlIjogImh0dHA6Ly9obDcub3JnL2ZoaXIvU3RydWN0dXJlRGVmaW5pdGlvbi9zdHJpbmciCiAgICAgICAgfSwKICAgICAgICB7CiAgICAgICAgICAibmFtZSI6ICJjb250YWN0UGhvbmUiLAogICAgICAgICAgInBhdGgiOiAidGVsZWNvbS53aGVyZShzeXN0ZW0gPSAncGhvbmUnKS52YWx1ZS5maXJzdCgpIiwKICAgICAgICAgICJ0eXBlIjogImh0dHA6Ly9obDcub3JnL2ZoaXIvU3RydWN0dXJlRGVmaW5pdGlvbi9zdHJpbmciCiAgICAgICAgfSwKICAgICAgICB7CiAgICAgICAgICAibmFtZSI6ICJjb250YWN0UmVsYXRpb25zaGlwIiwKICAgICAgICAgICJwYXRoIjogInJlbGF0aW9uc2hpcC5jb2RpbmcuZGlzcGxheS5maXJzdCgpIiwKICAgICAgICAgICJ0eXBlIjogImh0dHA6Ly9obDcub3JnL2ZoaXIvU3RydWN0dXJlRGVmaW5pdGlvbi9zdHJpbmciCiAgICAgICAgfQogICAgICBdLAogICAgICAiZm9yRWFjaE9yTnVsbCI6ICJjb250YWN0IgogICAgfQogIF0sCiAgIm5hbWUiOiAiUGF0aWVudENvbnRhY3QiLAogICJzdGF0dXMiOiAiYWN0aXZlIiwKICAicmVzb3VyY2UiOiAiUGF0aWVudCIKfQo="^^xsd:base64Binary] . # 
+
+# -------------------------------------------------------------------------------------
+

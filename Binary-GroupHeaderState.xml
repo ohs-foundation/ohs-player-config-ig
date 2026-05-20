@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Binary xmlns="http://hl7.org/fhir">
+  <id value="GroupHeaderState"/>
+  <contentType value="application/fhir+json"/>
+  <data value="ewogICJyZXNvdXJjZVR5cGUiOiAiaHR0cDovL29ocy5kZXYvU3RydWN0dXJlRGVmaW5pdGlvbi9WaWV3Sm9pbk1hcCIsCiAgImpvaW5zIjogWwogICAgewogICAgICAidmlldyI6ICJSZWxhdGVkUGVyc29uIiwKICAgICAgImZyb20iOiAicmV2SW5jbHVkZWQiLAogICAgICAicmVzb3VyY2UiOiAiUmVsYXRlZFBlcnNvbiIsCiAgICAgICJzZWFyY2hQYXJhbSI6ICJwYXRpZW50IgogICAgfQogIF0sCiAgIm5hbWUiOiAiZ3JvdXBIZWFkZXIiLAogICJmcm9tIjogInJvb3QiLAogICJyZXNvdXJjZSI6ICJHcm91cCIsCiAgInZpZXciOiAiR3JvdXAiCn0K"/>
+</Binary>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Binary xmlns="http://hl7.org/fhir">
+  <id value="GroupListState"/>
+  <contentType value="application/fhir+json"/>
+  <data value="ewogICJyZXNvdXJjZVR5cGUiOiAiaHR0cDovL29ocy5kZXYvU3RydWN0dXJlRGVmaW5pdGlvbi9WaWV3Sm9pbk1hcCIsCiAgIm5hbWUiOiAiZ3JvdXBMaXN0IiwKICAiZnJvbSI6ICJyb290IiwKICAicmVzb3VyY2UiOiAiR3JvdXAiLAogICJ2aWV3IjogIkdyb3VwIgp9Cg=="/>
+</Binary>

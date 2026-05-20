@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Binary xmlns="http://hl7.org/fhir">
+  <id value="PatientConditionState"/>
+  <contentType value="application/fhir+json"/>
+  <data value="ewogICJyZXNvdXJjZVR5cGUiOiAiaHR0cDovL29ocy5kZXYvU3RydWN0dXJlRGVmaW5pdGlvbi9WaWV3Sm9pbk1hcCIsCiAgImpvaW5zIjogWwogICAgewogICAgICAidmlldyI6ICJQYXRpZW50U3VtbWFyeSIsCiAgICAgICJmcm9tIjogImluY2x1ZGVkIiwKICAgICAgInJlc291cmNlIjogIlBhdGllbnQiLAogICAgICAic2VhcmNoUGFyYW0iOiAicGF0aWVudCIsCiAgICAgICJtYXRjaEtleSI6ICJjb25kaXRpb25QYXRpZW50UmVmIgogICAgfQogIF0sCiAgIm5hbWUiOiAicGF0aWVudENvbmRpdGlvbiIsCiAgImZyb20iOiAicmV2SW5jbHVkZWQiLAogICJyZXNvdXJjZSI6ICJDb25kaXRpb24iLAogICJ2aWV3IjogIkNvbmRpdGlvbiIKfQo="/>
+</Binary>
