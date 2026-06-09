@@ -13,21 +13,7 @@ These define data models that represent the domain covered by this implementatio
 
 | | |
 | :--- | :--- |
-| [Allergy Item Configuration](StructureDefinition-AllergyItemConfig.md) | Configuration for the AllergyItem component rendered inside the Allergies section. |
-| [Allergy Reaction Item Configuration](StructureDefinition-AllergyReactionItemConfig.md) | Configuration for the AllergyReactionItem component rendered inside the Allergy Reactions section. |
-| [Base UI Configuration](StructureDefinition-ViewConfig.md) | Abstract base for all UI component styling configurations. Subclasses inherit its padding field via the ig-codegen parent-chain flattening. |
-| [Card Configuration](StructureDefinition-CardConfig.md) | Base configuration for Card-based UI components. Inherits padding from ViewConfig. |
-| [Condition Item Configuration](StructureDefinition-ConditionItemConfig.md) | Configuration for the ConditionItem component rendered inside the Conditions section. |
-| [Contact Item Configuration](StructureDefinition-ContactItemConfig.md) | Configuration for the ContactItem component rendered inside the Contacts section. |
-| [Group Card Configuration](StructureDefinition-GroupCardConfig.md) | Configuration for the GroupCard component rendered in the household list screen. Controls which household fields are visible on the card. |
-| [Group Header Configuration](StructureDefinition-GroupHeaderConfig.md) | Configuration for the GroupHeader component shown at the top of the household profile screen. Controls which household and head-of-household fields are visible. |
-| [Immunization Item Configuration](StructureDefinition-ImmunizationItemConfig.md) | Configuration for the ImmunizationItem component rendered inside the Immunizations section. |
-| [Medication Item Configuration](StructureDefinition-MedicationItemConfig.md) | Configuration for the MedicationItem component rendered inside the Medications section. |
-| [Member Item Configuration](StructureDefinition-MemberItemConfig.md) | Configuration for the MemberItem component rendered in the household member list. Controls which demographic fields are visible for each member row. |
-| [Patient Card Configuration](StructureDefinition-PatientCardConfig.md) | Configuration for the PatientCard component rendered in the patient list screen. Controls which demographic fields are visible on the card. |
-| [Patient Header Configuration](StructureDefinition-PatientHeaderConfig.md) | Configuration for the PatientHeader component shown at the top of the patient IPS summary screen. Controls which demographic fields appear in the header. |
-| [Section Card Configuration](StructureDefinition-SectionCardConfig.md) | Configuration for the SectionCard wrapper component that groups related items under a titled card with an optional item count badge. |
-| [Telecom Item Configuration](StructureDefinition-TelecomItemConfig.md) | Configuration for the TelecomItem component rendered inside the Contact Information section. |
+| [View Configuration](StructureDefinition-ViewConfig.md) | A self-describing UI configuration bound to a view type.`ViewConfig` is the contract for declaring a config — it does **not** fix any particular config's fields. An implementer provides a config as a `ViewConfig` Binary that lists its own `property` entries; each property gives a field `name`, its `type`, and a default `value`. A player generates a typed config class from the property list and binds the values to the renderer selected by `viewType`. |
 | [View Join Map](StructureDefinition-ViewJoinMap.md) | A metadata guide that stitches atomic ViewDefinitions sourced from different SearchResult scopes into a single flat JSON row per pivot resource.The pivot resource drives the output row count (one row per pivot instance). Each join appends its ViewDefinition's columns to the same row. All column names across the pivot and all joins must be unique within this map. |
 
 ### Terminology: Value Sets 
@@ -37,6 +23,7 @@ These define sets of codes used by systems conforming to this implementation gui
 | | |
 | :--- | :--- |
 | [Search Scope ValueSet](ValueSet-search-scope-vs.md) | All valid search scope codes. |
+| [View Type ValueSet](ValueSet-view-type-vs.md) | All view type codes a ViewConfig may bind to. |
 
 ### Terminology: Code Systems 
 
@@ -45,34 +32,27 @@ These define new code systems used by systems conforming to this implementation 
 | | |
 | :--- | :--- |
 | [Search Scope CodeSystem](CodeSystem-search-scope-cs.md) | Valid locations within a FHIR Search Result where resources are found. Used by ViewJoinMap to specify where to look for pivot and joined resources. |
-| [UI Component Types](CodeSystem-view-type-codesystem.md) | Formal codes for identifying UI component factories in the KMP ViewRegistry. Each code maps to a registered ComponentRenderer that knows how to render a specific FHIR-derived view state on screen. |
+| [UI Component Types (example)](CodeSystem-view-type-codesystem.md) | **Example** vocabulary of view types. Each code names a kind of UI component used to render a piece of FHIR-derived data; a ViewConfig binds to one of these codes to select its component. View types are implementer-defined — a player provides its own CodeSystem rather than reusing these codes. The mapping from a code to a concrete renderer is the player's own implementation detail. |
 
-### Other 
+### Example: Example Instances 
 
-These are resources that are used within this implementation guide that do not fit into one of the other categories.
+These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like.
 
-| |
-| :--- |
-| [Allergy](Binary-Allergy.md) |
-| [AllergyReaction](Binary-AllergyReaction.md) |
-| [AllergyReactionState](Binary-AllergyReactionState.md) |
-| [Condition](Binary-Condition.md) |
-| [Group](Binary-Group.md) |
-| [GroupHeaderState](Binary-GroupHeaderState.md) |
-| [GroupListState](Binary-GroupListState.md) |
-| [GroupMemberState](Binary-GroupMemberState.md) |
-| [Immunization](Binary-Immunization.md) |
-| [Medication](Binary-Medication.md) |
-| [Member](Binary-Member.md) |
-| [PatientAllergyState](Binary-PatientAllergyState.md) |
-| [PatientConditionState](Binary-PatientConditionState.md) |
-| [PatientContact](Binary-PatientContact.md) |
-| [PatientContactState](Binary-PatientContactState.md) |
-| [PatientImmunizationState](Binary-PatientImmunizationState.md) |
-| [PatientMedicationState](Binary-PatientMedicationState.md) |
-| [PatientSummary](Binary-PatientSummary.md) |
-| [PatientSummaryState](Binary-PatientSummaryState.md) |
-| [PatientTelecom](Binary-PatientTelecom.md) |
-| [PatientTelecomState](Binary-PatientTelecomState.md) |
-| [RelatedPerson](Binary-RelatedPerson.md) |
+| | |
+| :--- | :--- |
+| [Allergy](Binary-Allergy.md) |  |
+| [AllergyReaction](Binary-AllergyReaction.md) |  |
+| [AllergyReactionState](Binary-AllergyReactionState.md) |  |
+| [Example: GroupCard config](Binary-GroupCardConfigExample.md) | Example runtime ViewConfig for a GroupCard component. |
+| [Example: PatientHeader config](Binary-PatientHeaderConfigExample.md) | Example runtime ViewConfig for a PatientHeader component. |
+| [GroupMemberState](Binary-GroupMemberState.md) |  |
+| [Member](Binary-Member.md) |  |
+| [PatientAllergyState](Binary-PatientAllergyState.md) |  |
+| [PatientContact](Binary-PatientContact.md) |  |
+| [PatientContactState](Binary-PatientContactState.md) |  |
+| [PatientSummary](Binary-PatientSummary.md) |  |
+| [PatientSummaryState](Binary-PatientSummaryState.md) |  |
+| [PatientTelecom](Binary-PatientTelecom.md) |  |
+| [PatientTelecomState](Binary-PatientTelecomState.md) |  |
+| [RelatedPerson](Binary-RelatedPerson.md) |  |
 

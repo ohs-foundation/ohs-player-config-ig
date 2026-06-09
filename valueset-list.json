@@ -7,5 +7,14 @@
     "title" : "Search Scope ValueSet",
     "description" : "All valid search scope codes.",
     "systems" : ["http://ohs.dev/CodeSystem/search-scope-cs"]
+  },
+  {
+    "url" : "http://ohs.dev/ValueSet/view-type-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "ViewTypeVS",
+    "title" : "View Type ValueSet",
+    "description" : "All view type codes a ViewConfig may bind to.",
+    "systems" : ["http://ohs.dev/CodeSystem/view-type-codesystem"]
   }]
 }

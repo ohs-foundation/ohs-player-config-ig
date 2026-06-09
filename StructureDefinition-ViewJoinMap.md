@@ -9,13 +9,13 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://ohs.dev/StructureDefinition/ViewJoinMap | *Version*:0.1.0 |
-| Draft as of 2026-05-20 | *Computable Name*:ViewJoinMap |
+| Draft as of 2026-06-09 | *Computable Name*:ViewJoinMap |
 
  
 A metadata guide that stitches atomic ViewDefinitions sourced from different SearchResult scopes into a single flat JSON row per pivot resource. 
 The pivot resource drives the output row count (one row per pivot instance). Each join appends its ViewDefinition's columns to the same row. All column names across the pivot and all joins must be unique within this map. 
 
-A `ViewJoinMap` describes how to assemble a flat state row by joining columns from multiple [ViewDefinition](https://sql-on-fhir.org/ig/StructureDefinition/ViewDefinition.html) projections, each sourced from a different scope of a FHIR `SearchResult`.
+A `ViewJoinMap` describes how to assemble a flat state row by joining columns from multiple [ViewDefinition](https://sql-on-fhir.org/ig/StructureDefinition-ViewDefinition.html) projections, each sourced from a different scope of a FHIR `SearchResult`.
 
 ### Concepts
 
@@ -26,9 +26,9 @@ A `ViewJoinMap` describes how to assemble a flat state row by joining columns fr
 * **Static join** (no `matchKey`): the join resource is the same for all pivot rows. Columns are evaluated once and shared across the output list.
 * **Dynamic join** (with `matchKey`): each pivot row carries a foreign-key column that identifies which joined resource to merge. The extractor builds a lookup map keyed by joined resource ID before the pivot loop, so each unique joined resource is evaluated exactly once regardless of how many pivot rows reference it.
 
-### The name field and code generation
+### The name field
 
-The `name` field becomes the base name for the generated Kotlin `State` data class and `StateExtractor` object. The SUSHI `Instance:` name must match the generated class name exactly — by convention both use PascalCase with a `State` suffix (e.g. `PatientAllergyState`).
+The `name` is the logical identifier an OHS Player binds this map to when it extracts a state — the key that selects this configuration at runtime. A ViewJoinMap is **runtime configuration**: instances are authored against this profile and delivered to an OHS Player at runtime (database seed, runtime API, or a client repository), not built into the OHS Player.
 
 ### Example — GroupMemberState
 
@@ -63,9 +63,9 @@ Given a group with members `Patient/p1` and `Patient/p3`, and a `RelatedPerson/r
 
 **Usages:**
 
-* This Logical Model is not used by any profiles in this Implementation Guide
+* This Logical Model is not used by any profiles in this Specification
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/dev.ohs.ohs-player-config-ig|current/StructureDefinition/ViewJoinMap)
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/dev.ohs.ohs-player-config-ig|current/StructureDefinition/StructureDefinition-ViewJoinMap.json)
 
 ### Formal Views of Profile Content
 
@@ -88,7 +88,7 @@ Other representations of profile: [CSV](StructureDefinition-ViewJoinMap.csv), [E
   "name" : "ViewJoinMap",
   "title" : "View Join Map",
   "status" : "draft",
-  "date" : "2026-05-20T08:14:58+00:00",
+  "date" : "2026-06-09T19:54:52+00:00",
   "publisher" : "OHS Foundation",
   "contact" : [{
     "name" : "OHS Foundation",

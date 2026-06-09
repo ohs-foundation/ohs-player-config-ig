@@ -4,7 +4,9 @@
 * [**Artifacts Summary**](artifacts.md)
 * **AllergyReactionState**
 
-## Binary: AllergyReactionState
+## Example Binary: AllergyReactionState
+
+This content is an example of the [View Join Map](StructureDefinition-ViewJoinMap.md) Logical Model and is not a FHIR Resource
 
 ```
 

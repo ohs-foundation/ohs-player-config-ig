@@ -4,13 +4,12 @@
 * [**Artifacts Summary**](artifacts.md)
 * **PatientContact**
 
-## Binary: PatientContact
+## Example Binary: PatientContact
 
 ```
 
 {
   "resourceType": "https://sql-on-fhir.org/ig/StructureDefinition/ViewDefinition",
-  "url": "http://ohs.dev/ViewDefinition/PatientContact",
   "fhirVersion": [
     "4.0.1"
   ],
@@ -50,6 +49,7 @@
       "forEachOrNull": "contact"
     }
   ],
+  "url": "http://ohs.dev/ViewDefinition/PatientContact",
   "name": "PatientContact",
   "status": "active",
   "resource": "Patient"

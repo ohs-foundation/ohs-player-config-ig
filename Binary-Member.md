@@ -4,13 +4,12 @@
 * [**Artifacts Summary**](artifacts.md)
 * **Member**
 
-## Binary: Member
+## Example Binary: Member
 
 ```
 
 {
   "resourceType": "https://sql-on-fhir.org/ig/StructureDefinition/ViewDefinition",
-  "url": "http://ohs.dev/ViewDefinition/Member",
   "fhirVersion": [
     "4.0.1"
   ],
@@ -50,6 +49,7 @@
       ]
     }
   ],
+  "url": "http://ohs.dev/ViewDefinition/Member",
   "name": "Member",
   "status": "active",
   "resource": "Patient"

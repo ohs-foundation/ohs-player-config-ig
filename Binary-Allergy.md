@@ -4,13 +4,12 @@
 * [**Artifacts Summary**](artifacts.md)
 * **Allergy**
 
-## Binary: Allergy
+## Example Binary: Allergy
 
 ```
 
 {
   "resourceType": "https://sql-on-fhir.org/ig/StructureDefinition/ViewDefinition",
-  "url": "http://ohs.dev/ViewDefinition/Allergy",
   "fhirVersion": [
     "4.0.1"
   ],
@@ -45,6 +44,7 @@
       ]
     }
   ],
+  "url": "http://ohs.dev/ViewDefinition/Allergy",
   "name": "Allergy",
   "status": "active",
   "resource": "AllergyIntolerance"

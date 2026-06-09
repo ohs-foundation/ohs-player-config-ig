@@ -4,13 +4,12 @@
 * [**Artifacts Summary**](artifacts.md)
 * **PatientTelecom**
 
-## Binary: PatientTelecom
+## Example Binary: PatientTelecom
 
 ```
 
 {
   "resourceType": "https://sql-on-fhir.org/ig/StructureDefinition/ViewDefinition",
-  "url": "http://ohs.dev/ViewDefinition/PatientTelecom",
   "fhirVersion": [
     "4.0.1"
   ],
@@ -57,6 +56,7 @@
       ]
     }
   ],
+  "url": "http://ohs.dev/ViewDefinition/PatientTelecom",
   "name": "PatientTelecom",
   "status": "active",
   "resource": "Patient"

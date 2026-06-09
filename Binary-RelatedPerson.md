@@ -4,13 +4,12 @@
 * [**Artifacts Summary**](artifacts.md)
 * **RelatedPerson**
 
-## Binary: RelatedPerson
+## Example Binary: RelatedPerson
 
 ```
 
 {
   "resourceType": "https://sql-on-fhir.org/ig/StructureDefinition/ViewDefinition",
-  "url": "http://ohs.dev/ViewDefinition/RelatedPerson",
   "fhirVersion": [
     "4.0.1"
   ],
@@ -45,6 +44,7 @@
       ]
     }
   ],
+  "url": "http://ohs.dev/ViewDefinition/RelatedPerson",
   "name": "RelatedPerson",
   "status": "active",
   "resource": "RelatedPerson"

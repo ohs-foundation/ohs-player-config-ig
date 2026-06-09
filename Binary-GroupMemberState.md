@@ -4,7 +4,9 @@
 * [**Artifacts Summary**](artifacts.md)
 * **GroupMemberState**
 
-## Binary: GroupMemberState
+## Example Binary: GroupMemberState
+
+This content is an example of the [View Join Map](StructureDefinition-ViewJoinMap.md) Logical Model and is not a FHIR Resource
 
 ```
 

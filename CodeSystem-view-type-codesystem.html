@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-    <title>UI Component Types - OHS Player Configuration IG v0.1.0</title>
+    <title>UI Component Types (example) - OHS Player Configuration IG v0.1.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -41,8 +41,8 @@
 	  <script src="assets/js/prism.js"></script>
     <script src="assets/js/mermaid.js" type="text/javascript"></script>
     <script src="assets/js/mermaid-init.js" type="text/javascript"></script>
-    <style type="text/css">h2{--heading-prefix:"2.19"}
-    h3,h4,h5,h6{--heading-prefix:"2.19"}</style>
+    <style type="text/css">h2{--heading-prefix:"2.6"}
+    h3,h4,h5,h6{--heading-prefix:"2.6"}</style>
     <div id="segment-header" class="segment">    <!-- segment-header -->
       <div class="container">    <!-- container -->
 
@@ -97,7 +97,7 @@
     <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
       <div class="container">    <!-- container -->
         <ul class="breadcrumb">
-          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="artifacts.html"><b>Artifacts Summary</b></a></li><li><b>UI Component Types</b></li>
+          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="artifacts.html"><b>Artifacts Summary</b></a></li><li><b>UI Component Types (example)</b></li>
 
         </ul>
       </div>    <!-- /container -->
@@ -153,7 +153,7 @@
 </ul>
 
   <a name="root"> </a>
-  <h2 id="root">CodeSystem: UI Component Types
+  <h2 id="root">CodeSystem: UI Component Types (example)
 
   </h2>
 
@@ -179,7 +179,7 @@
         
           Draft
           
-            as of 2026-05-20
+            as of 2026-06-09
           
         
       </td>
@@ -195,9 +195,10 @@
   </table>
 
 <p>
-<p>Formal codes for identifying UI component factories in the KMP ViewRegistry.
-Each code maps to a registered ComponentRenderer that knows how to render
-a specific FHIR-derived view state on screen.</p>
+<p><strong>Example</strong> vocabulary of view types. Each code names a kind of UI component used to render a piece of
+FHIR-derived data; a ViewConfig binds to one of these codes to select its component. View types are
+implementer-defined — a player provides its own CodeSystem rather than reusing these codes. The mapping
+from a code to a concrete renderer is the player's own implementation detail.</p>
 
 </p>
 
@@ -208,45 +209,29 @@ a specific FHIR-derived view state on screen.</p>
 
 <div markdown="1" style="display:inline-block">
 
-<p>Each code in this system identifies a UI component factory registered in the KMP <code class="language-plaintext highlighter-rouge">ViewRegistry</code>.
-When the OHS Player framework encounters a view configuration that references a given code, it
-looks up the corresponding <code class="language-plaintext highlighter-rouge">ComponentRenderer</code> and delegates rendering to it.</p>
+<p>Each code in this system names a <strong>view type</strong> — a kind of UI component used to render a piece of
+FHIR-derived data. A <a href="StructureDefinition-ViewConfig.html">ViewConfig</a> references one of these codes
+(via its <code class="language-plaintext highlighter-rouge">viewType</code> field) to declare which component it configures.</p>
 
-<h3 id="code-generation">Code generation</h3>
+<h3 id="how-an-ohs-player-uses-a-view-type">How an OHS Player uses a view type</h3>
 
-<p>The <code class="language-plaintext highlighter-rouge">:ig-codegen</code> plugin emits these codes as <code class="language-plaintext highlighter-rouge">val</code> properties on a generated <code class="language-plaintext highlighter-rouge">ViewTypeCS</code> Kotlin
-object (package <code class="language-plaintext highlighter-rouge">dev.ohs.player.generated.viewtype</code>). Each property holds a <code class="language-plaintext highlighter-rouge">ViewType</code> instance
-wrapping the code string:</p>
+<p>At runtime an OHS Player binds three things to produce a rendered view:</p>
 
-<div class="language-kotlin highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">object</span> <span class="nc">ViewTypeCS</span> <span class="p">{</span>
-  <span class="kd">val</span> <span class="py">PatientCard</span>      <span class="p">=</span> <span class="nc">ViewType</span><span class="p">(</span><span class="s">"PatientCard"</span><span class="p">)</span>
-  <span class="kd">val</span> <span class="py">PatientHeader</span>    <span class="p">=</span> <span class="nc">ViewType</span><span class="p">(</span><span class="s">"PatientHeader"</span><span class="p">)</span>
-  <span class="kd">val</span> <span class="py">AllergyItem</span>      <span class="p">=</span> <span class="nc">ViewType</span><span class="p">(</span><span class="s">"AllergyItem"</span><span class="p">)</span>
-  <span class="kd">val</span> <span class="py">MedicationItem</span>   <span class="p">=</span> <span class="nc">ViewType</span><span class="p">(</span><span class="s">"MedicationItem"</span><span class="p">)</span>
-  <span class="kd">val</span> <span class="py">ConditionItem</span>    <span class="p">=</span> <span class="nc">ViewType</span><span class="p">(</span><span class="s">"ConditionItem"</span><span class="p">)</span>
-  <span class="kd">val</span> <span class="py">ImmunizationItem</span> <span class="p">=</span> <span class="nc">ViewType</span><span class="p">(</span><span class="s">"ImmunizationItem"</span><span class="p">)</span>
-  <span class="kd">val</span> <span class="py">SectionCard</span>      <span class="p">=</span> <span class="nc">ViewType</span><span class="p">(</span><span class="s">"SectionCard"</span><span class="p">)</span>
-  <span class="kd">val</span> <span class="py">GroupCard</span>        <span class="p">=</span> <span class="nc">ViewType</span><span class="p">(</span><span class="s">"GroupCard"</span><span class="p">)</span>
-  <span class="kd">val</span> <span class="py">GroupHeader</span>      <span class="p">=</span> <span class="nc">ViewType</span><span class="p">(</span><span class="s">"GroupHeader"</span><span class="p">)</span>
-  <span class="kd">val</span> <span class="py">MemberItem</span>       <span class="p">=</span> <span class="nc">ViewType</span><span class="p">(</span><span class="s">"MemberItem"</span><span class="p">)</span>
-<span class="p">}</span>
-</code></pre></div></div>
+<ol>
+  <li>the <strong>state</strong> extracted from a SearchResult (see <a href="StructureDefinition-ViewJoinMap.html">ViewJoinMap</a>
+and <a href="https://sql-on-fhir.org/ig/StructureDefinition-ViewDefinition.html">ViewDefinition</a>),</li>
+  <li>the <strong>view type</strong> code, which selects the component, and</li>
+  <li>the <strong>ViewConfig</strong> for that view type, which tunes the component's appearance and behavior.</li>
+</ol>
 
-<h3 id="usage-in-the-app">Usage in the app</h3>
+<p>How an OHS Player maps a view-type code to a concrete renderer — a registry, a factory, a switch — is an
+implementation detail. This CodeSystem only fixes the shared vocabulary so configs and implementations agree on
+the same names. A different implementation can satisfy the same contract in its own way.</p>
 
-<p>Application code references <code class="language-plaintext highlighter-rouge">ViewTypeCS</code> constants rather than raw strings, giving a compile-time
-guarantee that the code exists in the IG:</p>
+<h3 id="layout-view-types">Layout view types</h3>
 
-<div class="language-kotlin highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// AppViewRegistry.kt</span>
-<span class="n">registry</span><span class="p">.</span><span class="nf">register</span><span class="p">(</span><span class="nc">ViewTypeCS</span><span class="p">.</span><span class="nc">PatientCard</span><span class="p">,</span> <span class="nc">PatientCardRenderer</span><span class="p">)</span>
-<span class="n">registry</span><span class="p">.</span><span class="nf">register</span><span class="p">(</span><span class="nc">ViewTypeCS</span><span class="p">.</span><span class="nc">AllergyItem</span><span class="p">,</span> <span class="nc">AllergyItemRenderer</span><span class="p">)</span>
-</code></pre></div></div>
-
-<h3 id="layout-types">Layout types</h3>
-
-<p>Layout component types (<code class="language-plaintext highlighter-rouge">VerticalList</code>, <code class="language-plaintext highlighter-rouge">HorizontalList</code>, <code class="language-plaintext highlighter-rouge">Grid</code>) are owned by the OHS Player
-library framework and are <strong>not</strong> declared in this CodeSystem. They are constants on their
-respective <code class="language-plaintext highlighter-rouge">*Renderer</code> companion objects in the library.</p>
+<p>Generic layout view types (e.g. vertical list, grid) that arrange a collection of items are typically
+owned by the OHS Player framework rather than declared here, since they are not data-specific.</p>
 
 
 </div>
@@ -259,7 +244,9 @@ respective <code class="language-plaintext highlighter-rouge">*Renderer</code> c
   </p>
 
   
-<ul><li>This CodeSystem is not used here; it may be used elsewhere (e.g. specifications and/or implementations that use this content)</li></ul>
+<ul>
+ <li><a href="ValueSet-view-type-vs.html">ViewTypeVS</a></li>
+</ul>
 
 
   <div data-fhir="generated"><p class="res-header-id"></p><a name="view-type-codesystem"> </a><a name="hcview-type-codesystem"> </a><p>This  code system <code>http://ohs.dev/CodeSystem/view-type-codesystem</code> defines the following codes:</p>
@@ -315,8 +302,8 @@ respective <code class="language-plaintext highlighter-rouge">*Renderer</code> c
     <div class="container">    <!-- container -->
 
       <div class="inner-wrapper">
-        <p><a name="l796">​</a>
-          IG &copy; 2026+ <a style="color:var(--footer-hyperlink-text-color)" href="http://ohs.dev/example-publisher">OHS Foundation</a>.  Package dev.ohs.ohs-player-config-ig#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, May 20, 2026 08:14+0000">2026-05-20</span>
+        <p><a name="l546">​</a>
+          IG &copy; 2026+ <a style="color:var(--footer-hyperlink-text-color)" href="http://ohs.dev/example-publisher">OHS Foundation</a>.  Package dev.ohs.ohs-player-config-ig#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Jun 9, 2026 19:54+0000">2026-06-09</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

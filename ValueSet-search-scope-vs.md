@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://ohs.dev/ValueSet/search-scope-vs | *Version*:0.1.0 |
-| Draft as of 2026-05-20 | *Computable Name*:SearchScopeVS |
+| Draft as of 2026-06-09 | *Computable Name*:SearchScopeVS |
 
  
 All valid search scope codes. 
@@ -50,7 +50,7 @@ All valid search scope codes.
   "name" : "SearchScopeVS",
   "title" : "Search Scope ValueSet",
   "status" : "draft",
-  "date" : "2026-05-20T08:14:58+00:00",
+  "date" : "2026-06-09T19:54:52+00:00",
   "publisher" : "OHS Foundation",
   "contact" : [{
     "name" : "OHS Foundation",

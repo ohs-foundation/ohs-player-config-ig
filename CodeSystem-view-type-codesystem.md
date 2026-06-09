@@ -1,59 +1,38 @@
-# UI Component Types - OHS Player Configuration IG v0.1.0
+# UI Component Types (example) - OHS Player Configuration IG v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
-* **UI Component Types**
+* **UI Component Types (example)**
 
-## CodeSystem: UI Component Types 
+## CodeSystem: UI Component Types (example) 
 
 | | |
 | :--- | :--- |
 | *Official URL*:http://ohs.dev/CodeSystem/view-type-codesystem | *Version*:0.1.0 |
-| Draft as of 2026-05-20 | *Computable Name*:ViewTypeCS |
+| Draft as of 2026-06-09 | *Computable Name*:ViewTypeCS |
 
  
-Formal codes for identifying UI component factories in the KMP ViewRegistry. Each code maps to a registered ComponentRenderer that knows how to render a specific FHIR-derived view state on screen. 
+**Example** vocabulary of view types. Each code names a kind of UI component used to render a piece of FHIR-derived data; a ViewConfig binds to one of these codes to select its component. View types are implementer-defined — a player provides its own CodeSystem rather than reusing these codes. The mapping from a code to a concrete renderer is the player's own implementation detail. 
 
-Each code in this system identifies a UI component factory registered in the KMP `ViewRegistry`. When the OHS Player framework encounters a view configuration that references a given code, it looks up the corresponding `ComponentRenderer` and delegates rendering to it.
+Each code in this system names a **view type** — a kind of UI component used to render a piece of FHIR-derived data. A [ViewConfig](StructureDefinition-ViewConfig.md) references one of these codes (via its `viewType` field) to declare which component it configures.
 
-### Code generation
+### How an OHS Player uses a view type
 
-The `:ig-codegen` plugin emits these codes as `val` properties on a generated `ViewTypeCS` Kotlin object (package `dev.ohs.player.generated.viewtype`). Each property holds a `ViewType` instance wrapping the code string:
+At runtime an OHS Player binds three things to produce a rendered view:
 
-```
-object ViewTypeCS {
-  val PatientCard      = ViewType("PatientCard")
-  val PatientHeader    = ViewType("PatientHeader")
-  val AllergyItem      = ViewType("AllergyItem")
-  val MedicationItem   = ViewType("MedicationItem")
-  val ConditionItem    = ViewType("ConditionItem")
-  val ImmunizationItem = ViewType("ImmunizationItem")
-  val SectionCard      = ViewType("SectionCard")
-  val GroupCard        = ViewType("GroupCard")
-  val GroupHeader      = ViewType("GroupHeader")
-  val MemberItem       = ViewType("MemberItem")
-}
+1. the**state**extracted from a SearchResult (see[ViewJoinMap](StructureDefinition-ViewJoinMap.md)and[ViewDefinition](https://sql-on-fhir.org/ig/StructureDefinition-ViewDefinition.html)),
+1. the**view type**code, which selects the component, and
+1. the**ViewConfig**for that view type, which tunes the component's appearance and behavior.
 
-```
+How an OHS Player maps a view-type code to a concrete renderer — a registry, a factory, a switch — is an implementation detail. This CodeSystem only fixes the shared vocabulary so configs and implementations agree on the same names. A different implementation can satisfy the same contract in its own way.
 
-### Usage in the app
+### Layout view types
 
-Application code references `ViewTypeCS` constants rather than raw strings, giving a compile-time guarantee that the code exists in the IG:
-
-```
-// AppViewRegistry.kt
-registry.register(ViewTypeCS.PatientCard, PatientCardRenderer)
-registry.register(ViewTypeCS.AllergyItem, AllergyItemRenderer)
-
-```
-
-### Layout types
-
-Layout component types (`VerticalList`, `HorizontalList`, `Grid`) are owned by the OHS Player library framework and are **not** declared in this CodeSystem. They are constants on their respective `*Renderer` companion objects in the library.
+Generic layout view types (e.g. vertical list, grid) that arrange a collection of items are typically owned by the OHS Player framework rather than declared here, since they are not data-specific.
 
  This Code system is referenced in the content logical definition of the following value sets: 
 
-* This CodeSystem is not used here; it may be used elsewhere (e.g. specifications and/or implementations that use this content)
+* [ViewTypeVS](ValueSet-view-type-vs.md)
 
 
 
@@ -66,9 +45,9 @@ Layout component types (`VerticalList`, `HorizontalList`, `Grid`) are owned by t
   "url" : "http://ohs.dev/CodeSystem/view-type-codesystem",
   "version" : "0.1.0",
   "name" : "ViewTypeCS",
-  "title" : "UI Component Types",
+  "title" : "UI Component Types (example)",
   "status" : "draft",
-  "date" : "2026-05-20T08:14:58+00:00",
+  "date" : "2026-06-09T19:54:52+00:00",
   "publisher" : "OHS Foundation",
   "contact" : [{
     "name" : "OHS Foundation",
@@ -77,7 +56,7 @@ Layout component types (`VerticalList`, `HorizontalList`, `Grid`) are owned by t
       "value" : "http://ohs.dev/example-publisher"
     }]
   }],
-  "description" : "Formal codes for identifying UI component factories in the KMP ViewRegistry.\nEach code maps to a registered ComponentRenderer that knows how to render\na specific FHIR-derived view state on screen.",
+  "description" : "**Example** vocabulary of view types. Each code names a kind of UI component used to render a piece of\nFHIR-derived data; a ViewConfig binds to one of these codes to select its component. View types are\nimplementer-defined — a player provides its own CodeSystem rather than reusing these codes. The mapping\nfrom a code to a concrete renderer is the player's own implementation detail.",
   "content" : "complete",
   "count" : 13,
   "concept" : [{

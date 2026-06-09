@@ -4,13 +4,12 @@
 * [**Artifacts Summary**](artifacts.md)
 * **PatientSummary**
 
-## Binary: PatientSummary
+## Example Binary: PatientSummary
 
 ```
 
 {
   "resourceType": "https://sql-on-fhir.org/ig/StructureDefinition/ViewDefinition",
-  "url": "http://ohs.dev/ViewDefinition/PatientSummary",
   "fhirVersion": [
     "4.0.1"
   ],
@@ -60,6 +59,7 @@
       ]
     }
   ],
+  "url": "http://ohs.dev/ViewDefinition/PatientSummary",
   "name": "PatientSummary",
   "status": "active",
   "resource": "Patient"

@@ -21,7 +21,7 @@
   fhir:name [ fhir:v "OHSPlayerConfigIG"] ; # 
   fhir:title [ fhir:v "OHS Player Configuration IG"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2026-05-20T08:14:58+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-06-09T19:54:52+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "OHS Foundation"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "OHS Foundation" ] ;
@@ -1316,49 +1316,7 @@
        fhir:name [ fhir:v "Allergy" ] ;
        fhir:example [
          a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
-           fhir:v "StructureDefinition:logical"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <http://ohs.dev/StructureDefinition/AllergyItemConfig> ;
-         fhir:reference [ fhir:v "StructureDefinition/AllergyItemConfig" ]
-       ] ;
-       fhir:name [ fhir:v "Allergy Item Configuration" ] ;
-       fhir:description [ fhir:v "Configuration for the AllergyItem component rendered inside the Allergies section." ] ;
-       fhir:example [
-         a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
-           fhir:v "StructureDefinition:logical"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <http://ohs.dev/StructureDefinition/AllergyReactionItemConfig> ;
-         fhir:reference [ fhir:v "StructureDefinition/AllergyReactionItemConfig" ]
-       ] ;
-       fhir:name [ fhir:v "Allergy Reaction Item Configuration" ] ;
-       fhir:description [ fhir:v "Configuration for the AllergyReactionItem component rendered inside the Allergy Reactions section." ] ;
-       fhir:example [
-         a fhir:Boolean ;
-         fhir:v false
+         fhir:v true
        ]
      ] [
        fhir:extension ( [
@@ -1387,7 +1345,7 @@
        fhir:name [ fhir:v "AllergyReaction" ] ;
        fhir:example [
          a fhir:Boolean ;
-         fhir:v false
+         fhir:v true
        ]
      ] [
        fhir:extension ( [
@@ -1415,50 +1373,9 @@
        ] ;
        fhir:name [ fhir:v "AllergyReactionState" ] ;
        fhir:example [
-         a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
-           fhir:v "StructureDefinition:logical"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <http://ohs.dev/StructureDefinition/ViewConfig> ;
-         fhir:reference [ fhir:v "StructureDefinition/ViewConfig" ]
-       ] ;
-       fhir:name [ fhir:v "Base UI Configuration" ] ;
-       fhir:description [ fhir:v "Abstract base for all UI component styling configurations.\nSubclasses inherit its padding field via the ig-codegen parent-chain flattening." ] ;
-       fhir:example [
-         a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
-           fhir:v "StructureDefinition:logical"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <http://ohs.dev/StructureDefinition/CardConfig> ;
-         fhir:reference [ fhir:v "StructureDefinition/CardConfig" ]
-       ] ;
-       fhir:name [ fhir:v "Card Configuration" ] ;
-       fhir:description [ fhir:v "Base configuration for Card-based UI components.\nInherits padding from ViewConfig." ] ;
-       fhir:example [
-         a fhir:Boolean ;
-         fhir:v false
+         a fhir:Canonical ;
+         fhir:v "http://ohs.dev/StructureDefinition/ViewJoinMap"^^xsd:anyURI ;
+         fhir:l <http://ohs.dev/StructureDefinition/ViewJoinMap>
        ]
      ] [
        fhir:extension ( [
@@ -1481,55 +1398,15 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <http://ohs.dev/Binary/Condition> ;
-         fhir:reference [ fhir:v "Binary/Condition" ]
+         fhir:l <http://ohs.dev/Binary/GroupCardConfigExample> ;
+         fhir:reference [ fhir:v "Binary/GroupCardConfigExample" ]
        ] ;
-       fhir:name [ fhir:v "Condition" ] ;
+       fhir:name [ fhir:v "Example: GroupCard config" ] ;
+       fhir:description [ fhir:v "Example runtime ViewConfig for a GroupCard component." ] ;
        fhir:example [
-         a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
-           fhir:v "StructureDefinition:logical"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <http://ohs.dev/StructureDefinition/ConditionItemConfig> ;
-         fhir:reference [ fhir:v "StructureDefinition/ConditionItemConfig" ]
-       ] ;
-       fhir:name [ fhir:v "Condition Item Configuration" ] ;
-       fhir:description [ fhir:v "Configuration for the ConditionItem component rendered inside the Conditions section." ] ;
-       fhir:example [
-         a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
-           fhir:v "StructureDefinition:logical"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <http://ohs.dev/StructureDefinition/ContactItemConfig> ;
-         fhir:reference [ fhir:v "StructureDefinition/ContactItemConfig" ]
-       ] ;
-       fhir:name [ fhir:v "Contact Item Configuration" ] ;
-       fhir:description [ fhir:v "Configuration for the ContactItem component rendered inside the Contacts section." ] ;
-       fhir:example [
-         a fhir:Boolean ;
-         fhir:v false
+         a fhir:Canonical ;
+         fhir:v "http://ohs.dev/StructureDefinition/ViewConfig"^^xsd:anyURI ;
+         fhir:l <http://ohs.dev/StructureDefinition/ViewConfig>
        ]
      ] [
        fhir:extension ( [
@@ -1552,113 +1429,15 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <http://ohs.dev/Binary/Group> ;
-         fhir:reference [ fhir:v "Binary/Group" ]
+         fhir:l <http://ohs.dev/Binary/PatientHeaderConfigExample> ;
+         fhir:reference [ fhir:v "Binary/PatientHeaderConfigExample" ]
        ] ;
-       fhir:name [ fhir:v "Group" ] ;
+       fhir:name [ fhir:v "Example: PatientHeader config" ] ;
+       fhir:description [ fhir:v "Example runtime ViewConfig for a PatientHeader component." ] ;
        fhir:example [
-         a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
-           fhir:v "StructureDefinition:logical"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <http://ohs.dev/StructureDefinition/GroupCardConfig> ;
-         fhir:reference [ fhir:v "StructureDefinition/GroupCardConfig" ]
-       ] ;
-       fhir:name [ fhir:v "Group Card Configuration" ] ;
-       fhir:description [ fhir:v "Configuration for the GroupCard component rendered in the household list screen.\nControls which household fields are visible on the card." ] ;
-       fhir:example [
-         a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
-           fhir:v "StructureDefinition:logical"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <http://ohs.dev/StructureDefinition/GroupHeaderConfig> ;
-         fhir:reference [ fhir:v "StructureDefinition/GroupHeaderConfig" ]
-       ] ;
-       fhir:name [ fhir:v "Group Header Configuration" ] ;
-       fhir:description [ fhir:v "Configuration for the GroupHeader component shown at the top of the household\nprofile screen. Controls which household and head-of-household fields are visible." ] ;
-       fhir:example [
-         a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-resource-format"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/implementationguide-resource-format>
-         ] ;
-         fhir:value [
-           a fhir:Code ;
-           fhir:v "application/fhir+json"
-         ]
-       ] [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
-           fhir:v "Binary"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <http://ohs.dev/Binary/GroupHeaderState> ;
-         fhir:reference [ fhir:v "Binary/GroupHeaderState" ]
-       ] ;
-       fhir:name [ fhir:v "GroupHeaderState" ] ;
-       fhir:example [
-         a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-resource-format"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/implementationguide-resource-format>
-         ] ;
-         fhir:value [
-           a fhir:Code ;
-           fhir:v "application/fhir+json"
-         ]
-       ] [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
-           fhir:v "Binary"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <http://ohs.dev/Binary/GroupListState> ;
-         fhir:reference [ fhir:v "Binary/GroupListState" ]
-       ] ;
-       fhir:name [ fhir:v "GroupListState" ] ;
-       fhir:example [
-         a fhir:Boolean ;
-         fhir:v false
+         a fhir:Canonical ;
+         fhir:v "http://ohs.dev/StructureDefinition/ViewConfig"^^xsd:anyURI ;
+         fhir:l <http://ohs.dev/StructureDefinition/ViewConfig>
        ]
      ] [
        fhir:extension ( [
@@ -1686,108 +1465,9 @@
        ] ;
        fhir:name [ fhir:v "GroupMemberState" ] ;
        fhir:example [
-         a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-resource-format"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/implementationguide-resource-format>
-         ] ;
-         fhir:value [
-           a fhir:Code ;
-           fhir:v "application/fhir+json"
-         ]
-       ] [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
-           fhir:v "Binary"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <http://ohs.dev/Binary/Immunization> ;
-         fhir:reference [ fhir:v "Binary/Immunization" ]
-       ] ;
-       fhir:name [ fhir:v "Immunization" ] ;
-       fhir:example [
-         a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
-           fhir:v "StructureDefinition:logical"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <http://ohs.dev/StructureDefinition/ImmunizationItemConfig> ;
-         fhir:reference [ fhir:v "StructureDefinition/ImmunizationItemConfig" ]
-       ] ;
-       fhir:name [ fhir:v "Immunization Item Configuration" ] ;
-       fhir:description [ fhir:v "Configuration for the ImmunizationItem component rendered inside the Immunizations section." ] ;
-       fhir:example [
-         a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-resource-format"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/implementationguide-resource-format>
-         ] ;
-         fhir:value [
-           a fhir:Code ;
-           fhir:v "application/fhir+json"
-         ]
-       ] [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
-           fhir:v "Binary"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <http://ohs.dev/Binary/Medication> ;
-         fhir:reference [ fhir:v "Binary/Medication" ]
-       ] ;
-       fhir:name [ fhir:v "Medication" ] ;
-       fhir:example [
-         a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
-           fhir:v "StructureDefinition:logical"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <http://ohs.dev/StructureDefinition/MedicationItemConfig> ;
-         fhir:reference [ fhir:v "StructureDefinition/MedicationItemConfig" ]
-       ] ;
-       fhir:name [ fhir:v "Medication Item Configuration" ] ;
-       fhir:description [ fhir:v "Configuration for the MedicationItem component rendered inside the Medications section." ] ;
-       fhir:example [
-         a fhir:Boolean ;
-         fhir:v false
+         a fhir:Canonical ;
+         fhir:v "http://ohs.dev/StructureDefinition/ViewJoinMap"^^xsd:anyURI ;
+         fhir:l <http://ohs.dev/StructureDefinition/ViewJoinMap>
        ]
      ] [
        fhir:extension ( [
@@ -1816,70 +1496,7 @@
        fhir:name [ fhir:v "Member" ] ;
        fhir:example [
          a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
-           fhir:v "StructureDefinition:logical"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <http://ohs.dev/StructureDefinition/MemberItemConfig> ;
-         fhir:reference [ fhir:v "StructureDefinition/MemberItemConfig" ]
-       ] ;
-       fhir:name [ fhir:v "Member Item Configuration" ] ;
-       fhir:description [ fhir:v "Configuration for the MemberItem component rendered in the household member list.\nControls which demographic fields are visible for each member row." ] ;
-       fhir:example [
-         a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
-           fhir:v "StructureDefinition:logical"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <http://ohs.dev/StructureDefinition/PatientCardConfig> ;
-         fhir:reference [ fhir:v "StructureDefinition/PatientCardConfig" ]
-       ] ;
-       fhir:name [ fhir:v "Patient Card Configuration" ] ;
-       fhir:description [ fhir:v "Configuration for the PatientCard component rendered in the patient list screen.\nControls which demographic fields are visible on the card." ] ;
-       fhir:example [
-         a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
-           fhir:v "StructureDefinition:logical"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <http://ohs.dev/StructureDefinition/PatientHeaderConfig> ;
-         fhir:reference [ fhir:v "StructureDefinition/PatientHeaderConfig" ]
-       ] ;
-       fhir:name [ fhir:v "Patient Header Configuration" ] ;
-       fhir:description [ fhir:v "Configuration for the PatientHeader component shown at the top of the patient\nIPS summary screen. Controls which demographic fields appear in the header." ] ;
-       fhir:example [
-         a fhir:Boolean ;
-         fhir:v false
+         fhir:v true
        ]
      ] [
        fhir:extension ( [
@@ -1907,37 +1524,9 @@
        ] ;
        fhir:name [ fhir:v "PatientAllergyState" ] ;
        fhir:example [
-         a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-resource-format"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/implementationguide-resource-format>
-         ] ;
-         fhir:value [
-           a fhir:Code ;
-           fhir:v "application/fhir+json"
-         ]
-       ] [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
-           fhir:v "Binary"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <http://ohs.dev/Binary/PatientConditionState> ;
-         fhir:reference [ fhir:v "Binary/PatientConditionState" ]
-       ] ;
-       fhir:name [ fhir:v "PatientConditionState" ] ;
-       fhir:example [
-         a fhir:Boolean ;
-         fhir:v false
+         a fhir:Canonical ;
+         fhir:v "http://ohs.dev/StructureDefinition/ViewJoinMap"^^xsd:anyURI ;
+         fhir:l <http://ohs.dev/StructureDefinition/ViewJoinMap>
        ]
      ] [
        fhir:extension ( [
@@ -1966,7 +1555,7 @@
        fhir:name [ fhir:v "PatientContact" ] ;
        fhir:example [
          a fhir:Boolean ;
-         fhir:v false
+         fhir:v true
        ]
      ] [
        fhir:extension ( [
@@ -1994,66 +1583,9 @@
        ] ;
        fhir:name [ fhir:v "PatientContactState" ] ;
        fhir:example [
-         a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-resource-format"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/implementationguide-resource-format>
-         ] ;
-         fhir:value [
-           a fhir:Code ;
-           fhir:v "application/fhir+json"
-         ]
-       ] [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
-           fhir:v "Binary"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <http://ohs.dev/Binary/PatientImmunizationState> ;
-         fhir:reference [ fhir:v "Binary/PatientImmunizationState" ]
-       ] ;
-       fhir:name [ fhir:v "PatientImmunizationState" ] ;
-       fhir:example [
-         a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-resource-format"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/implementationguide-resource-format>
-         ] ;
-         fhir:value [
-           a fhir:Code ;
-           fhir:v "application/fhir+json"
-         ]
-       ] [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
-           fhir:v "Binary"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <http://ohs.dev/Binary/PatientMedicationState> ;
-         fhir:reference [ fhir:v "Binary/PatientMedicationState" ]
-       ] ;
-       fhir:name [ fhir:v "PatientMedicationState" ] ;
-       fhir:example [
-         a fhir:Boolean ;
-         fhir:v false
+         a fhir:Canonical ;
+         fhir:v "http://ohs.dev/StructureDefinition/ViewJoinMap"^^xsd:anyURI ;
+         fhir:l <http://ohs.dev/StructureDefinition/ViewJoinMap>
        ]
      ] [
        fhir:extension ( [
@@ -2082,7 +1614,7 @@
        fhir:name [ fhir:v "PatientSummary" ] ;
        fhir:example [
          a fhir:Boolean ;
-         fhir:v false
+         fhir:v true
        ]
      ] [
        fhir:extension ( [
@@ -2110,8 +1642,9 @@
        ] ;
        fhir:name [ fhir:v "PatientSummaryState" ] ;
        fhir:example [
-         a fhir:Boolean ;
-         fhir:v false
+         a fhir:Canonical ;
+         fhir:v "http://ohs.dev/StructureDefinition/ViewJoinMap"^^xsd:anyURI ;
+         fhir:l <http://ohs.dev/StructureDefinition/ViewJoinMap>
        ]
      ] [
        fhir:extension ( [
@@ -2140,7 +1673,7 @@
        fhir:name [ fhir:v "PatientTelecom" ] ;
        fhir:example [
          a fhir:Boolean ;
-         fhir:v false
+         fhir:v true
        ]
      ] [
        fhir:extension ( [
@@ -2168,8 +1701,9 @@
        ] ;
        fhir:name [ fhir:v "PatientTelecomState" ] ;
        fhir:example [
-         a fhir:Boolean ;
-         fhir:v false
+         a fhir:Canonical ;
+         fhir:v "http://ohs.dev/StructureDefinition/ViewJoinMap"^^xsd:anyURI ;
+         fhir:l <http://ohs.dev/StructureDefinition/ViewJoinMap>
        ]
      ] [
        fhir:extension ( [
@@ -2198,7 +1732,7 @@
        fhir:name [ fhir:v "RelatedPerson" ] ;
        fhir:example [
          a fhir:Boolean ;
-         fhir:v false
+         fhir:v true
        ]
      ] [
        fhir:extension ( [
@@ -2250,48 +1784,6 @@
          ] ;
          fhir:value [
            a fhir:String ;
-           fhir:v "StructureDefinition:logical"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <http://ohs.dev/StructureDefinition/SectionCardConfig> ;
-         fhir:reference [ fhir:v "StructureDefinition/SectionCardConfig" ]
-       ] ;
-       fhir:name [ fhir:v "Section Card Configuration" ] ;
-       fhir:description [ fhir:v "Configuration for the SectionCard wrapper component that groups related items\nunder a titled card with an optional item count badge." ] ;
-       fhir:example [
-         a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
-           fhir:v "StructureDefinition:logical"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <http://ohs.dev/StructureDefinition/TelecomItemConfig> ;
-         fhir:reference [ fhir:v "StructureDefinition/TelecomItemConfig" ]
-       ] ;
-       fhir:name [ fhir:v "Telecom Item Configuration" ] ;
-       fhir:description [ fhir:v "Configuration for the TelecomItem component rendered inside the Contact Information section." ] ;
-       fhir:example [
-         a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
            fhir:v "CodeSystem"
          ]
        ] ) ;
@@ -2299,8 +1791,29 @@
          fhir:l <http://ohs.dev/CodeSystem/view-type-codesystem> ;
          fhir:reference [ fhir:v "CodeSystem/view-type-codesystem" ]
        ] ;
-       fhir:name [ fhir:v "UI Component Types" ] ;
-       fhir:description [ fhir:v "Formal codes for identifying UI component factories in the KMP ViewRegistry.\nEach code maps to a registered ComponentRenderer that knows how to render\na specific FHIR-derived view state on screen." ] ;
+       fhir:name [ fhir:v "UI Component Types (example)" ] ;
+       fhir:description [ fhir:v "**Example** vocabulary of view types. Each code names a kind of UI component used to render a piece of\nFHIR-derived data; a ViewConfig binds to one of these codes to select its component. View types are\nimplementer-defined — a player provides its own CodeSystem rather than reusing these codes. The mapping\nfrom a code to a concrete renderer is the player's own implementation detail." ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "StructureDefinition:logical"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://ohs.dev/StructureDefinition/ViewConfig> ;
+         fhir:reference [ fhir:v "StructureDefinition/ViewConfig" ]
+       ] ;
+       fhir:name [ fhir:v "View Configuration" ] ;
+       fhir:description [ fhir:v "A self-describing UI configuration bound to a view type.\n\n`ViewConfig` is the contract for declaring a config — it does **not** fix any particular config's\nfields. An implementer provides a config as a `ViewConfig` Binary that lists its own `property`\nentries; each property gives a field `name`, its `type`, and a default `value`. A player generates a\ntyped config class from the property list and binds the values to the renderer selected by `viewType`." ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -2322,6 +1835,27 @@
        ] ;
        fhir:name [ fhir:v "View Join Map" ] ;
        fhir:description [ fhir:v "A metadata guide that stitches atomic ViewDefinitions sourced from different\nSearchResult scopes into a single flat JSON row per pivot resource.\n\nThe pivot resource drives the output row count (one row per pivot instance).\nEach join appends its ViewDefinition's columns to the same row. All column\nnames across the pivot and all joins must be unique within this map." ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://ohs.dev/ValueSet/view-type-vs> ;
+         fhir:reference [ fhir:v "ValueSet/view-type-vs" ]
+       ] ;
+       fhir:name [ fhir:v "View Type ValueSet" ] ;
+       fhir:description [ fhir:v "All view type codes a ViewConfig may bind to." ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false

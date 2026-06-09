@@ -1,0 +1,6 @@
+{
+  "resourceType" : "Binary",
+  "id" : "GroupCardConfigExample",
+  "contentType" : "application/fhir+json",
+  "data" : "ewogICJyZXNvdXJjZVR5cGUiOiAiaHR0cDovL29ocy5kZXYvU3RydWN0dXJlRGVmaW5pdGlvbi9WaWV3Q29uZmlnIiwKICAicHJvcGVydHkiOiBbCiAgICB7CiAgICAgICJuYW1lIjogInNob3dNZW1iZXJDb3VudCIsCiAgICAgICJ0eXBlIjogImJvb2xlYW4iLAogICAgICAidmFsdWVCb29sZWFuIjogdHJ1ZQogICAgfSwKICAgIHsKICAgICAgIm5hbWUiOiAiZWxldmF0aW9uIiwKICAgICAgInR5cGUiOiAiZGVjaW1hbCIsCiAgICAgICJ2YWx1ZURlY2ltYWwiOiAyCiAgICB9LAogICAgewogICAgICAibmFtZSI6ICJwYWRkaW5nIiwKICAgICAgInR5cGUiOiAiZGVjaW1hbCIsCiAgICAgICJ2YWx1ZURlY2ltYWwiOiAxNgogICAgfQogIF0sCiAgInZpZXdUeXBlIjogIkdyb3VwQ2FyZCIKfQo="
+}

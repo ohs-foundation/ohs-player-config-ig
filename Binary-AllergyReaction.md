@@ -4,13 +4,12 @@
 * [**Artifacts Summary**](artifacts.md)
 * **AllergyReaction**
 
-## Binary: AllergyReaction
+## Example Binary: AllergyReaction
 
 ```
 
 {
   "resourceType": "https://sql-on-fhir.org/ig/StructureDefinition/ViewDefinition",
-  "url": "http://ohs.dev/ViewDefinition/AllergyReaction",
   "fhirVersion": [
     "4.0.1"
   ],
@@ -60,6 +59,7 @@
       "forEach": "reaction"
     }
   ],
+  "url": "http://ohs.dev/ViewDefinition/AllergyReaction",
   "name": "AllergyReaction",
   "status": "active",
   "resource": "AllergyIntolerance"

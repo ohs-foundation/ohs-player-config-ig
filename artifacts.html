@@ -135,7 +135,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          <a href="#3">Terminology: Code Systems</a>
       </li>
       <li>
-         <a href="#4">Other</a>
+         <a href="#4">Example: Example Instances</a>
       </li>
    </ul>
 </div>
@@ -149,130 +149,15 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
       <tbody>
          <tr>
             <td style="column-width:30%">
-               <a href="StructureDefinition-AllergyItemConfig.html" title="StructureDefinition/AllergyItemConfig">Allergy Item Configuration</a>
+               <a href="StructureDefinition-ViewConfig.html" title="StructureDefinition/ViewConfig">View Configuration</a>
             </td>
             <td>
-<p>Configuration for the AllergyItem component rendered inside the Allergies section.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="StructureDefinition-AllergyReactionItemConfig.html" title="StructureDefinition/AllergyReactionItemConfig">Allergy Reaction Item Configuration</a>
-            </td>
-            <td>
-<p>Configuration for the AllergyReactionItem component rendered inside the Allergy Reactions section.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="StructureDefinition-ViewConfig.html" title="StructureDefinition/ViewConfig">Base UI Configuration</a>
-            </td>
-            <td>
-<p>Abstract base for all UI component styling configurations.
-Subclasses inherit its padding field via the ig-codegen parent-chain flattening.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="StructureDefinition-CardConfig.html" title="StructureDefinition/CardConfig">Card Configuration</a>
-            </td>
-            <td>
-<p>Base configuration for Card-based UI components.
-Inherits padding from ViewConfig.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="StructureDefinition-ConditionItemConfig.html" title="StructureDefinition/ConditionItemConfig">Condition Item Configuration</a>
-            </td>
-            <td>
-<p>Configuration for the ConditionItem component rendered inside the Conditions section.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="StructureDefinition-ContactItemConfig.html" title="StructureDefinition/ContactItemConfig">Contact Item Configuration</a>
-            </td>
-            <td>
-<p>Configuration for the ContactItem component rendered inside the Contacts section.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="StructureDefinition-GroupCardConfig.html" title="StructureDefinition/GroupCardConfig">Group Card Configuration</a>
-            </td>
-            <td>
-<p>Configuration for the GroupCard component rendered in the household list screen.
-Controls which household fields are visible on the card.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="StructureDefinition-GroupHeaderConfig.html" title="StructureDefinition/GroupHeaderConfig">Group Header Configuration</a>
-            </td>
-            <td>
-<p>Configuration for the GroupHeader component shown at the top of the household
-profile screen. Controls which household and head-of-household fields are visible.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="StructureDefinition-ImmunizationItemConfig.html" title="StructureDefinition/ImmunizationItemConfig">Immunization Item Configuration</a>
-            </td>
-            <td>
-<p>Configuration for the ImmunizationItem component rendered inside the Immunizations section.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="StructureDefinition-MedicationItemConfig.html" title="StructureDefinition/MedicationItemConfig">Medication Item Configuration</a>
-            </td>
-            <td>
-<p>Configuration for the MedicationItem component rendered inside the Medications section.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="StructureDefinition-MemberItemConfig.html" title="StructureDefinition/MemberItemConfig">Member Item Configuration</a>
-            </td>
-            <td>
-<p>Configuration for the MemberItem component rendered in the household member list.
-Controls which demographic fields are visible for each member row.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="StructureDefinition-PatientCardConfig.html" title="StructureDefinition/PatientCardConfig">Patient Card Configuration</a>
-            </td>
-            <td>
-<p>Configuration for the PatientCard component rendered in the patient list screen.
-Controls which demographic fields are visible on the card.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="StructureDefinition-PatientHeaderConfig.html" title="StructureDefinition/PatientHeaderConfig">Patient Header Configuration</a>
-            </td>
-            <td>
-<p>Configuration for the PatientHeader component shown at the top of the patient
-IPS summary screen. Controls which demographic fields appear in the header.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="StructureDefinition-SectionCardConfig.html" title="StructureDefinition/SectionCardConfig">Section Card Configuration</a>
-            </td>
-            <td>
-<p>Configuration for the SectionCard wrapper component that groups related items
-under a titled card with an optional item count badge.</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="StructureDefinition-TelecomItemConfig.html" title="StructureDefinition/TelecomItemConfig">Telecom Item Configuration</a>
-            </td>
-            <td>
-<p>Configuration for the TelecomItem component rendered inside the Contact Information section.</p>
+<p>A self-describing UI configuration bound to a view type.</p>
+
+<p><code class="language-plaintext highlighter-rouge">ViewConfig</code> is the contract for declaring a config — it does <strong>not</strong> fix any particular config's
+fields. An implementer provides a config as a <code class="language-plaintext highlighter-rouge">ViewConfig</code> Binary that lists its own <code class="language-plaintext highlighter-rouge">property</code>
+entries; each property gives a field <code class="language-plaintext highlighter-rouge">name</code>, its <code class="language-plaintext highlighter-rouge">type</code>, and a default <code class="language-plaintext highlighter-rouge">value</code>. A player generates a
+typed config class from the property list and binds the values to the renderer selected by <code class="language-plaintext highlighter-rouge">viewType</code>.</p>
 </td>
          </tr>
          <tr>
@@ -304,6 +189,14 @@ names across the pivot and all joins must be unique within this map.</p>
 <p>All valid search scope codes.</p>
 </td>
          </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-view-type-vs.html" title="ValueSet/view-type-vs">View Type ValueSet</a>
+            </td>
+            <td>
+<p>All view type codes a ViewConfig may bind to.</p>
+</td>
+         </tr>
       </tbody>
    </table>
    <a name="3"> </a>
@@ -323,19 +216,20 @@ Used by ViewJoinMap to specify where to look for pivot and joined resources.</p>
          </tr>
          <tr>
             <td style="column-width:30%">
-               <a href="CodeSystem-view-type-codesystem.html" title="CodeSystem/view-type-codesystem">UI Component Types</a>
+               <a href="CodeSystem-view-type-codesystem.html" title="CodeSystem/view-type-codesystem">UI Component Types (example)</a>
             </td>
             <td>
-<p>Formal codes for identifying UI component factories in the KMP ViewRegistry.
-Each code maps to a registered ComponentRenderer that knows how to render
-a specific FHIR-derived view state on screen.</p>
+<p><strong>Example</strong> vocabulary of view types. Each code names a kind of UI component used to render a piece of
+FHIR-derived data; a ViewConfig binds to one of these codes to select its component. View types are
+implementer-defined — a player provides its own CodeSystem rather than reusing these codes. The mapping
+from a code to a concrete renderer is the player's own implementation detail.</p>
 </td>
          </tr>
       </tbody>
    </table>
    <a name="4"> </a>
-   <h3>Other </h3>
-    <p>These are resources that are used within this implementation guide that do not fit into one of the other categories.</p>
+   <h3>Example: Example Instances </h3>
+    <p>These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like.</p>
 <table class="grid">
       <col style="width:20%"/>
       <tbody>
@@ -343,111 +237,121 @@ a specific FHIR-derived view state on screen.</p>
             <td style="column-width:30%">
                <a href="Binary-Allergy.html" title="Binary/Allergy">Allergy</a>
             </td>
+            <td>
+
+</td>
          </tr>
          <tr>
             <td style="column-width:30%">
                <a href="Binary-AllergyReaction.html" title="Binary/AllergyReaction">AllergyReaction</a>
             </td>
+            <td>
+
+</td>
          </tr>
          <tr>
             <td style="column-width:30%">
                <a href="Binary-AllergyReactionState.html" title="Binary/AllergyReactionState">AllergyReactionState</a>
             </td>
+            <td>
+
+</td>
          </tr>
          <tr>
             <td style="column-width:30%">
-               <a href="Binary-Condition.html" title="Binary/Condition">Condition</a>
+               <a href="Binary-GroupCardConfigExample.html" title="Binary/GroupCardConfigExample">Example: GroupCard config</a>
             </td>
+            <td>
+<p>Example runtime ViewConfig for a GroupCard component.</p>
+</td>
          </tr>
          <tr>
             <td style="column-width:30%">
-               <a href="Binary-Group.html" title="Binary/Group">Group</a>
+               <a href="Binary-PatientHeaderConfigExample.html" title="Binary/PatientHeaderConfigExample">Example: PatientHeader config</a>
             </td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="Binary-GroupHeaderState.html" title="Binary/GroupHeaderState">GroupHeaderState</a>
-            </td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="Binary-GroupListState.html" title="Binary/GroupListState">GroupListState</a>
-            </td>
+            <td>
+<p>Example runtime ViewConfig for a PatientHeader component.</p>
+</td>
          </tr>
          <tr>
             <td style="column-width:30%">
                <a href="Binary-GroupMemberState.html" title="Binary/GroupMemberState">GroupMemberState</a>
             </td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="Binary-Immunization.html" title="Binary/Immunization">Immunization</a>
-            </td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="Binary-Medication.html" title="Binary/Medication">Medication</a>
-            </td>
+            <td>
+
+</td>
          </tr>
          <tr>
             <td style="column-width:30%">
                <a href="Binary-Member.html" title="Binary/Member">Member</a>
             </td>
+            <td>
+
+</td>
          </tr>
          <tr>
             <td style="column-width:30%">
                <a href="Binary-PatientAllergyState.html" title="Binary/PatientAllergyState">PatientAllergyState</a>
             </td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="Binary-PatientConditionState.html" title="Binary/PatientConditionState">PatientConditionState</a>
-            </td>
+            <td>
+
+</td>
          </tr>
          <tr>
             <td style="column-width:30%">
                <a href="Binary-PatientContact.html" title="Binary/PatientContact">PatientContact</a>
             </td>
+            <td>
+
+</td>
          </tr>
          <tr>
             <td style="column-width:30%">
                <a href="Binary-PatientContactState.html" title="Binary/PatientContactState">PatientContactState</a>
             </td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="Binary-PatientImmunizationState.html" title="Binary/PatientImmunizationState">PatientImmunizationState</a>
-            </td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="Binary-PatientMedicationState.html" title="Binary/PatientMedicationState">PatientMedicationState</a>
-            </td>
+            <td>
+
+</td>
          </tr>
          <tr>
             <td style="column-width:30%">
                <a href="Binary-PatientSummary.html" title="Binary/PatientSummary">PatientSummary</a>
             </td>
+            <td>
+
+</td>
          </tr>
          <tr>
             <td style="column-width:30%">
                <a href="Binary-PatientSummaryState.html" title="Binary/PatientSummaryState">PatientSummaryState</a>
             </td>
+            <td>
+
+</td>
          </tr>
          <tr>
             <td style="column-width:30%">
                <a href="Binary-PatientTelecom.html" title="Binary/PatientTelecom">PatientTelecom</a>
             </td>
+            <td>
+
+</td>
          </tr>
          <tr>
             <td style="column-width:30%">
                <a href="Binary-PatientTelecomState.html" title="Binary/PatientTelecomState">PatientTelecomState</a>
             </td>
+            <td>
+
+</td>
          </tr>
          <tr>
             <td style="column-width:30%">
                <a href="Binary-RelatedPerson.html" title="Binary/RelatedPerson">RelatedPerson</a>
             </td>
+            <td>
+
+</td>
          </tr>
       </tbody>
    </table>
@@ -468,8 +372,8 @@ a specific FHIR-derived view state on screen.</p>
     <div class="container">    <!-- container -->
 
       <div class="inner-wrapper">
-        <p><a name="l855">​</a>
-          IG &copy; 2026+ <a style="color:var(--footer-hyperlink-text-color)" href="http://ohs.dev/example-publisher">OHS Foundation</a>.  Package dev.ohs.ohs-player-config-ig#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, May 20, 2026 08:14+0000">2026-05-20</span>
+        <p><a name="l676">​</a>
+          IG &copy; 2026+ <a style="color:var(--footer-hyperlink-text-color)" href="http://ohs.dev/example-publisher">OHS Foundation</a>.  Package dev.ohs.ohs-player-config-ig#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Jun 9, 2026 19:54+0000">2026-06-09</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

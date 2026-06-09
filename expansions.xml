@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="50d87ff2-ddc5-41e1-ab17-9dc324136d25"/>
+  <id value="1bcb09a7-cc9c-478b-87c3-9662f75ab969"/>
   <meta>
-    <lastUpdated value="2026-05-20T08:14:58.025+00:00"/>
+    <lastUpdated value="2026-06-09T19:54:52.512+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -107,10 +107,10 @@
         <name value="SearchScopeVS"/>
         <title value="Search Scope ValueSet"/>
         <status value="draft"/>
-        <date value="2026-05-20T08:14:58+00:00"/>
+        <date value="2026-06-09T19:54:52+00:00"/>
         <expansion>
-          <identifier value="urn:uuid:008f247e-bb87-4053-9519-fd627b9144c7"/>
-          <timestamp value="2026-05-20T08:18:05+00:00"/>
+          <identifier value="urn:uuid:09d79403-8ec9-4c16-a587-9f0cace16b37"/>
+          <timestamp value="2026-06-09T19:58:11+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -147,6 +147,402 @@
             <system value="http://ohs.dev/CodeSystem/search-scope-cs"/>
             <code value="revIncluded"/>
             <display value="Resources returned via reverse include (_revinclude)"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://ohs.dev/ValueSet/view-type-vs"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-view-type-codesystem.html">codesystem UI Component Types (example) v0.1.0 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="http://ohs.dev/CodeSystem/view-type-codesystem|0.1.0" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 13 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://ohs.dev/CodeSystem/view-type-codesystem-PatientCard"> </a>
+                  <code>http://ohs.dev/CodeSystem/view-type-codesystem</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-view-type-codesystem.html#view-type-codesystem-PatientCard">PatientCard</a>
+                </td>
+                <td>Patient Summary List Card</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://ohs.dev/CodeSystem/view-type-codesystem&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;PatientCard&quot;, &quot;display&quot;: &quot;Patient Summary List Card&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://ohs.dev/CodeSystem/view-type-codesystem&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;PatientCard&quot;&gt;&lt;display value=&quot;Patient Summary List Card&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://ohs.dev/CodeSystem/view-type-codesystem-PatientHeader"> </a>
+                  <code>http://ohs.dev/CodeSystem/view-type-codesystem</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-view-type-codesystem.html#view-type-codesystem-PatientHeader">PatientHeader</a>
+                </td>
+                <td>Patient Detail Header Section</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://ohs.dev/CodeSystem/view-type-codesystem&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;PatientHeader&quot;, &quot;display&quot;: &quot;Patient Detail Header Section&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://ohs.dev/CodeSystem/view-type-codesystem&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;PatientHeader&quot;&gt;&lt;display value=&quot;Patient Detail Header Section&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://ohs.dev/CodeSystem/view-type-codesystem-AllergyItem"> </a>
+                  <code>http://ohs.dev/CodeSystem/view-type-codesystem</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-view-type-codesystem.html#view-type-codesystem-AllergyItem">AllergyItem</a>
+                </td>
+                <td>Allergy / Intolerance Row Item</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://ohs.dev/CodeSystem/view-type-codesystem&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;AllergyItem&quot;, &quot;display&quot;: &quot;Allergy / Intolerance Row Item&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://ohs.dev/CodeSystem/view-type-codesystem&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;AllergyItem&quot;&gt;&lt;display value=&quot;Allergy / Intolerance Row Item&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://ohs.dev/CodeSystem/view-type-codesystem-MedicationItem"> </a>
+                  <code>http://ohs.dev/CodeSystem/view-type-codesystem</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-view-type-codesystem.html#view-type-codesystem-MedicationItem">MedicationItem</a>
+                </td>
+                <td>Medication Row Item</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://ohs.dev/CodeSystem/view-type-codesystem&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;MedicationItem&quot;, &quot;display&quot;: &quot;Medication Row Item&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://ohs.dev/CodeSystem/view-type-codesystem&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;MedicationItem&quot;&gt;&lt;display value=&quot;Medication Row Item&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://ohs.dev/CodeSystem/view-type-codesystem-ConditionItem"> </a>
+                  <code>http://ohs.dev/CodeSystem/view-type-codesystem</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-view-type-codesystem.html#view-type-codesystem-ConditionItem">ConditionItem</a>
+                </td>
+                <td>Condition / Problem Row Item</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://ohs.dev/CodeSystem/view-type-codesystem&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;ConditionItem&quot;, &quot;display&quot;: &quot;Condition / Problem Row Item&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://ohs.dev/CodeSystem/view-type-codesystem&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;ConditionItem&quot;&gt;&lt;display value=&quot;Condition / Problem Row Item&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://ohs.dev/CodeSystem/view-type-codesystem-ImmunizationItem"> </a>
+                  <code>http://ohs.dev/CodeSystem/view-type-codesystem</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-view-type-codesystem.html#view-type-codesystem-ImmunizationItem">ImmunizationItem</a>
+                </td>
+                <td>Immunization Row Item</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://ohs.dev/CodeSystem/view-type-codesystem&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;ImmunizationItem&quot;, &quot;display&quot;: &quot;Immunization Row Item&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://ohs.dev/CodeSystem/view-type-codesystem&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;ImmunizationItem&quot;&gt;&lt;display value=&quot;Immunization Row Item&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://ohs.dev/CodeSystem/view-type-codesystem-SectionCard"> </a>
+                  <code>http://ohs.dev/CodeSystem/view-type-codesystem</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-view-type-codesystem.html#view-type-codesystem-SectionCard">SectionCard</a>
+                </td>
+                <td>Section Wrapper with Title and Count Badge</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://ohs.dev/CodeSystem/view-type-codesystem&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;SectionCard&quot;, &quot;display&quot;: &quot;Section Wrapper with Title and Count Badge&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://ohs.dev/CodeSystem/view-type-codesystem&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;SectionCard&quot;&gt;&lt;display value=&quot;Section Wrapper with Title and Count Badge&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://ohs.dev/CodeSystem/view-type-codesystem-GroupCard"> </a>
+                  <code>http://ohs.dev/CodeSystem/view-type-codesystem</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-view-type-codesystem.html#view-type-codesystem-GroupCard">GroupCard</a>
+                </td>
+                <td>Household List Card</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://ohs.dev/CodeSystem/view-type-codesystem&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;GroupCard&quot;, &quot;display&quot;: &quot;Household List Card&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://ohs.dev/CodeSystem/view-type-codesystem&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;GroupCard&quot;&gt;&lt;display value=&quot;Household List Card&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://ohs.dev/CodeSystem/view-type-codesystem-GroupHeader"> </a>
+                  <code>http://ohs.dev/CodeSystem/view-type-codesystem</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-view-type-codesystem.html#view-type-codesystem-GroupHeader">GroupHeader</a>
+                </td>
+                <td>Household Profile Header</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://ohs.dev/CodeSystem/view-type-codesystem&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;GroupHeader&quot;, &quot;display&quot;: &quot;Household Profile Header&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://ohs.dev/CodeSystem/view-type-codesystem&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;GroupHeader&quot;&gt;&lt;display value=&quot;Household Profile Header&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://ohs.dev/CodeSystem/view-type-codesystem-MemberItem"> </a>
+                  <code>http://ohs.dev/CodeSystem/view-type-codesystem</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-view-type-codesystem.html#view-type-codesystem-MemberItem">MemberItem</a>
+                </td>
+                <td>Household Member Row</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://ohs.dev/CodeSystem/view-type-codesystem&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;MemberItem&quot;, &quot;display&quot;: &quot;Household Member Row&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://ohs.dev/CodeSystem/view-type-codesystem&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;MemberItem&quot;&gt;&lt;display value=&quot;Household Member Row&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://ohs.dev/CodeSystem/view-type-codesystem-ContactItem"> </a>
+                  <code>http://ohs.dev/CodeSystem/view-type-codesystem</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-view-type-codesystem.html#view-type-codesystem-ContactItem">ContactItem</a>
+                </td>
+                <td>Emergency Contact Row</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://ohs.dev/CodeSystem/view-type-codesystem&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;ContactItem&quot;, &quot;display&quot;: &quot;Emergency Contact Row&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://ohs.dev/CodeSystem/view-type-codesystem&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;ContactItem&quot;&gt;&lt;display value=&quot;Emergency Contact Row&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://ohs.dev/CodeSystem/view-type-codesystem-TelecomItem"> </a>
+                  <code>http://ohs.dev/CodeSystem/view-type-codesystem</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-view-type-codesystem.html#view-type-codesystem-TelecomItem">TelecomItem</a>
+                </td>
+                <td>Telecom Entry Row</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://ohs.dev/CodeSystem/view-type-codesystem&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;TelecomItem&quot;, &quot;display&quot;: &quot;Telecom Entry Row&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://ohs.dev/CodeSystem/view-type-codesystem&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;TelecomItem&quot;&gt;&lt;display value=&quot;Telecom Entry Row&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://ohs.dev/CodeSystem/view-type-codesystem-AllergyReactionItem"> </a>
+                  <code>http://ohs.dev/CodeSystem/view-type-codesystem</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-view-type-codesystem.html#view-type-codesystem-AllergyReactionItem">AllergyReactionItem</a>
+                </td>
+                <td>Allergy Reaction Row</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://ohs.dev/CodeSystem/view-type-codesystem&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;AllergyReactionItem&quot;, &quot;display&quot;: &quot;Allergy Reaction Row&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://ohs.dev/CodeSystem/view-type-codesystem&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;AllergyReactionItem&quot;&gt;&lt;display value=&quot;Allergy Reaction Row&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://ohs.dev/ValueSet/view-type-vs"/>
+        <version value="0.1.0"/>
+        <name value="ViewTypeVS"/>
+        <title value="View Type ValueSet"/>
+        <status value="draft"/>
+        <date value="2026-06-09T19:54:52+00:00"/>
+        <expansion>
+          <identifier value="urn:uuid:5664accc-6132-408d-884f-e7df6622e86e"/>
+          <timestamp value="2026-06-09T19:58:11+00:00"/>
+          <total value="13"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://ohs.dev/CodeSystem/view-type-codesystem|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://ohs.dev/CodeSystem/view-type-codesystem"/>
+            <code value="PatientCard"/>
+            <display value="Patient Summary List Card"/>
+          </contains>
+          <contains>
+            <system value="http://ohs.dev/CodeSystem/view-type-codesystem"/>
+            <code value="PatientHeader"/>
+            <display value="Patient Detail Header Section"/>
+          </contains>
+          <contains>
+            <system value="http://ohs.dev/CodeSystem/view-type-codesystem"/>
+            <code value="AllergyItem"/>
+            <display value="Allergy / Intolerance Row Item"/>
+          </contains>
+          <contains>
+            <system value="http://ohs.dev/CodeSystem/view-type-codesystem"/>
+            <code value="MedicationItem"/>
+            <display value="Medication Row Item"/>
+          </contains>
+          <contains>
+            <system value="http://ohs.dev/CodeSystem/view-type-codesystem"/>
+            <code value="ConditionItem"/>
+            <display value="Condition / Problem Row Item"/>
+          </contains>
+          <contains>
+            <system value="http://ohs.dev/CodeSystem/view-type-codesystem"/>
+            <code value="ImmunizationItem"/>
+            <display value="Immunization Row Item"/>
+          </contains>
+          <contains>
+            <system value="http://ohs.dev/CodeSystem/view-type-codesystem"/>
+            <code value="SectionCard"/>
+            <display value="Section Wrapper with Title and Count Badge"/>
+          </contains>
+          <contains>
+            <system value="http://ohs.dev/CodeSystem/view-type-codesystem"/>
+            <code value="GroupCard"/>
+            <display value="Household List Card"/>
+          </contains>
+          <contains>
+            <system value="http://ohs.dev/CodeSystem/view-type-codesystem"/>
+            <code value="GroupHeader"/>
+            <display value="Household Profile Header"/>
+          </contains>
+          <contains>
+            <system value="http://ohs.dev/CodeSystem/view-type-codesystem"/>
+            <code value="MemberItem"/>
+            <display value="Household Member Row"/>
+          </contains>
+          <contains>
+            <system value="http://ohs.dev/CodeSystem/view-type-codesystem"/>
+            <code value="ContactItem"/>
+            <display value="Emergency Contact Row"/>
+          </contains>
+          <contains>
+            <system value="http://ohs.dev/CodeSystem/view-type-codesystem"/>
+            <code value="TelecomItem"/>
+            <display value="Telecom Entry Row"/>
+          </contains>
+          <contains>
+            <system value="http://ohs.dev/CodeSystem/view-type-codesystem"/>
+            <code value="AllergyReactionItem"/>
+            <display value="Allergy Reaction Row"/>
           </contains>
         </expansion>
       </ValueSet>

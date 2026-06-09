@@ -19,9 +19,9 @@
   ] ; # 
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "ViewTypeCS"] ; # 
-  fhir:title [ fhir:v "UI Component Types"] ; # 
+  fhir:title [ fhir:v "UI Component Types (example)"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2026-05-20T08:14:58+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-06-09T19:54:52+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "OHS Foundation"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "OHS Foundation" ] ;
@@ -30,7 +30,7 @@
        fhir:value [ fhir:v "http://ohs.dev/example-publisher" ]
      ] )
   ] ) ; # 
-  fhir:description [ fhir:v "Formal codes for identifying UI component factories in the KMP ViewRegistry.\nEach code maps to a registered ComponentRenderer that knows how to render\na specific FHIR-derived view state on screen."] ; # 
+  fhir:description [ fhir:v "**Example** vocabulary of view types. Each code names a kind of UI component used to render a piece of\nFHIR-derived data; a ViewConfig binds to one of these codes to select its component. View types are\nimplementer-defined — a player provides its own CodeSystem rather than reusing these codes. The mapping\nfrom a code to a concrete renderer is the player's own implementation detail."] ; # 
   fhir:content [ fhir:v "complete"] ; # 
   fhir:count [ fhir:v "13"^^xsd:nonNegativeInteger] ; # 
   fhir:concept ( [

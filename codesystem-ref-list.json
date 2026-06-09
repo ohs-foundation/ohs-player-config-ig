@@ -9,5 +9,16 @@
     "uses" : {
     },
     "ValueSet-search-scope-vs.html" : "Search Scope ValueSet"
+  },
+  {
+    "url" : "http://ohs.dev/CodeSystem/view-type-codesystem",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "ViewTypeCS",
+    "title" : "UI Component Types (example)",
+    "description" : "**Example** vocabulary of view types. Each code names a kind of UI component used to render a piece of\nFHIR-derived data; a ViewConfig binds to one of these codes to select its component. View types are\nimplementer-defined — a player provides its own CodeSystem rather than reusing these codes. The mapping\nfrom a code to a concrete renderer is the player's own implementation detail.",
+    "uses" : {
+    },
+    "ValueSet-view-type-vs.html" : "View Type ValueSet"
   }]
 }

@@ -1,0 +1,28 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "view-type-vs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet view-type-vs</b></p><a name=\"view-type-vs\"> </a><a name=\"hcview-type-vs\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-view-type-codesystem.html\"><code>http://ohs.dev/CodeSystem/view-type-codesystem</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span></li></ul></div>"
+  },
+  "url" : "http://ohs.dev/ValueSet/view-type-vs",
+  "version" : "0.1.0",
+  "name" : "ViewTypeVS",
+  "title" : "View Type ValueSet",
+  "status" : "draft",
+  "date" : "2026-06-09T19:54:52+00:00",
+  "publisher" : "OHS Foundation",
+  "contact" : [{
+    "name" : "OHS Foundation",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://ohs.dev/example-publisher"
+    }]
+  }],
+  "description" : "All view type codes a ViewConfig may bind to.",
+  "compose" : {
+    "include" : [{
+      "system" : "http://ohs.dev/CodeSystem/view-type-codesystem"
+    }]
+  }
+}

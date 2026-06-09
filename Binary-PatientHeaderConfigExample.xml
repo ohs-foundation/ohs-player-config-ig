@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Binary xmlns="http://hl7.org/fhir">
+  <id value="PatientHeaderConfigExample"/>
+  <contentType value="application/fhir+json"/>
+  <data value="ewogICJyZXNvdXJjZVR5cGUiOiAiaHR0cDovL29ocy5kZXYvU3RydWN0dXJlRGVmaW5pdGlvbi9WaWV3Q29uZmlnIiwKICAicHJvcGVydHkiOiBbCiAgICB7CiAgICAgICJuYW1lIjogInNob3dNcm4iLAogICAgICAidHlwZSI6ICJib29sZWFuIiwKICAgICAgInZhbHVlQm9vbGVhbiI6IHRydWUKICAgIH0sCiAgICB7CiAgICAgICJuYW1lIjogInNob3dCaXJ0aERhdGUiLAogICAgICAidHlwZSI6ICJib29sZWFuIiwKICAgICAgInZhbHVlQm9vbGVhbiI6IHRydWUKICAgIH0sCiAgICB7CiAgICAgICJuYW1lIjogInNob3dTdGF0dXMiLAogICAgICAidHlwZSI6ICJib29sZWFuIiwKICAgICAgInZhbHVlQm9vbGVhbiI6IHRydWUKICAgIH0KICBdLAogICJ2aWV3VHlwZSI6ICJQYXRpZW50SGVhZGVyIgp9Cg=="/>
+</Binary>

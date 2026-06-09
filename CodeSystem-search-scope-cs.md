@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://ohs.dev/CodeSystem/search-scope-cs | *Version*:0.1.0 |
-| Draft as of 2026-05-20 | *Computable Name*:SearchScopeCS |
+| Draft as of 2026-06-09 | *Computable Name*:SearchScopeCS |
 
  
 Valid locations within a FHIR Search Result where resources are found. Used by ViewJoinMap to specify where to look for pivot and joined resources. 
@@ -31,7 +31,7 @@ Valid locations within a FHIR Search Result where resources are found. Used by V
   "name" : "SearchScopeCS",
   "title" : "Search Scope CodeSystem",
   "status" : "draft",
-  "date" : "2026-05-20T08:14:58+00:00",
+  "date" : "2026-06-09T19:54:52+00:00",
   "publisher" : "OHS Foundation",
   "contact" : [{
     "name" : "OHS Foundation",

@@ -8,9 +8,9 @@
   <url value="http://ohs.dev/CodeSystem/view-type-codesystem"/>
   <version value="0.1.0"/>
   <name value="ViewTypeCS"/>
-  <title value="UI Component Types"/>
+  <title value="UI Component Types (example)"/>
   <status value="draft"/>
-  <date value="2026-05-20T08:14:58+00:00"/>
+  <date value="2026-06-09T19:54:52+00:00"/>
   <publisher value="OHS Foundation"/>
   <contact>
     <name value="OHS Foundation"/>
@@ -19,7 +19,7 @@
       <value value="http://ohs.dev/example-publisher"/>
     </telecom>
   </contact>
-  <description value="Formal codes for identifying UI component factories in the KMP ViewRegistry.&#xA;Each code maps to a registered ComponentRenderer that knows how to render&#xA;a specific FHIR-derived view state on screen."/>
+  <description value="**Example** vocabulary of view types. Each code names a kind of UI component used to render a piece of&#xA;FHIR-derived data; a ViewConfig binds to one of these codes to select its component. View types are&#xA;implementer-defined — a player provides its own CodeSystem rather than reusing these codes. The mapping&#xA;from a code to a concrete renderer is the player's own implementation detail."/>
   <content value="complete"/>
   <count value="13"/>
   <concept>
