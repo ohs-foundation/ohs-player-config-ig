@@ -1,5 +1,5 @@
 A `ViewJoinMap` describes how to assemble a flat state row by joining columns from multiple
-[ViewDefinition](https://sql-on-fhir.org/ig/StructureDefinition/ViewDefinition.html) projections,
+[ViewDefinition](https://sql-on-fhir.org/ig/StructureDefinition-ViewDefinition.html) projections,
 each sourced from a different scope of a FHIR `SearchResult`.
 
 ### Concepts
@@ -16,11 +16,12 @@ instance. The pivot scope is one of `root` (the primary search result resource),
   before the pivot loop, so each unique joined resource is evaluated exactly once regardless of
   how many pivot rows reference it.
 
-### The `name` field and code generation
+### The `name` field
 
-The `name` field becomes the base name for the generated Kotlin `State` data class and
-`StateExtractor` object. The SUSHI `Instance:` name must match the generated class name exactly —
-by convention both use PascalCase with a `State` suffix (e.g. `PatientAllergyState`).
+The `name` is the logical identifier an OHS Player binds this map to when it extracts a state — the key
+that selects this configuration at runtime. A ViewJoinMap is **runtime configuration**: instances are
+authored against this profile and delivered to an OHS Player at runtime (database seed, runtime API, or a
+client repository), not built into the OHS Player.
 
 ### Example — GroupMemberState
 
